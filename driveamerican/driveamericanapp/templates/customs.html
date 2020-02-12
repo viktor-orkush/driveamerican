@@ -2,10 +2,10 @@
 {% load static %}
 
 {% block content %}
-    <section class="page-section mt-70">
+    <section class="page-section mt-70" id="customs_container">
         <div class="container">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase">Калькулятор просчета доставки и растаможки</h2>
+                <h2 class="section-heading text-uppercase">Калькулятор растаможки на 2019 - 2020 год. Новые Тарифы - 8487/8488!</h2>
             </div>
 
             <div class="row calc_block">
@@ -34,17 +34,14 @@
                                             <label for="auto_engine">Объем двигателя:</label>
                                             <select class="form-control" name="auto_engine">
                                                 {% for capacity in engine_capacity %}
-                                                    <option value="{{ capacity|stringformat:"f" }}">
-                                                        {{ capacity }}</option>
+                                                    <option value="{{ capacity|stringformat:"f" }}">{{ capacity }}</option>
                                                 {% endfor %}
                                             </select>
 
                                             <label for="auto_age">Год выпуска автомобиля:</label>
                                             <select class="form-control" name="auto_age">
                                                 {% for year in years %}
-                                                    <option value="{{ year }}"
-                                                            {% if request.POST.auto_age == year|stringformat:"s" %}selected{% endif %}>
-                                                        {{ year }}</option>
+                                                    <option value="{{ year }}">{{ year }}</option>
                                                 {% endfor %}
                                             </select>
                                         </div>
@@ -106,5 +103,54 @@
             </div>
             </form>
         </div>
+    </section>
+
+    <section class="page-section bg-light">
+        <div class="container">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">ПО КАКИМ ТАРИФАМ БУДУТ РАСТАМАЖИВАТЬСЯ АВТОМОБИЛИ В УКРАИНЕ В
+                    2020 ГОДУ?</h2>
+            </div>
+        </div>
+
+        <strong style="">Новые Акцизные ставки на 2019 - 2020 год: Сколько стоит растаможка?</strong>
+        <ul>
+            <li>Базовая ставка акцизного налога для бензиновых двигателей объемом до 3000 см3 = 50 евро;</li>
+            <li>Базовая ставка акцизного налога для бензиновых двигателей объемом свыше 3000 см3 = 100 евро;</li>
+            <li>Базовая ставка акцизного налога для дизельных двигателей объемом до 3500 см3 = 75 евро;</li>
+            <li>Базовая ставка акцизного налога для дизельных двигателей объемом свыше 3500 см3 = 150 евро;</li>
+            <li>Вводится коэффициент возраста автомобиля равный 15, т.е. авто старше 15 лет, будут таможится с
+                коэфициентом = 15;
+            </li>
+            <li>Так же предусмотрено использование понижающих коэфициентов в размере 0,5 при расчете ставки налога за
+                растаможку ранее ввезенных авто (так называемых «евроблях»), если она будет произведена в течение первых
+                90 дней со дня вступления в силу закона.;
+            </li>
+        </ul>
+        <p><strong>Чтобы рассчитать полную стоимость растаможки автомобиля, <a class="lazy_anchor"
+                                                                               href="#customs_container">воспользуйтесь
+            калькулятором, выше на странице</a>. По законам Украины, на 2019 - 2020 год, не имеет значния откуда ввезена
+            машина (США, Европа, Корея, Эмираты, Азия),
+            для всех случаев таможенная очистка считается по одной формуле! </strong></p>
+
+
+    </section>
+
+    <section class="page-section">
+        <div class="container">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">РАСТАМОЖКА ЭЛЕКТРОМОБИЛЕЙ 2020, И ГИБРИДОВ: ТАРИФЫ</h2>
+            </div>
+        </div>
+
+        <ul>
+            <li>Электромобиль растамаживается по ставке 1 евро за 1кВт/ч <strong>(НДС, Акциз
+                и Ввозная пошлина не уплачиваются)</strong>;
+            </li>
+            <li>Растаможка гибридных автомобилей = 100 евро за единицу;</li>
+        </ul>
+        <p><strong> <span style="">ПОДРОБНО О ЗАКОНОПРОЕКТЕ 8487/8488:</span> </strong> <strong>Что изменилось с
+            приходом закона 8487? Пример расчета растаможки по новым тарифам. Все о новом законе, <a
+                    href="https://zakon.rada.gov.ua/laws/show/2611-19">ЧИТАЙТЕ ТУТ.</a></strong></p>
     </section>
 {% endblock %}

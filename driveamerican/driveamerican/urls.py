@@ -9,8 +9,12 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
     path('customs/', views.customs, name='customs'),
+    path('calculation/', views.calculation, name='calculation'),
     path('blog/', include('blogapp.urls')),
-    path('calculate_customs/', views.CalculateCustomsAPI.as_view(), name='calculate_customs')
+
+    # api urls
+    path('calculate_customs/', views.CalculateCustomsAPI.as_view(), name='calculate_customs'),
+    path('calculate_all_payments/', views.CalculateAllPaymentsAPI.as_view(), name='calculate_all_payments')
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 

@@ -1,0 +1,459 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+    <section class="page-section mt-70">
+        <div class="container">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Калькулятор просчета стоимости доставки и растаможки авто из
+                    США</h2>
+            </div>
+
+
+            <div class="row calc_block">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="calc_block-body block-shadow">
+                                <form method="post" id="calculate_customs_form">
+                                    {% csrf_token %}
+                                    <div class="calc-labels">
+                                        {% for fuel_type_key, fuel_type_value in fuel_types.items %}
+                                            <input type="radio" class="calc-radio" name="fuel_type"
+                                                   id="{{ fuel_type_key }}"
+                                                   value="{{ fuel_type_key }}" id="{{ fuel_type_key }}"
+                                                   {% if request.POST.fuel_type == fuel_type_key or fuel_type == fuel_type_key %}checked {% endif %}>
+                                            <label for="{{ fuel_type_key }}" id="{{ fuel_type_key }}"
+                                                   class="calc-label"><span>{{ fuel_type_value }}</span></label>
+                                        {% endfor %}
+                                    </div>
+                                    <label for="auto_price">Цена:</label>
+                                    <input class="form-control" type="number" name="auto_price"
+                                           value="1000" required min="1">
+
+                                    <div class="tab-content calc-tab-panel">
+                                        <div class="tab-pane active" id="tap_petrol">
+                                            <label for="auto_engine">Объем двигателя:</label>
+                                            <select class="form-control" name="auto_engine">
+                                                {% for capacity in engine_capacity %}
+                                                    <option value="{{ capacity|stringformat:"f" }}">{{ capacity }}</option>
+                                                {% endfor %}
+                                            </select>
+
+                                            <label for="auto_age">Год выпуска автомобиля:</label>
+                                            <select class="form-control" name="auto_age">
+                                                {% for year in years %}
+                                                    <option value="{{ year }}">{{ year }}</option>
+                                                {% endfor %}
+                                            </select>
+                                        </div>
+
+                                        <div class="tab-pane" id="tap_electro">
+                                            <label for="auto_price">Мощность, кВт:</label>
+                                            <input class="form-control" type="number" name="e_power"
+                                                   value="20" min="1">
+                                        </div>
+                                    </div>
+
+                                    <label for="auction_city">Аукцион:</label>
+                                    <select class="form-control" name="auction" id="auction">
+                                        <option value="copart">Copart</option>
+
+                                        <option value="iaai">IAAI</option>
+                                    </select>
+
+                                    <label for="auction_city">Площадка аукциона:</label>
+                                    <select name="auction_city" name="city" id="city"
+                                            class="form-control" data-dependent="port">
+                                        <option value="">---</option>
+                                        <option value="AL - ADESA BIRMINGHAM">AL - ADESA BIRMINGHAM</option>
+                                        <option value="AL - Birmingham">AL - Birmingham</option>
+                                        <option value="AL - Dothan">AL - Dothan</option>
+                                        <option value="AL - Huntsville">AL - Huntsville</option>
+                                        <option value="AR - Fayetteville">AR - Fayetteville</option>
+                                        <option value="AR - Little Rock">AR - Little Rock</option>
+                                        <option value="AZ - Phoenix">AZ - Phoenix</option>
+                                        <option value="AZ - Tucson">AZ - Tucson</option>
+                                        <option value="CA - Anaheim">CA - Anaheim</option>
+                                        <option value="CA - Colton">CA - Colton</option>
+                                        <option value="CA - East Bay">CA - East Bay</option>
+                                        <option value="CA - Fontana">CA - Fontana</option>
+                                        <option value="CA - Fremont">CA - Fremont</option>
+                                        <option value="CA - Fresno">CA - Fresno</option>
+                                        <option value="CA - High Desert">CA - High Desert</option>
+                                        <option value="CA - Los Angeles">CA - Los Angeles</option>
+                                        <option value="CA - North Hollywood">CA - North Hollywood</option>
+                                        <option value="CA - Sacramento">CA - Sacramento</option>
+                                        <option value="CA - San Diego">CA - San Diego</option>
+                                        <option value="CO - Denver">CO - Denver</option>
+                                        <option value="CO - Denver East">CO - Denver East</option>
+                                        <option value="CO - Western Colorado">CO - Western Colorado</option>
+                                        <option value="CT - Hartford">CT - Hartford</option>
+                                        <option value="CT - Hartford-South">CT - Hartford-South</option>
+                                        <option value="DE - New Castle">DE - New Castle</option>
+                                        <option value="FL - CAT Jacksonville Sub Lot (10950 Normandy Blvd)">FL - CAT
+                                            Jacksonville Sub Lot (10950 Normandy Blvd)
+                                        </option>
+                                        <option value="FL - CAT Orlando Boggy Creek Rd Sub Lot (9801 Boggy Creek Rd)">FL
+                                            -
+                                            CAT Orlando Boggy Creek Rd Sub Lot (9801 Boggy Creek Rd)
+                                        </option>
+                                        <option value="FL - Clearwater">FL - Clearwater</option>
+                                        <option value="FL - Fort Myers">FL - Fort Myers</option>
+                                        <option value="FL - Fort Pierce">FL - Fort Pierce</option>
+                                        <option value="FL - Jacksonville">FL - Jacksonville</option>
+                                        <option value="FL - Miami">FL - Miami</option>
+                                        <option value="FL - Miami-North">FL - Miami-North</option>
+                                        <option value="FL - Orlando">FL - Orlando</option>
+                                        <option value="FL - Orlando-North">FL - Orlando-North</option>
+                                        <option value="FL - Pensacola">FL - Pensacola</option>
+                                        <option value="FL - Tampa">FL - Tampa</option>
+                                        <option value="FL - Tampa NORTH">FL - Tampa NORTH</option>
+                                        <option value="GA - Atlanta">GA - Atlanta</option>
+                                        <option value="GA - Atlanta East">GA - Atlanta East</option>
+                                        <option value="GA - Atlanta North">GA - Atlanta North</option>
+                                        <option value="GA - Atlanta South">GA - Atlanta South</option>
+                                        <option value="GA - Macon">GA - Macon</option>
+                                        <option value="GA - Savannah">GA - Savannah</option>
+                                        <option value="GA - Tifton">GA - Tifton</option>
+                                        <option value="IA - Davenport">IA - Davenport</option>
+                                        <option value="IA - Des Moines">IA - Des Moines</option>
+                                        <option value="ID - Boise">ID - Boise</option>
+                                        <option value="IL - Chicago-North">IL - Chicago-North</option>
+                                        <option value="IL - Chicago-South">IL - Chicago-South</option>
+                                        <option value="IL - Chicago-West">IL - Chicago-West</option>
+                                        <option value="IL - Lincoln">IL - Lincoln</option>
+                                        <option value="IL - Specialty Division">IL - Specialty Division</option>
+                                        <option value="IL - St. Louis">IL - St. Louis</option>
+                                        <option value="IN - IAA Indy Minnesota Street Sublot (IAAI Indy Minnesota St)">
+                                            IN -
+                                            IAA Indy Minnesota Street Sublot (IAAI Indy Minnesota St)
+                                        </option>
+                                        <option value="IN - Indianapolis">IN - Indianapolis</option>
+                                        <option value="IN - South Bend">IN - South Bend</option>
+                                        <option value="KS - Kansas City">KS - Kansas City</option>
+                                        <option value="KS - Wichita">KS - Wichita</option>
+                                        <option value="KY - Ashland">KY - Ashland</option>
+                                        <option value="KY - Bowling Green">KY - Bowling Green</option>
+                                        <option value="KY - Louisville">KY - Louisville</option>
+                                        <option value="KY - Louisville North">KY - Louisville North</option>
+                                        <option value="KY - Paducah">KY - Paducah</option>
+                                        <option value="LA - Baton Rouge">LA - Baton Rouge</option>
+                                        <option value="LA - Lafayette">LA - Lafayette</option>
+                                        <option value="LA - New Orleans">LA - New Orleans</option>
+                                        <option value="LA - New Orleans East">LA - New Orleans East</option>
+                                        <option value="LA - Shreveport">LA - Shreveport</option>
+                                        <option value="MA - Boston - Shirley">MA - Boston - Shirley</option>
+                                        <option value="MA - IAAI Templeton2 Offsite (411 Baldwinville Rd)">MA - IAAI
+                                            Templeton2 Offsite (411 Baldwinville Rd)
+                                        </option>
+                                        <option value="MA - Taunton">MA - Taunton</option>
+                                        <option value="MD - Baltimore">MD - Baltimore</option>
+                                        <option value="MD - Dundalk">MD - Dundalk</option>
+                                        <option value="MD - Laurel">MD - Laurel</option>
+                                        <option value="MD - Metro DC">MD - Metro DC</option>
+                                        <option value="MD - Rosedale">MD - Rosedale</option>
+                                        <option value="MD - White Plans Aux Lot (4840 Crain Highway)">MD - White Plans
+                                            Aux
+                                            Lot (4840 Crain Highway)
+                                        </option>
+                                        <option value="ME - Portland - Gorham">ME - Portland - Gorham</option>
+                                        <option value="MI - Detroit">MI - Detroit</option>
+                                        <option value="MI - Flint">MI - Flint</option>
+                                        <option value="MI - Grand Rapids">MI - Grand Rapids</option>
+                                        <option value="MI - Great Lakes">MI - Great Lakes</option>
+                                        <option value="MN - IAA Faribault (3300 150th Street East)">MN - IAA Faribault
+                                            (3300
+                                            150th Street East)
+                                        </option>
+                                        <option value="MN - Minneapolis/St. Paul">MN - Minneapolis/St. Paul</option>
+                                        <option value="MO - Springfield">MO - Springfield</option>
+                                        <option value="MS - Grenada">MS - Grenada</option>
+                                        <option value="MS - Gulf Coast">MS - Gulf Coast</option>
+                                        <option value="MS - Jackson">MS - Jackson</option>
+                                        <option value="MT - Billings">MT - Billings</option>
+                                        <option value="MT - Missoula">MT - Missoula</option>
+                                        <option value="NC - Asheville">NC - Asheville</option>
+                                        <option value="NC - Charlotte">NC - Charlotte</option>
+                                        <option value="NC - Concord">NC - Concord</option>
+                                        <option value="NC - Greensboro">NC - Greensboro</option>
+                                        <option value="NC - Raleigh">NC - Raleigh</option>
+                                        <option value="NC - Wilmington">NC - Wilmington</option>
+                                        <option value="ND - Fargo">ND - Fargo</option>
+                                        <option value="NE - Omaha">NE - Omaha</option>
+                                        <option value="NH - Manchester">NH - Manchester</option>
+                                        <option value="NH - Salem Sub Lot (199 Lawrence Rd)">NH - Salem Sub Lot (199
+                                            Lawrence Rd)
+                                        </option>
+                                        <option value="NJ - Avenel New Jersey">NJ - Avenel New Jersey</option>
+                                        <option value="NJ - Central New Jersey">NJ - Central New Jersey</option>
+                                        <option value="NJ - Northern New Jersey">NJ - Northern New Jersey</option>
+                                        <option value="NJ - Southern New Jersey">NJ - Southern New Jersey</option>
+                                        <option value="NM - Albuquerque">NM - Albuquerque</option>
+                                        <option value="NV - Las Vegas">NV - Las Vegas</option>
+                                        <option value="NV - Reno">NV - Reno</option>
+                                        <option value="NY - Albany">NY - Albany</option>
+                                        <option value="NY - Buffalo">NY - Buffalo</option>
+                                        <option value="NY - Long Island">NY - Long Island</option>
+                                        <option value="NY - Newburgh">NY - Newburgh</option>
+                                        <option value="NY - Rochester">NY - Rochester</option>
+                                        <option value="NY - Syracuse">NY - Syracuse</option>
+                                        <option value="OH - Akron-Canton">OH - Akron-Canton</option>
+                                        <option value="OH - Cincinnati">OH - Cincinnati</option>
+                                        <option value="OH - Cincinnati-South">OH - Cincinnati-South</option>
+                                        <option value="OH - Cleveland">OH - Cleveland</option>
+                                        <option value="OH - Columbus">OH - Columbus</option>
+                                        <option value="OH - Dayton">OH - Dayton</option>
+                                        <option value="OH - IAAI Stimmel Rd Sub Lot (420 Stimmel Road)">OH - IAAI
+                                            Stimmel Rd
+                                            Sub Lot (420 Stimmel Road)
+                                        </option>
+                                        <option value="OH - Vermillion North Ford Offsite Lot (8149 W. Erie)">OH -
+                                            Vermillion North Ford Offsite Lot (8149 W. Erie)
+                                        </option>
+                                        <option value="OK - Oklahoma City">OK - Oklahoma City</option>
+                                        <option value="OK - Tulsa">OK - Tulsa</option>
+                                        <option value="OR - Eugene">OR - Eugene</option>
+                                        <option value="OR - Portland">OR - Portland</option>
+                                        <option value="OR - Portland West">OR - Portland West</option>
+                                        <option value="PA - Altoona">PA - Altoona</option>
+                                        <option value="PA - Bridgeport">PA - Bridgeport</option>
+                                        <option value="PA - Erie">PA - Erie</option>
+                                        <option value="PA - Philadelphia">PA - Philadelphia</option>
+                                        <option value="PA - Pittsburgh">PA - Pittsburgh</option>
+                                        <option value="PA - Pittsburgh-North">PA - Pittsburgh-North</option>
+                                        <option value="PA - Scranton">PA - Scranton</option>
+                                        <option value="PA - York Springs">PA - York Springs</option>
+                                        <option value="RI - Providence">RI - Providence</option>
+                                        <option value="SC - Charleston">SC - Charleston</option>
+                                        <option value="SC - Columbia">SC - Columbia</option>
+                                        <option value="SC - Greenville">SC - Greenville</option>
+                                        <option value="SD - Sioux Falls">SD - Sioux Falls</option>
+                                        <option value="TN - Chattanooga">TN - Chattanooga</option>
+                                        <option value="TN - Knoxville">TN - Knoxville</option>
+                                        <option value="TN - Memphis">TN - Memphis</option>
+                                        <option value="TN - Nashville">TN - Nashville</option>
+                                        <option value="TX - Abilene">TX - Abilene</option>
+                                        <option value="TX - Amarillo">TX - Amarillo</option>
+                                        <option value="TX - Austin">TX - Austin</option>
+                                        <option value="TX - Corpus Christi">TX - Corpus Christi</option>
+                                        <option value="TX - Dallas">TX - Dallas</option>
+                                        <option value="TX - Dallas/FT. Worth">TX - Dallas/FT. Worth</option>
+                                        <option value="TX - El Paso">TX - El Paso</option>
+                                        <option value="TX - Fort Worth North">TX - Fort Worth North</option>
+                                        <option value="TX - Houston">TX - Houston</option>
+                                        <option value="TX - Houston-North">TX - Houston-North</option>
+                                        <option value="TX - Longview">TX - Longview</option>
+                                        <option value="TX - Lubbock">TX - Lubbock</option>
+                                        <option value="TX - McAllen">TX - McAllen</option>
+                                        <option value="TX - Permian Basin">TX - Permian Basin</option>
+                                        <option value="TX - San Antonio">TX - San Antonio</option>
+                                        <option value="TX - San Antonio-South">TX - San Antonio-South</option>
+                                        <option value="TX- -Dallas">TX- -Dallas</option>
+                                        <option value="UT - Salt Lake City">UT - Salt Lake City</option>
+                                        <option value="VA - Culpeper">VA - Culpeper</option>
+                                        <option value="VA - Fredericksburg-South">VA - Fredericksburg-South</option>
+                                        <option value="VA - Northern Virginia">VA - Northern Virginia</option>
+                                        <option value="VA - Pulaski">VA - Pulaski</option>
+                                        <option value="VA - Richmond">VA - Richmond</option>
+                                        <option value="VA - Suffolk">VA - Suffolk</option>
+                                        <option value="VA - Tidewater">VA - Tidewater</option>
+                                        <option value="VT - Burlington">VT - Burlington</option>
+                                        <option value="VT - Devil`s Bowl Sub Lot (2743 VT-22A)">VT - Devil`s Bowl Sub
+                                            Lot
+                                            (2743 VT-22A)
+                                        </option>
+                                        <option value="WA - Seattle">WA - Seattle</option>
+                                        <option value="WA - Seattle Puyallup (SubLot)">WA - Seattle Puyallup (SubLot)
+                                        </option>
+                                        <option value="WA - Seattle South">WA - Seattle South</option>
+                                        <option value="WA - Spokane">WA - Spokane</option>
+                                        <option value="WI - Appleton">WI - Appleton</option>
+                                        <option value="WI - Milwaukee">WI - Milwaukee</option>
+                                        <option value="WI - Portage">WI - Portage</option>
+                                        <option value="WV - Buckhannon">WV - Buckhannon</option>
+                                        <option value="WV - Shady Spring">WV - Shady Spring</option>
+                                    </select>
+
+                                    <div class="calc_block_btn">
+                                        <button type="button" class="btn btn-md btn-light-blue btn-rounded btn-block"
+                                                id="calculate_all_payments_btn">
+                                            Рассчитать
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="calc_block-table">
+                        <div class="calc_block-row">
+                            <div class="">Стоимость авто</div>
+                            <div class="value"><span id="auto_price"></span>{{ request.POST.auto_price }}$</div>
+                        </div>
+                        <div class="calc_block-row">
+                            <div class="">Комиссия аукциона</div>
+                            <div class="value"><span id="auction_fee"></span>$</div>
+                        </div>
+                        <div class="calc_block-row">
+                            <div class="">Комиссия банка за swift перевод</div>
+                            <div class="value"><span id="swift_bank_commission"></span>$</div>
+                        </div>
+                        <div class="calc_block-row">
+                            <div class="">Доставка по США</div>
+
+                            <div class=" value"><span id="transportation_in_usa"></span>$</div>
+                        </div>
+                        <div class="calc_block-row">
+                            <div class="">Доставка с США (порт <span id="ship_port"></span>) в Украину
+                            </div>
+                            <div class="value"><span id="shipping_price"></span>$</div>
+                        </div>
+                        <div class="calc_block-row">
+                            <div class="">Брокер и экспедитор</div>
+                            <div class="value"><span id="broker_forwarder"></span>$</div>
+                        </div>
+                        <div class="calc_block-row">
+                            <div class="">Стоянка в порту Одессы</div>
+                            <div class="value"><span id="parking_port"></span>$</div>
+                        </div>
+                        <div class="calc_block-row">
+                            <div class="">Доставка по украине</div>
+                            <div class="value"><span id="transportation_in_ukraine"></span>$
+                            </div>
+                        </div>
+                        <div class="calc_block-row">
+                            <div class="">Акциз</div>
+                            <div class="value"><span id="excise"></span>$</div>
+                        </div>
+                        <div class="calc_block-row">
+                            <div class="">Пошлина <span class="attr">10%</span></div>
+                            <div class="value"><span id="duty"></span>$</div>
+                        </div>
+                        <div class="calc_block-row">
+                            <div class="">НДС <span class="attr">20%</span></div>
+                            <div class="value"><span id="vat"></span>$</div>
+                        </div>
+                        <div class="calc_block-row">
+                            <div class="">Сертификация</div>
+                            <div class="value"><span id="certification"></span>$</div>
+                        </div>
+                        <div class="calc_block-row">
+                            <div class="">Налог в пенсионный фонд <span class="attr"><span
+                                    id="pension_single">4</span>%</span>
+                            </div>
+                            <div class="value"><span id="pension_tax"></span>$</div>
+                        </div>
+                        <div class="calc_block-row">
+                            <div class="">Постановка на учет</div>
+                            <div class="value"><span id="registration"></span>$</div>
+                        </div>
+                        <div class="calc_block-row">
+                            <div class="">Услуги компании</div>
+                            <div class="value"><span id="company_services"></span>$</div>
+                        </div>
+                        <div class="calc_block-row total mt-3 font-weight-bold">
+                            <div class="">Итоговая стоимость</div>
+                            <div class="value"><span id="total_cost"></span>$</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="container z-depth-1 my-3">
+
+        <!-- Section -->
+        <section class="page-section">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Как проходит весь процесс от покупки в США до постановки авто
+                    на учет в Украине</h2>
+            </div>
+            <!-- Modal -->
+
+            <div class="row dark-grey-text">
+
+                <div class="col-md-6 col-xl-4 mb-4">
+                    <div class="media">
+                        <div class="mr-4">
+                            <span class="text-success"><i class="icon-fa fas fa-dollar-sign fa-2x"></i></span>
+                        </div>
+                        <div class="media-body">
+                            <h6 class="font-weight-bold">Покупка</h6>
+                            <p class="text-muted">Поиск, проверка, покупка автомобиля</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl-4 mb-4">
+                    <div class="media">
+                        <div class="mr-4">
+                            <span class="text-danger"><i class="icon-fa fas fa-dolly fa-2x"></i></span>
+                        </div>
+                        <div class="media-body">
+                            <h6 class="font-weight-bold">Перевозка</h6>
+                            <p class="text-muted">Отправка автомобиля в порт</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl-4 mb-4">
+                    <div class="media">
+                        <div class="mr-4">
+                            <span class="text-info"><i class="icon-fa fas fa-ship fa-2x"></i></span>
+                        </div>
+                        <div class="media-body">
+                            <h6 class="font-weight-bold">Отправка морем</h6>
+                            <p class="text-muted">Фотоотчет в порту перед загрузкой в контейнер и отправка по морю</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl-4 mb-4">
+                    <div class="media">
+                        <div class="mr-4">
+                            <span class="text-warning"><i class="icon-fa fas fa-anchor fa-2x"></i></span>
+                        </div>
+                        <div class="media-body">
+                            <h6 class="font-weight-bold">Разгрузка</h6>
+                            <p class="text-muted">Разгрузка в порту Одессы + фотоотчет</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl-4 mb-4">
+                    <div class="media">
+                        <div class="mr-4">
+                            <span class="text-muted"><i class="icon-fa fas fa-cogs fa-2x"></i></span>
+                        </div>
+                        <div class="media-body">
+                            <h6 class="font-weight-bold">Растаможка</h6>
+                            <p class="text-muted">Растаможка автомобиля и отправка в город назначения</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl-4 mb-4">
+                    <div class="media">
+                        <div class="mr-4">
+                            <span class="text-success"><i class="icon-fa far fa-handshake fa-2x"></i></span>
+                        </div>
+                        <div class="media-body">
+                            <h6 class="font-weight-bold">Последний рывок</h6>
+                            <p class="text-muted">Ремонт, сертификации, постановка автомобиля на учет</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section -->
+
+    </div>
+{% endblock %}
