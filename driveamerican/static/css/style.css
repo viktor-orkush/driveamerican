@@ -12,6 +12,9 @@
     background-color: var(--my-color-blue) !important;
 }
 
+.mt-70{
+    margin-top: 70px;
+}
 .green-text{
     color: var(--my-color-green) !important;
 }
@@ -150,4 +153,8 @@ section {
     .calc_block label.calc-label span {
         padding: 0 5px;
     }
+}
+
+.calc_block_btn{
+    margin-top: 30px;
 }

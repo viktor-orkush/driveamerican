@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'driveamericanapp',
+    'blogapp',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -55,7 +57,7 @@ ROOT_URLCONF = 'driveamerican.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'driveamerican', 'template/'), ],
+        'DIRS': [os.path.join(BASE_DIR, 'driveamerican', 'template/'), os.path.join(BASE_DIR, 'post', 'template/'), ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -122,4 +124,5 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "staticfiles")
-MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "mediafiles")
+# MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "mediafiles")
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")

@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <section class="page-section mt-70">
+        <div class="container">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Калькулятор просчета доставки и растаможки</h2>
+            </div>
+
+            <div class="row calc_block">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="calc_block-body block-shadow">
+                                <form method="post" id="calculate_customs_form">
+                                    {% csrf_token %}
+                                    <div class="calc-labels">
+                                        {% for fuel_type_key, fuel_type_value in fuel_types.items %}
+                                            <input type="radio" class="calc-radio" name="fuel_type"
+                                                   id="{{ fuel_type_key }}"
+                                                   value="{{ fuel_type_key }}" id="{{ fuel_type_key }}"
+                                                   {% if request.POST.fuel_type == fuel_type_key or fuel_type == fuel_type_key %}checked {% endif %}>
+                                            <label for="{{ fuel_type_key }}" id="{{ fuel_type_key }}"
+                                                   class="calc-label"><span>{{ fuel_type_value }}</span></label>
+                                        {% endfor %}
+                                    </div>
+                                    <label for="auto_price">Цена:</label>
+                                    <input class="form-control" type="number" name="auto_price"
+                                           value="1000" required min="1">
+
+                                    <div class="tab-content calc-tab-panel">
+                                        <div class="tab-pane active" id="tap_petrol">
+                                            <label for="auto_engine">Объем двигателя:</label>
+                                            <select class="form-control" name="auto_engine">
+                                                {% for capacity in engine_capacity %}
+                                                    <option value="{{ capacity|stringformat:"f" }}">
+                                                        {{ capacity }}</option>
+                                                {% endfor %}
+                                            </select>
+
+                                            <label for="auto_age">Год выпуска автомобиля:</label>
+                                            <select class="form-control" name="auto_age">
+                                                {% for year in years %}
+                                                    <option value="{{ year }}"
+                                                            {% if request.POST.auto_age == year|stringformat:"s" %}selected{% endif %}>
+                                                        {{ year }}</option>
+                                                {% endfor %}
+                                            </select>
+                                        </div>
+
+                                        <div class="tab-pane" id="tap_electro">
+                                            <label for="auto_price">Мощность, кВт:</label>
+                                            <input class="form-control" type="number" name="e_power"
+                                                   value="20" min="1">
+                                        </div>
+                                    </div>
+
+                                    <div class="calc_block_btn">
+                                        <button type="button" class="btn btn-md btn-light-blue btn-rounded btn-block"
+                                                id="calculate_customs_btn">
+                                            Рассчитать
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="calc_block-table">
+                        <div class="calc_block-row font-weight-bold">
+                            <div class="">Цена с растаможкой</div>
+                            <div class="value"><span id="total_cost"></span>$</div>
+                        </div>
+                        <div class="calc_block-row mt-2">
+                            <div class="">Акцизный сбор</div>
+                            <div class="value"><span id="excise"></span>$</div>
+                        </div>
+                        <div class="calc_block-row">
+                            <div class="">Пошлина <span class="attr">10%</span></div>
+                            <div class="value"><span id="duty"></span>$</div>
+                        </div>
+                        <div class="calc_block-row">
+                            <div class="">НДС <span class="attr">20%</span></div>
+                            <div class="value"><span id="vat"></span>$</div>
+
+                        </div>
+                        <div class="calc_block-row font-weight-bold">
+                            <div class="">Всего таможенных платежей</div>
+                            <div class="value"><span id="customs_clearance"></span>$</div>
+                        </div>
+                        <div class="mt-5 font-weight-bold">
+                            <div class="">Дополнительные расходы</div>
+                        </div>
+                        <div class="calc_block-row">
+                            <div class="">Налог в пенсионный фонд <span class="attr"><span
+                                    id="pension_single">4</span>%</span>
+                            </div>
+                            <div class="value"><span id="pension_tax"></span>$</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+    </section>
+{% endblock %}

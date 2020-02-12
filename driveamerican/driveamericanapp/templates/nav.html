@@ -1,7 +1,7 @@
 {% load static %}
 <nav class="navbar navbar-expand-lg navbar-light fixed-top scrolling-navbar">
     <div class="container">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="{% url 'home' %}">
          <img src="{% static '/media/logo.jpg' %}" width="50" height="50" alt="">
     </a>
 
@@ -12,7 +12,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="{% url 'home' %}">Главная <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Услуги</a>
@@ -21,7 +21,13 @@
         <a class="nav-link " href="#">Расчитать</a>
       </li>
         <li class="nav-item">
+        <a class="nav-link " href="{% url 'customs' %}">Растаможка</a>
+      </li>
+        <li class="nav-item">
         <a class="nav-link " href="#">Вопросы</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="{% url 'blog:all_post' %}">Блог</a>
       </li>
     </ul>
     <div class="form-inline my-2 my-lg-0">
