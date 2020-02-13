@@ -4,18 +4,20 @@
     --my-color-white: #EEEDE8;
 }
 
-.blue-text{
+.blue-text {
     color: var(--my-color-blue) !important;
 }
+
 .btn-light-blue {
     color: #fff;
     background-color: var(--my-color-blue) !important;
 }
 
-.mt-70{
+.mt-70 {
     margin-top: 70px;
 }
-.green-text{
+
+.green-text {
     color: var(--my-color-green) !important;
 }
 
@@ -49,11 +51,44 @@ html, body, header, .view {
 }
 
 .top-nav-collapse {
-    background-color: var(--my-color-white) !important;
+    background: rgba(234, 237, 240, .8) !important;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .4) !important;
 }
 
 .navbar:not(.top-nav-collapse) {
-    background: transparent !important;
+    background: rgba(234, 237, 240, .8);
+    box-shadow: 0 0 4px rgba(0, 0, 0, .4);
+}
+
+.nav-item {
+    text-transform: uppercase;
+    padding: 0 8px;
+    font-weight: bold;
+}
+
+.navbar.navbar-light .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-light .navbar-nav .nav-item.active>.nav-link {
+    background-color: var(--my-color-blue);
+    color:white;
+}
+
+a:hover{
+    color: var(--my-color-green) !important;
+}
+button:hover{
+    color: var(--my-color-green) !important;
+}
+label:hover{
+    color: var(--my-color-green) !important;
+}
+
+nav > div > .navbar-brand {
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
 }
 
 @media (max-width: 991px) {
@@ -155,6 +190,13 @@ section {
     }
 }
 
-.calc_block_btn{
+.calc_block_btn {
     margin-top: 30px;
+}
+
+@media (min-width: 600px) {
+    .navbar.scrolling-navbar.top-nav-collapse {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
 }

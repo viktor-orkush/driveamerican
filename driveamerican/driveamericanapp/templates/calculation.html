@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block title %}DriveAmerican калькулятор расчета пригона авто из америки{% endblock %}
+{% block description %}Калькулятор растаможки авто в Украине. расчет стоимости авто из США в Украину.{% endblock %}
+{% block keywords %}рассчитать стоимость авто из сша, Калькулятор растаможки авто в Украине, доставка авто из США, Как заказать авто из США, перевозка автомобиля из США, в контейнере, Америка, купить, продам, доставка авто морская, авто на судне{% endblock %}
+
 {% block content %}
 
     <section class="page-section mt-70">
@@ -37,14 +41,16 @@
                                             <label for="auto_engine">Объем двигателя:</label>
                                             <select class="form-control" name="auto_engine">
                                                 {% for capacity in engine_capacity %}
-                                                    <option value="{{ capacity|stringformat:"f" }}">{{ capacity }}</option>
+                                                    <option value="{{ capacity|stringformat:"f" }}" {% if auto_engine == capacity%}selected{% endif %}>
+                                                        {{ capacity }}</option>
                                                 {% endfor %}
                                             </select>
 
                                             <label for="auto_age">Год выпуска автомобиля:</label>
                                             <select class="form-control" name="auto_age">
                                                 {% for year in years %}
-                                                    <option value="{{ year }}">{{ year }}</option>
+                                                    <option value="{{ year }}" {% if auto_age == year|stringformat:"s" %}selected{% endif %}>
+                                                        {{ year }}</option>
                                                 {% endfor %}
                                             </select>
                                         </div>
@@ -277,7 +283,7 @@
                                     </select>
 
                                     <div class="calc_block_btn">
-                                        <button type="button" class="btn btn-md btn-light-blue btn-rounded btn-block"
+                                        <button type="button" class="btn btn-lg btn-light-blue btn-rounded btn-block"
                                                 id="calculate_all_payments_btn">
                                             Рассчитать
                                         </button>
@@ -307,6 +313,10 @@
                             <div class="">Доставка по США</div>
 
                             <div class=" value"><span id="transportation_in_usa"></span>$</div>
+                        </div>
+                        <div class="calc_block-row">
+                            <div class="">Страховка автомобиля <span class="attr">1%</span></div>
+                            <div class="value"><span id="insurance_car"></span>$</div>
                         </div>
                         <div class="calc_block-row">
                             <div class="">Доставка с США (порт <span id="ship_port"></span>) в Украину

@@ -17,8 +17,14 @@ def home(request):
     return render(request, 'index.html', )
 
 
+def faq(request):
+    return render(request, 'faq.html', )
+
+
 def calculation(request):
     return render(request, 'calculation.html', {'fuel_types': FUEL_TYPES,
+                                                'auto_engine': 2.0,
+                                                'auto_age': '2015',
                                                 'fuel_type': 'petrol',
                                                 'years': range(2010, int(datetime.datetime.now().year)),
                                                 'engine_capacity': [capacity / 10 for capacity in range(7, 40)]})
@@ -37,9 +43,10 @@ class CalculateAllPaymentsAPI(APIView):
             auction_fee = math.ceil(auto_price * 0.1)
             swift_bank_commission = math.ceil(10 + (auto_price + auction_fee) * 0.005)
 
+            insurance_car = math.ceil((auto_price + auction_fee) * 0.1)
             excise = get_excise(fuel_type, auto_engine, auto_age, e_power)
             duty = math.ceil((auto_price + auction_fee) * 0.1)
-            vat = math.ceil((excise + auction_fee + duty + SHIPPING_PRICE_FOR_CALC_VAT) * 0.2)
+            vat = math.ceil((auto_price + auction_fee + excise + duty + SHIPPING_PRICE_FOR_CALC_VAT) * 0.2)
             customs_clearance = excise + duty + vat
             # todo calculate transportation for different location
             transportation_in_usa = 500
@@ -58,6 +65,7 @@ class CalculateAllPaymentsAPI(APIView):
                 + pension_tax + certification + registration + company_services)
             return JsonResponse({'auto_price': auto_price,
                                  'auction_fee': auction_fee,
+                                 'insurance_car': insurance_car,
                                  'swift_bank_commission': swift_bank_commission,
                                  'excise': excise,
                                  'duty': duty,

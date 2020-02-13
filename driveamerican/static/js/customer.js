@@ -13,7 +13,7 @@ function setEqualHeight(columns) {
 
 $(document).ready(function () {
     setEqualHeight($(".services > div> .card"));
-    setEqualHeight($(".privileges > div> .card"));
+    setEqualHeight($(".privileges > div> div > div > .card"));
 });
 
 
@@ -70,6 +70,7 @@ $("#calculate_all_payments_btn").on('click', function () {
                 $('#auto_price').text(data['auto_price'])
                 $('#auction_fee').text(data['auction_fee'])
                 $('#swift_bank_commission').text(data['swift_bank_commission'])
+                $('#insurance_car').text(data['insurance_car'])
                 $('#transportation_in_usa').text(data['transportation_in_usa'])
                 $('#shipping_price').text(data['shipping_price'])
                 $('#broker_forwarder').text(data['broker_forwarder'])

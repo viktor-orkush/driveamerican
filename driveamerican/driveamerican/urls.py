@@ -10,6 +10,7 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('customs/', views.customs, name='customs'),
     path('calculation/', views.calculation, name='calculation'),
+    path('faq/', views.faq, name='faq'),
     path('blog/', include('blogapp.urls')),
 
     # api urls
