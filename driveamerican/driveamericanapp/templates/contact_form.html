@@ -1,0 +1,53 @@
+{% load crispy_forms_tags %}
+
+
+<div id="contact_form_alert"></div>
+<div class="modal fade" id="contact_form_id" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <form class="needs-validation" id="contact_form" action="" method="POST">
+                {% csrf_token %}
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">ОСТАВИТЬ ЗАЯВКУ:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body">
+
+
+                        <div id="div_id_user" class="form-group"><label for="id_user" class=" requiredField">
+                            Имя<span class="asteriskField">*</span> </label>
+                            <div class=""><input type="text" name="user" maxlength="100"
+                                                 class="textinput textInput form-control" required="" id="id_user">
+                            </div>
+                        </div>
+                        <div id="div_id_phone" class="form-group"><label for="id_phone" class=" requiredField">
+                            Телефон<span class="asteriskField">*</span> </label>
+                            <div class=""><input type="text" name="phone" maxlength="100"
+                                                 class="textinput textInput form-control" required="" id="id_phone">
+                            </div>
+                        </div>
+                        <div id="div_id_message" class="form-group"><label for="id_message" class="">
+                            Сообщение
+                        </label>
+                            <div class=""><input type="text" name="message" maxlength="256"
+                                                 class="textinput textInput form-control" id="id_message"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-white btn-rounded waves-effect waves-light"
+                            data-dismiss="modal">Отмена
+                    </button>
+                    <button type="button" class="btn btn-light-blue btn-rounded waves-effect waves-light"
+                            id="contact_form">Отправить
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

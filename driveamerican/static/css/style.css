@@ -66,18 +66,20 @@ html, body, header, .view {
     font-weight: bold;
 }
 
-.navbar.navbar-light .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-light .navbar-nav .nav-item.active>.nav-link {
+.navbar.navbar-light .breadcrumb .nav-item.active > .nav-link, .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
     background-color: var(--my-color-blue);
-    color:white;
+    color: white;
 }
 
-a:hover{
+a:hover {
     color: var(--my-color-green) !important;
 }
-button:hover{
+
+button:hover {
     color: var(--my-color-green) !important;
 }
-label:hover{
+
+label:hover {
     color: var(--my-color-green) !important;
 }
 
@@ -89,12 +91,6 @@ nav > div > .navbar-brand {
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
-}
-
-@media (max-width: 991px) {
-    .navbar:not(.top-nav-collapse) {
-        background: var(--my-color-white) !important;
-    }
 }
 
 h5 {
@@ -176,6 +172,128 @@ section {
 .bg-light {
     background-color: #f8f9fa !important;
 }
+
+
+
+/*кнопка обратной связи*/
+.email-bt {
+    background: var(--my-color-blue);
+    border: 2px solid var(--my-color-blue);
+    border-radius: 50%;
+    box-shadow: 0 8px 10px rgba(161, 202, 220, 0.3);
+    cursor: pointer;
+    height: 10vh;
+    text-align: center;;
+    width: 10vh;
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    z-index: 999;
+    transition: .2s;
+    -webkit-animation: email-an linear 1s infinite;
+    animation: email-an linear 1s infinite;
+}
+
+.email-bt .btn-contact.focus, .btn-contact:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.email-bt:hover {
+    z-index: 1;
+    background: var(--my-color-white);
+    transition: .3s;
+}
+.email-bt .btn-contact{
+    background-color: transparent;
+    border-color: transparent;
+}
+.email-bt .btn-contact:focus .btn-contact:active{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.email-bt:hover i {
+    color: var(--my-color-blue);
+    font-size: 40px;
+    transition: .3s;
+}
+
+.email-bt i {
+    color: #fff;
+    font-size: 5vh;
+    transition: .3s;
+    line-height: 8vh;
+}
+
+.email-bt i {
+    -webkit-animation: opsimple 3s infinite;
+    animation: opsimple 3s infinite;
+}
+
+@-webkit-keyframes email-an {
+    0% {
+        box-shadow: 0 8px 10px rgba(161, 202, 220, 0.3), 0 0 0 0 rgba(161, 202, 220, 0.2), 0 0 0 0 rgba(161, 202, 220, 0.2)
+    }
+    40% {
+        box-shadow: 0 8px 10px rgba(161, 202, 220, 0.3), 0 0 0 15px rgba(161, 202, 220, 0.2), 0 0 0 0 rgba(161, 202, 220, 0.2)
+    }
+    80% {
+        box-shadow: 0 8px 10px rgba(161, 202, 220, 0.3), 0 0 0 30px rgba(161, 202, 220, 0), 0 0 0 26.7px rgba(161, 202, 220, 0.067)
+    }
+    100% {
+        box-shadow: 0 8px 10px rgba(161, 202, 220, 0.3), 0 0 0 30px rgba(161, 202, 220, 0), 0 0 0 40px rgba(161, 202, 220, 0.0)
+    }
+}
+
+@keyframes email-an {
+    0% {
+        box-shadow: 0 8px 10px rgba(161, 202, 220, 0.3), 0 0 0 0 rgba(161, 202, 220, 0.2), 0 0 0 0 rgba(161, 202, 220, 0.2)
+    }
+    40% {
+        box-shadow: 0 8px 10px rgba(161, 202, 220, 0.3), 0 0 0 15px rgba(161, 202, 220, 0.2), 0 0 0 0 rgba(161, 202, 220, 0.2)
+    }
+    80% {
+        box-shadow: 0 8px 10px rgba(161, 202, 220, 0.3), 0 0 0 30px rgba(161, 202, 220, 0), 0 0 0 26.7px rgba(161, 202, 220, 0.067)
+    }
+    100% {
+        box-shadow: 0 8px 10px rgba(161, 202, 220, 0.3), 0 0 0 30px rgba(161, 202, 220, 0), 0 0 0 40px rgba(161, 202, 220, 0.0)
+    }
+}
+
+@keyframes opsimple {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes opsimple {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* конец кнопки звязи */
+
 
 @media (min-width: 992px) {
     .calc_block label.calc-label span {

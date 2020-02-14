@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'driveamericanapp',
     'blogapp',
     'rest_framework',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [

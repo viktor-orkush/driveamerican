@@ -29,6 +29,12 @@
 
 {% include 'footer.html' %}
 
+{% include 'contact_form.html' %}
+
+<div class="email-bt">
+    <button class="btn-contact" data-toggle="modal" data-target="#contact_form_id"><i class="fa fa-envelope"></i></button>
+</div>
+
 </body>
 
 </html>
@@ -38,4 +44,5 @@
 <script src="{% static 'js/popper.min.js' %}"></script>
 <script src="{% static 'js/bootstrap.min.js' %}"></script>
 <script src="{% static 'js/mdb.min.js' %}"></script>
+<script src="{% static 'js/contact.form.js' %}"></script>
 <script src="{% static 'js/customer.js' %}"></script>

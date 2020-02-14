@@ -1,0 +1,229 @@
+[
+  {
+    "model": "driveamericanapp.auction",
+    "pk": 1,
+    "fields": {
+      "auction": "IAAI"
+    }
+  },
+  {
+    "model": "driveamericanapp.auction",
+    "pk": 2,
+    "fields": {
+      "auction": "Copart"
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 1,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 0,
+      "sale_price_max": 99,
+      "buyer_fee": 1
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 2,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 100,
+      "sale_price_max": 299,
+      "buyer_fee": 60
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 3,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 300,
+      "sale_price_max": 499,
+      "buyer_fee": 100
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 4,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 500,
+      "sale_price_max": 799,
+      "buyer_fee": 160
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 5,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 800,
+      "sale_price_max": 1199,
+      "buyer_fee": 220
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 6,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 1200,
+      "sale_price_max": 1499,
+      "buyer_fee": 255
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 7,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 1500,
+      "sale_price_max": 2199,
+      "buyer_fee": 325
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 8,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 2200,
+      "sale_price_max": 2999,
+      "buyer_fee": 360
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 9,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 3000,
+      "sale_price_max": 4499,
+      "buyer_fee": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 10,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 3000,
+      "sale_price_max": 4499,
+      "buyer_fee": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 11,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 4500,
+      "sale_price_max": 7499,
+      "buyer_fee": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 12,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 7500,
+      "sale_price_max": 19999,
+      "buyer_fee": 475
+    }
+  },
+
+
+
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 1,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 0,
+      "sale_price_max": 99,
+      "internet_bid_fee": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 2,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 100,
+      "sale_price_max": 499,
+      "internet_bid_fee": 29
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 3,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 500,
+      "sale_price_max": 999,
+      "internet_bid_fee": 39
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 4,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 1000,
+      "sale_price_max": 1499,
+      "internet_bid_fee": 59
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 5,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 1500,
+      "sale_price_max": 1999,
+      "internet_bid_fee": 69
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 6,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 2000,
+      "sale_price_max": 3999,
+      "internet_bid_fee": 79
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 7,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 4000,
+      "sale_price_max": 5999,
+      "internet_bid_fee": 89
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 8,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 6000,
+      "sale_price_max": 7999,
+      "internet_bid_fee": 99
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 9,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 8000,
+      "sale_price_max": 100999,
+      "internet_bid_fee": 119
+    }
+  }
+]

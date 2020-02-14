@@ -15,7 +15,8 @@ urlpatterns = [
 
     # api urls
     path('calculate_customs/', views.CalculateCustomsAPI.as_view(), name='calculate_customs'),
-    path('calculate_all_payments/', views.CalculateAllPaymentsAPI.as_view(), name='calculate_all_payments')
+    path('calculate_all_payments/', views.CalculateAllPaymentsAPI.as_view(), name='calculate_all_payments'),
+    path('contact/', views.UserContactRequest.as_view(), name='calculate_all_payments')
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 

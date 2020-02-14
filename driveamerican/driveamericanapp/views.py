@@ -5,6 +5,10 @@ from django.http import JsonResponse
 from django.shortcuts import render
 from rest_framework.views import APIView
 
+from driveamericanapp.models import BuyerFee, Auction, InternetBidFee
+from driveamericanapp.serializers import ContactSerializer
+from driveamericanapp.telegram_notification import send_message
+
 RATE_DOLLAR_EURO = 1.15
 SHIPPING_PRICE_FOR_CALC_VAT = 400
 FUEL_TYPES = {'petrol': 'Бензин',
@@ -39,8 +43,11 @@ class CalculateAllPaymentsAPI(APIView):
             fuel_type = request.POST.get('fuel_type')
             auto_age = int(request.POST.get('auto_age'))
             e_power = int(request.POST.get('e_power', 1))
+            auction = request.POST.get('auction')
+
             # todo calculate auction fee for iaai and copart
-            auction_fee = math.ceil(auto_price * 0.1)
+            auction_fee = get_auction_fee(auto_price)
+
             swift_bank_commission = math.ceil(10 + (auto_price + auction_fee) * 0.005)
 
             insurance_car = math.ceil((auto_price + auction_fee) * 0.1)
@@ -120,6 +127,29 @@ class CalculateCustomsAPI(APIView):
         return JsonResponse({'result': 'error'})
 
 
+class UserContactRequest(APIView):
+    """
+    DRF view API for contact form
+    :param request: user, phone, message
+    :return: success
+    """
+    def post(self, request):
+        serializer = ContactSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            context = {'result': 'success',
+                       'message': '<strong>Ваша заявка принята.</strong> '
+                                  'Мы свяжемся с Вами в ближайшее время!'}
+            name = request.data.get("user")
+            phone = request.data.get("phone")
+            message = request.data.get("message")
+            message_text = "Новый запрос на сайте " + "\n Имя: " + name + "\n Телефон: " + phone + "\n Сообщение: " + message
+            send_message(message_text)
+        else:
+            context = {'result': 'error'}
+        return JsonResponse(context)
+
+
 def get_excise(auto_engine_type, auto_engine, auto_age, e_power):
     excise = 0
     if auto_engine_type == 'electro':
@@ -143,3 +173,22 @@ def get_cof_age(auto_age):
     if cof_age < 1:
         cof_age = 1
     return cof_age
+
+
+def get_auction_fee(auto_price):
+    # auction_obj = Auction.objects.get(auction=auction)
+    if auto_price < 7500.0:
+        buyer_fee = BuyerFee.objects.filter(sale_price_min__lte=auto_price, sale_price_max__gte=auto_price,
+                                            ).values('buyer_fee')[0]['buyer_fee']
+    elif 7500 < auto_price < 19999:
+        buyer_fee = 500 + auto_price * 0.01
+    elif auto_price > 20000:
+        buyer_fee = auto_price * 0.04
+
+    internet_bid_fee = \
+    InternetBidFee.objects.filter(sale_price_min__lte=auto_price, sale_price_max__gte=auto_price).values(
+        'internet_bid_fee')[0][
+        'internet_bid_fee']
+    service_fee = 59
+    broker_fee = 35
+    return buyer_fee + internet_bid_fee + service_fee + broker_fee
