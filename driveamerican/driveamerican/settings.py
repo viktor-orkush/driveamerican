@@ -25,7 +25,7 @@ SECRET_KEY = '=1_^#wpc806(sq&l@)2ed@5atc!=1+xsjkne!kl_u+s#u*sz5a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['195.123.208.134', 'driveamerican.com', 'www.driveamerican.com']
 
 
 # Application definition
@@ -125,5 +125,5 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "staticfiles")
-# MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "mediafiles")
-MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "mediafiles")
+# MEDIA_ROOT = os.path.join(BASE_DIR, "media")
