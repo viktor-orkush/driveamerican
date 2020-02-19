@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "driveamerican",
+  "private_key_id": "6d11d1ea30b7afef1854a90f639066471b4149a7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCzH56UxyJgma0F\nrTOFFQGGDGwq/TcdAMjU9FlXchrzmt+kSoDEHtgnJxfgoYfkAQNBsZ4+FGkiIbDk\nF77O9Cdi0MVnEJoB/6V+u3AdIMcBHeIO/zRmAwTGe9ABT8bS++fo0ObhjVud/zXi\nBfDC97Ctyd47dkie4Rq9a5cB5Qf2Eka+F4ZM48hu+BZjqNHPudKVw9wHr+BaCNz/\nB7rAFkixL6VVnV1nvvqLzl6PPPkp5ihhzlXq4Kefz3HgbitAsoY3OzA5BRfOPjkm\nB7jPvEFYt1JYsFbLl97Qu1dIqOMtXlhdL5cWPrRere+bGEz+YZJ//o1LFbsht6gr\nXTjqy2WLAgMBAAECggEAQUAP8w91YO4qPqqg3WZRB0VINALIzFpoTlbyoq2wzrPI\nqx7uuEKqJ90QUCZXi8Gor4ol5GRoBeRy/Sv/OIFtRYxalJhSGc9IOJnMFfhGNgxu\nOFtT+aM43prko02t1laoXMGYkWp+iNgah0r1sPgslqo2N7/3ZVUH+h+Sw0BsvYC/\n1+z5KMX/tmh89Hk+E+dUcN4bz7B/JZKDsC0keyoiL0t71x13gKW5RL+b11mJiWv2\ndJMRY8yi05Dv4Z+ukAtPmGfy3paBA8gTDtNDt7Heb2arPHSU3r4HjJ9De6vH8K3e\nYAZn2z3llQfC1HzxLEJbPF7sm2oUgISsFhKHbu5c4QKBgQDZMTIf6cFvKl2JG+gC\nkgdnUsA2T8KYsnZodIEGObmaB7JL4agrDCenlnKP66OTd+aE+A0R8BErbbHYa86+\n8bNApaRgjb7FaKAfn7yQZxFqMQXp36dTMNdDQWysBEWoRYWdGYdo0i+rrXT52TW/\n9e5U0K0AJOLDfSmoAcEytOXnKwKBgQDTIRZOt/Exmpn9iVAHIlD35O2wj9BBBYQl\n0JaDy58zJzY7V1hU0MWMGOQmy3mEt8oDU4Upl2VCiPcaj+QhQSvEIHWB5LQ+gJtc\nlUaZm84n5zKAyUocbjm0819q4WYoBcWOz/0AnZxXM+85Ntm+1a5QptcVA4NPzWs8\nJTpR481LIQKBgCuplzERNiDZ/HnO0WKK5tAfs6J3gGBgKCuxmCqfOi+78l0M3Vji\nFaq8NQW30meYCBCdKUt83obDg6hFbAe44VdStWvvsvVOpjoVS7wf7EFT36N3odS4\nkd3kbitapIJCj6zYb/9jmc/CjCyaPRL9Js+IL+9Cew/fvpsW1zcRZNKHAoGBAL7w\nn4IVrNZVoYrAElZBXMS0j5oslgUX/glM+bK8BoB2p/9G4SXjoaUwJbZIMuAqb1JO\nyJFy0Cs6P3AQThsdG33GdT9CHRihquAySKVHWUyRNQVwBcxsi1fw+oxoyMDNZ3ve\n8ksKP4hF+cXeq1KBYaKjIMVqZelYN/EvIe1JfjLBAoGAI4sy0LjwIrA9pycbuDFK\nx0MYmtgw0mfUpdqtBPtZPP7XJ7f1yEKydi+a0KoLRjuS6oOTcmYVllwDBylimtJ3\nSGXq4CajeF3GX6KLIYAsDghbl6c4mjvlb73xzg/NHE7mG54kvAOUk8LEMi7KPCKl\n0nL1dr1vLrmVaGKipGEhuXA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "viktro@driveamerican.iam.gserviceaccount.com",
+  "client_id": "103414714427745343405",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/viktro%40driveamerican.iam.gserviceaccount.com"
+}

@@ -3,9 +3,12 @@ import math
 
 from django.http import JsonResponse
 from django.shortcuts import render
+from django.utils.decorators import method_decorator
+from django.views.decorators.cache import never_cache
+from django.views.decorators.csrf import csrf_exempt, ensure_csrf_cookie, csrf_protect
 from rest_framework.views import APIView
 
-from driveamericanapp.models import BuyerFee, Auction, InternetBidFee
+from driveamericanapp.models import BuyerFee, Auction, InternetBidFee, TransportationPrice
 from driveamericanapp.serializers import ContactSerializer
 from driveamericanapp.telegram_notification import send_message
 
@@ -15,6 +18,14 @@ FUEL_TYPES = {'petrol': 'Бензин',
               'diesel': 'Дизель',
               'electro': 'Электро',
               'hybrid': 'Гибрид'}
+
+port_shipping_price = {
+    'port_savannah': 750,
+    'port_newark': 750,
+    'port_houston': 900,
+    'port_los_angeles': 950,
+    'port_indianapolis': 950
+}
 
 
 def home(request):
@@ -50,18 +61,31 @@ class CalculateAllPaymentsAPI(APIView):
 
             swift_bank_commission = math.ceil(10 + (auto_price + auction_fee) * 0.005)
 
-            insurance_car = math.ceil((auto_price + auction_fee) * 0.1)
+            insurance_car = math.ceil((auto_price + auction_fee) * 0.01)
             excise = get_excise(fuel_type, auto_engine, auto_age, e_power)
             duty = math.ceil((auto_price + auction_fee) * 0.1)
             vat = math.ceil((auto_price + auction_fee + excise + duty + SHIPPING_PRICE_FOR_CALC_VAT) * 0.2)
             customs_clearance = excise + duty + vat
-            # todo calculate transportation for different location
-            transportation_in_usa = 500
-            # todo calculate transportation for different port
-            shipping_price = 900
+
+            # calculate transportation for different location
+            auction_location = request.POST.get('auction_location')
+            try:
+                tp_obj = TransportationPrice.objects.get(auction_location=auction_location)
+                transportation_prices = {'port_houston': tp_obj.port_houston,
+                                         'port_indianapolis': tp_obj.port_indianapolis,
+                                         'port_los_angeles': tp_obj.port_los_angeles,
+                                         'port_newark': tp_obj.port_newark,
+                                         'port_savannah': tp_obj.port_savannah}
+                shipping_port = min(transportation_prices, key=transportation_prices.get)
+                transportation_in_usa = transportation_prices[shipping_port]
+                shipping_price = port_shipping_price.get(shipping_port)
+            except TransportationPrice.DoesNotExist:
+                transportation_in_usa = 499
+                shipping_price = 899
+
             broker_forwarder = 850
             parking_port = 30
-            transportation_in_ukraine = 200
+            transportation_in_ukraine = 100
             pension_tax = math.ceil((auto_price + auction_fee) * 0.04)
             certification = 300
             registration = 60
@@ -91,6 +115,17 @@ class CalculateAllPaymentsAPI(APIView):
                                  'result': 'success'})
         return JsonResponse({'result': 'error'})
 
+    def get(self, request):
+        auction = request.GET.get('auction')
+        auction_obj = Auction.objects.get(auction=auction)
+        auction_locations = TransportationPrice.objects.filter(auction=auction_obj). \
+            values('auction_location', 'state'). \
+            order_by('state')
+        context = {
+            'auction_locations': list(auction_locations)
+        }
+        return JsonResponse(context)
+
 
 def customs(request):
     return render(request, 'customs.html', {'fuel_types': FUEL_TYPES,
@@ -111,7 +146,7 @@ class CalculateCustomsAPI(APIView):
 
             excise = get_excise(fuel_type, auto_engine, auto_age, e_power)
             duty = math.ceil(auto_price * 0.1)
-            vat = math.ceil((excise + duty + SHIPPING_PRICE_FOR_CALC_VAT) * 0.2)
+            vat = math.ceil((auto_price + excise + duty + SHIPPING_PRICE_FOR_CALC_VAT) * 0.2)
             customs_clearance = excise + duty + vat
             total_cost = auto_price + customs_clearance
             pension_tax = math.ceil(auto_price * 0.04)
@@ -133,6 +168,7 @@ class UserContactRequest(APIView):
     :param request: user, phone, message
     :return: success
     """
+
     def post(self, request):
         serializer = ContactSerializer(data=request.data)
         if serializer.is_valid():
@@ -186,9 +222,9 @@ def get_auction_fee(auto_price):
         buyer_fee = auto_price * 0.04
 
     internet_bid_fee = \
-    InternetBidFee.objects.filter(sale_price_min__lte=auto_price, sale_price_max__gte=auto_price).values(
-        'internet_bid_fee')[0][
-        'internet_bid_fee']
+        InternetBidFee.objects.filter(sale_price_min__lte=auto_price, sale_price_max__gte=auto_price).values(
+            'internet_bid_fee')[0][
+            'internet_bid_fee']
     service_fee = 59
     broker_fee = 35
     return buyer_fee + internet_bid_fee + service_fee + broker_fee

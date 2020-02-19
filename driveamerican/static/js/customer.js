@@ -21,8 +21,7 @@ $('.calc-radio').click(function () {
     if (this.id === "petrol" || this.id === "diesel") {
         $('.calc-tab-panel').parent().find('div.tab-pane').removeClass('active')
         $('#tap_petrol').addClass('active')
-    }
-    else if (this.id === 'electro') {
+    } else if (this.id === 'electro') {
         $('.calc-tab-panel').parent().find('div.tab-pane').removeClass('active')
         $('#tap_electro').addClass('active')
     } else if (this.id === 'hybrid') {
@@ -89,6 +88,36 @@ $("#calculate_all_payments_btn").on('click', function () {
             } else if (data['result'] == 'error') {
                 console.log('data error');
             }
+        },
+        error: function (err) {
+            console.log('function error result ' + err);
+        }
+    });
+});
+
+
+//calculate all payments for byu cars in usa
+$("#auction_id").change(function () {
+    // console.log('change')
+    $.ajax({
+        url: '/calculate_all_payments/',
+        type: "GET",
+        data: $('#calculate_customs_form').serialize(),
+        success: function (data) {
+            // $('#auction_location').append(new Option(data['auction_locations']));
+            $('#auction_location').empty();
+            $.each(data['auction_locations'], function (val, text) {
+                $('#auction_location').append(
+                    $('<option></option>').val(text.auction_location).html(text.state + ' - '+ text.auction_location)
+                );
+            });
+
+            console.log('data success')
+            // if (data['result'] == 'success') {
+            //     $('#total_cost').text(data['total_cost'])
+            // } else if (data['result'] == 'error') {
+            //     console.log('data error');
+            // }
         },
         error: function (err) {
             console.log('function error result ' + err);

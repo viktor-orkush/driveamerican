@@ -67,223 +67,17 @@
                                     </div>
 
                                     <label for="auction_city">Аукцион:</label>
-                                    <select class="form-control" name="auction" id="auction">
-                                        <option value="copart">Copart</option>
+                                    <select class="form-control" name="auction" id="auction_id">
+                                        <option value="Copart">Copart</option>
 
-                                        <option value="iaai">IAAI</option>
+                                        <option value="IAAI">IAAI</option>
                                     </select>
 
                                     <label for="auction_city">Площадка аукциона:</label>
-                                    <select name="auction_city" name="city" id="city"
+                                    <select name="auction_location" id="auction_location"
                                             class="form-control" data-dependent="port">
-                                        <option value="">---</option>
-                                        <option value="AL - ADESA BIRMINGHAM">AL - ADESA BIRMINGHAM</option>
-                                        <option value="AL - Birmingham">AL - Birmingham</option>
-                                        <option value="AL - Dothan">AL - Dothan</option>
-                                        <option value="AL - Huntsville">AL - Huntsville</option>
-                                        <option value="AR - Fayetteville">AR - Fayetteville</option>
-                                        <option value="AR - Little Rock">AR - Little Rock</option>
-                                        <option value="AZ - Phoenix">AZ - Phoenix</option>
-                                        <option value="AZ - Tucson">AZ - Tucson</option>
-                                        <option value="CA - Anaheim">CA - Anaheim</option>
-                                        <option value="CA - Colton">CA - Colton</option>
-                                        <option value="CA - East Bay">CA - East Bay</option>
-                                        <option value="CA - Fontana">CA - Fontana</option>
-                                        <option value="CA - Fremont">CA - Fremont</option>
-                                        <option value="CA - Fresno">CA - Fresno</option>
-                                        <option value="CA - High Desert">CA - High Desert</option>
-                                        <option value="CA - Los Angeles">CA - Los Angeles</option>
-                                        <option value="CA - North Hollywood">CA - North Hollywood</option>
-                                        <option value="CA - Sacramento">CA - Sacramento</option>
-                                        <option value="CA - San Diego">CA - San Diego</option>
-                                        <option value="CO - Denver">CO - Denver</option>
-                                        <option value="CO - Denver East">CO - Denver East</option>
-                                        <option value="CO - Western Colorado">CO - Western Colorado</option>
-                                        <option value="CT - Hartford">CT - Hartford</option>
-                                        <option value="CT - Hartford-South">CT - Hartford-South</option>
-                                        <option value="DE - New Castle">DE - New Castle</option>
-                                        <option value="FL - CAT Jacksonville Sub Lot (10950 Normandy Blvd)">FL - CAT
-                                            Jacksonville Sub Lot (10950 Normandy Blvd)
-                                        </option>
-                                        <option value="FL - CAT Orlando Boggy Creek Rd Sub Lot (9801 Boggy Creek Rd)">FL
-                                            -
-                                            CAT Orlando Boggy Creek Rd Sub Lot (9801 Boggy Creek Rd)
-                                        </option>
-                                        <option value="FL - Clearwater">FL - Clearwater</option>
-                                        <option value="FL - Fort Myers">FL - Fort Myers</option>
-                                        <option value="FL - Fort Pierce">FL - Fort Pierce</option>
-                                        <option value="FL - Jacksonville">FL - Jacksonville</option>
-                                        <option value="FL - Miami">FL - Miami</option>
-                                        <option value="FL - Miami-North">FL - Miami-North</option>
-                                        <option value="FL - Orlando">FL - Orlando</option>
-                                        <option value="FL - Orlando-North">FL - Orlando-North</option>
-                                        <option value="FL - Pensacola">FL - Pensacola</option>
-                                        <option value="FL - Tampa">FL - Tampa</option>
-                                        <option value="FL - Tampa NORTH">FL - Tampa NORTH</option>
-                                        <option value="GA - Atlanta">GA - Atlanta</option>
-                                        <option value="GA - Atlanta East">GA - Atlanta East</option>
-                                        <option value="GA - Atlanta North">GA - Atlanta North</option>
-                                        <option value="GA - Atlanta South">GA - Atlanta South</option>
-                                        <option value="GA - Macon">GA - Macon</option>
-                                        <option value="GA - Savannah">GA - Savannah</option>
-                                        <option value="GA - Tifton">GA - Tifton</option>
-                                        <option value="IA - Davenport">IA - Davenport</option>
-                                        <option value="IA - Des Moines">IA - Des Moines</option>
-                                        <option value="ID - Boise">ID - Boise</option>
-                                        <option value="IL - Chicago-North">IL - Chicago-North</option>
-                                        <option value="IL - Chicago-South">IL - Chicago-South</option>
-                                        <option value="IL - Chicago-West">IL - Chicago-West</option>
-                                        <option value="IL - Lincoln">IL - Lincoln</option>
-                                        <option value="IL - Specialty Division">IL - Specialty Division</option>
-                                        <option value="IL - St. Louis">IL - St. Louis</option>
-                                        <option value="IN - IAA Indy Minnesota Street Sublot (IAAI Indy Minnesota St)">
-                                            IN -
-                                            IAA Indy Minnesota Street Sublot (IAAI Indy Minnesota St)
-                                        </option>
-                                        <option value="IN - Indianapolis">IN - Indianapolis</option>
-                                        <option value="IN - South Bend">IN - South Bend</option>
-                                        <option value="KS - Kansas City">KS - Kansas City</option>
-                                        <option value="KS - Wichita">KS - Wichita</option>
-                                        <option value="KY - Ashland">KY - Ashland</option>
-                                        <option value="KY - Bowling Green">KY - Bowling Green</option>
-                                        <option value="KY - Louisville">KY - Louisville</option>
-                                        <option value="KY - Louisville North">KY - Louisville North</option>
-                                        <option value="KY - Paducah">KY - Paducah</option>
-                                        <option value="LA - Baton Rouge">LA - Baton Rouge</option>
-                                        <option value="LA - Lafayette">LA - Lafayette</option>
-                                        <option value="LA - New Orleans">LA - New Orleans</option>
-                                        <option value="LA - New Orleans East">LA - New Orleans East</option>
-                                        <option value="LA - Shreveport">LA - Shreveport</option>
-                                        <option value="MA - Boston - Shirley">MA - Boston - Shirley</option>
-                                        <option value="MA - IAAI Templeton2 Offsite (411 Baldwinville Rd)">MA - IAAI
-                                            Templeton2 Offsite (411 Baldwinville Rd)
-                                        </option>
-                                        <option value="MA - Taunton">MA - Taunton</option>
-                                        <option value="MD - Baltimore">MD - Baltimore</option>
-                                        <option value="MD - Dundalk">MD - Dundalk</option>
-                                        <option value="MD - Laurel">MD - Laurel</option>
-                                        <option value="MD - Metro DC">MD - Metro DC</option>
-                                        <option value="MD - Rosedale">MD - Rosedale</option>
-                                        <option value="MD - White Plans Aux Lot (4840 Crain Highway)">MD - White Plans
-                                            Aux
-                                            Lot (4840 Crain Highway)
-                                        </option>
-                                        <option value="ME - Portland - Gorham">ME - Portland - Gorham</option>
-                                        <option value="MI - Detroit">MI - Detroit</option>
-                                        <option value="MI - Flint">MI - Flint</option>
-                                        <option value="MI - Grand Rapids">MI - Grand Rapids</option>
-                                        <option value="MI - Great Lakes">MI - Great Lakes</option>
-                                        <option value="MN - IAA Faribault (3300 150th Street East)">MN - IAA Faribault
-                                            (3300
-                                            150th Street East)
-                                        </option>
-                                        <option value="MN - Minneapolis/St. Paul">MN - Minneapolis/St. Paul</option>
-                                        <option value="MO - Springfield">MO - Springfield</option>
-                                        <option value="MS - Grenada">MS - Grenada</option>
-                                        <option value="MS - Gulf Coast">MS - Gulf Coast</option>
-                                        <option value="MS - Jackson">MS - Jackson</option>
-                                        <option value="MT - Billings">MT - Billings</option>
-                                        <option value="MT - Missoula">MT - Missoula</option>
-                                        <option value="NC - Asheville">NC - Asheville</option>
-                                        <option value="NC - Charlotte">NC - Charlotte</option>
-                                        <option value="NC - Concord">NC - Concord</option>
-                                        <option value="NC - Greensboro">NC - Greensboro</option>
-                                        <option value="NC - Raleigh">NC - Raleigh</option>
-                                        <option value="NC - Wilmington">NC - Wilmington</option>
-                                        <option value="ND - Fargo">ND - Fargo</option>
-                                        <option value="NE - Omaha">NE - Omaha</option>
-                                        <option value="NH - Manchester">NH - Manchester</option>
-                                        <option value="NH - Salem Sub Lot (199 Lawrence Rd)">NH - Salem Sub Lot (199
-                                            Lawrence Rd)
-                                        </option>
-                                        <option value="NJ - Avenel New Jersey">NJ - Avenel New Jersey</option>
-                                        <option value="NJ - Central New Jersey">NJ - Central New Jersey</option>
-                                        <option value="NJ - Northern New Jersey">NJ - Northern New Jersey</option>
-                                        <option value="NJ - Southern New Jersey">NJ - Southern New Jersey</option>
-                                        <option value="NM - Albuquerque">NM - Albuquerque</option>
-                                        <option value="NV - Las Vegas">NV - Las Vegas</option>
-                                        <option value="NV - Reno">NV - Reno</option>
-                                        <option value="NY - Albany">NY - Albany</option>
-                                        <option value="NY - Buffalo">NY - Buffalo</option>
-                                        <option value="NY - Long Island">NY - Long Island</option>
-                                        <option value="NY - Newburgh">NY - Newburgh</option>
-                                        <option value="NY - Rochester">NY - Rochester</option>
-                                        <option value="NY - Syracuse">NY - Syracuse</option>
-                                        <option value="OH - Akron-Canton">OH - Akron-Canton</option>
-                                        <option value="OH - Cincinnati">OH - Cincinnati</option>
-                                        <option value="OH - Cincinnati-South">OH - Cincinnati-South</option>
-                                        <option value="OH - Cleveland">OH - Cleveland</option>
-                                        <option value="OH - Columbus">OH - Columbus</option>
-                                        <option value="OH - Dayton">OH - Dayton</option>
-                                        <option value="OH - IAAI Stimmel Rd Sub Lot (420 Stimmel Road)">OH - IAAI
-                                            Stimmel Rd
-                                            Sub Lot (420 Stimmel Road)
-                                        </option>
-                                        <option value="OH - Vermillion North Ford Offsite Lot (8149 W. Erie)">OH -
-                                            Vermillion North Ford Offsite Lot (8149 W. Erie)
-                                        </option>
-                                        <option value="OK - Oklahoma City">OK - Oklahoma City</option>
-                                        <option value="OK - Tulsa">OK - Tulsa</option>
-                                        <option value="OR - Eugene">OR - Eugene</option>
-                                        <option value="OR - Portland">OR - Portland</option>
-                                        <option value="OR - Portland West">OR - Portland West</option>
-                                        <option value="PA - Altoona">PA - Altoona</option>
-                                        <option value="PA - Bridgeport">PA - Bridgeport</option>
-                                        <option value="PA - Erie">PA - Erie</option>
-                                        <option value="PA - Philadelphia">PA - Philadelphia</option>
-                                        <option value="PA - Pittsburgh">PA - Pittsburgh</option>
-                                        <option value="PA - Pittsburgh-North">PA - Pittsburgh-North</option>
-                                        <option value="PA - Scranton">PA - Scranton</option>
-                                        <option value="PA - York Springs">PA - York Springs</option>
-                                        <option value="RI - Providence">RI - Providence</option>
-                                        <option value="SC - Charleston">SC - Charleston</option>
-                                        <option value="SC - Columbia">SC - Columbia</option>
-                                        <option value="SC - Greenville">SC - Greenville</option>
-                                        <option value="SD - Sioux Falls">SD - Sioux Falls</option>
-                                        <option value="TN - Chattanooga">TN - Chattanooga</option>
-                                        <option value="TN - Knoxville">TN - Knoxville</option>
-                                        <option value="TN - Memphis">TN - Memphis</option>
-                                        <option value="TN - Nashville">TN - Nashville</option>
-                                        <option value="TX - Abilene">TX - Abilene</option>
-                                        <option value="TX - Amarillo">TX - Amarillo</option>
-                                        <option value="TX - Austin">TX - Austin</option>
-                                        <option value="TX - Corpus Christi">TX - Corpus Christi</option>
-                                        <option value="TX - Dallas">TX - Dallas</option>
-                                        <option value="TX - Dallas/FT. Worth">TX - Dallas/FT. Worth</option>
-                                        <option value="TX - El Paso">TX - El Paso</option>
-                                        <option value="TX - Fort Worth North">TX - Fort Worth North</option>
-                                        <option value="TX - Houston">TX - Houston</option>
-                                        <option value="TX - Houston-North">TX - Houston-North</option>
-                                        <option value="TX - Longview">TX - Longview</option>
-                                        <option value="TX - Lubbock">TX - Lubbock</option>
-                                        <option value="TX - McAllen">TX - McAllen</option>
-                                        <option value="TX - Permian Basin">TX - Permian Basin</option>
-                                        <option value="TX - San Antonio">TX - San Antonio</option>
-                                        <option value="TX - San Antonio-South">TX - San Antonio-South</option>
-                                        <option value="TX- -Dallas">TX- -Dallas</option>
-                                        <option value="UT - Salt Lake City">UT - Salt Lake City</option>
-                                        <option value="VA - Culpeper">VA - Culpeper</option>
-                                        <option value="VA - Fredericksburg-South">VA - Fredericksburg-South</option>
-                                        <option value="VA - Northern Virginia">VA - Northern Virginia</option>
-                                        <option value="VA - Pulaski">VA - Pulaski</option>
-                                        <option value="VA - Richmond">VA - Richmond</option>
-                                        <option value="VA - Suffolk">VA - Suffolk</option>
-                                        <option value="VA - Tidewater">VA - Tidewater</option>
-                                        <option value="VT - Burlington">VT - Burlington</option>
-                                        <option value="VT - Devil`s Bowl Sub Lot (2743 VT-22A)">VT - Devil`s Bowl Sub
-                                            Lot
-                                            (2743 VT-22A)
-                                        </option>
-                                        <option value="WA - Seattle">WA - Seattle</option>
-                                        <option value="WA - Seattle Puyallup (SubLot)">WA - Seattle Puyallup (SubLot)
-                                        </option>
-                                        <option value="WA - Seattle South">WA - Seattle South</option>
-                                        <option value="WA - Spokane">WA - Spokane</option>
-                                        <option value="WI - Appleton">WI - Appleton</option>
-                                        <option value="WI - Milwaukee">WI - Milwaukee</option>
-                                        <option value="WI - Portage">WI - Portage</option>
-                                        <option value="WV - Buckhannon">WV - Buckhannon</option>
-                                        <option value="WV - Shady Spring">WV - Shady Spring</option>
+{#                                        <option value="">---</option>#}
+{#                                        <option value="AL - ADESA BIRMINGHAM">AL - ADESA BIRMINGHAM</option>#}
                                     </select>
 
                                     <div class="calc_block_btn">
@@ -328,17 +122,17 @@
                             <div class="value"><span id="insurance_car"></span>$</div>
                         </div>
                         <div class="calc_block-row">
+                            <div class="">Пересилка документов в Украину</div>
+                            <div class="value"><span id="transportation_in_ukraine"></span>$
+                            </div>
+                        </div>
+                        <div class="calc_block-row">
                             <div class="">Брокер и экспедитор</div>
                             <div class="value"><span id="broker_forwarder"></span>$</div>
                         </div>
                         <div class="calc_block-row">
                             <div class="">Стоянка в порту Одессы</div>
                             <div class="value"><span id="parking_port"></span>$</div>
-                        </div>
-                        <div class="calc_block-row">
-                            <div class="">Доставка по украине</div>
-                            <div class="value"><span id="transportation_in_ukraine"></span>$
-                            </div>
                         </div>
                         <div class="calc_block-row">
                             <div class="">Акциз</div>

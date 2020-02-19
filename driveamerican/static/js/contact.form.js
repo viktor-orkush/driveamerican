@@ -1,4 +1,4 @@
-$("#contact_form").on('click', function () {
+$("#contact_form_btn").on('click', function () {
     $.ajax({
         url: '/contact/',
         type: "POST",

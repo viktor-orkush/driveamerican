@@ -33,3 +33,19 @@ class Contact(models.Model):
 
     def __str__(self):
         return '"{user}"'.format(user=self.user)
+
+
+class TransportationPrice(models.Model):
+    auction = models.ForeignKey('Auction', on_delete=models.CASCADE,)
+    auction_location = models.CharField(max_length=512, blank=True)
+    city = models.CharField(max_length=512, blank=True)
+    state = models.CharField(max_length=32, blank=True)
+    zip = models.CharField(max_length=512, blank=True)
+    port_savannah = models.IntegerField(default=0, blank=True, null=True)
+    port_newark = models.IntegerField(default=0, blank=True, null=True)
+    port_houston = models.IntegerField(default=0, blank=True, null=True)
+    port_los_angeles = models.IntegerField(default=0, blank=True, null=True)
+    port_indianapolis = models.IntegerField(default=0, blank=True, null=True)
+
+    def __str__(self):
+        return '"{auction_location}"'.format(auction_location = self.auction_location)
