@@ -3,9 +3,6 @@ import math
 
 from django.http import JsonResponse
 from django.shortcuts import render
-from django.utils.decorators import method_decorator
-from django.views.decorators.cache import never_cache
-from django.views.decorators.csrf import csrf_exempt, ensure_csrf_cookie, csrf_protect
 from rest_framework.views import APIView
 
 from driveamericanapp.models import BuyerFee, Auction, InternetBidFee, TransportationPrice
@@ -70,7 +67,8 @@ class CalculateAllPaymentsAPI(APIView):
             # calculate transportation for different location
             auction_location = request.POST.get('auction_location')
             try:
-                tp_obj = TransportationPrice.objects.get(auction_location=auction_location)
+                auction_obj = Auction.objects.get(auction=auction)
+                tp_obj = TransportationPrice.objects.get(auction_location=auction_location, auction=auction_obj)
                 transportation_prices = {'port_houston': tp_obj.port_houston,
                                          'port_indianapolis': tp_obj.port_indianapolis,
                                          'port_los_angeles': tp_obj.port_los_angeles,
@@ -212,7 +210,7 @@ def get_cof_age(auto_age):
 
 
 def get_auction_fee(auto_price):
-    # auction_obj = Auction.objects.get(auction=auction)
+    buyer_fee = 0
     if auto_price < 7500.0:
         buyer_fee = BuyerFee.objects.filter(sale_price_min__lte=auto_price, sale_price_max__gte=auto_price,
                                             ).values('buyer_fee')[0]['buyer_fee']

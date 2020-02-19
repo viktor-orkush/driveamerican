@@ -1,0 +1,6062 @@
+[
+  {
+    "model": "driveamericanapp.auction",
+    "pk": 1,
+    "fields": {
+      "auction": "IAAI"
+    }
+  },
+  {
+    "model": "driveamericanapp.auction",
+    "pk": 2,
+    "fields": {
+      "auction": "Copart"
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 1,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 0,
+      "sale_price_max": 99,
+      "buyer_fee": 1
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 2,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 100,
+      "sale_price_max": 299,
+      "buyer_fee": 60
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 3,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 300,
+      "sale_price_max": 499,
+      "buyer_fee": 100
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 4,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 500,
+      "sale_price_max": 799,
+      "buyer_fee": 160
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 5,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 800,
+      "sale_price_max": 1199,
+      "buyer_fee": 205
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 6,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 1200,
+      "sale_price_max": 1499,
+      "buyer_fee": 255
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 7,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 1500,
+      "sale_price_max": 2199,
+      "buyer_fee": 325
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 8,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 2200,
+      "sale_price_max": 2999,
+      "buyer_fee": 360
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 9,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 3000,
+      "sale_price_max": 4499,
+      "buyer_fee": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 10,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 3000,
+      "sale_price_max": 4499,
+      "buyer_fee": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 11,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 4500,
+      "sale_price_max": 7499,
+      "buyer_fee": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 12,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 7500,
+      "sale_price_max": 19999,
+      "buyer_fee": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 1,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 0,
+      "sale_price_max": 99,
+      "internet_bid_fee": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 2,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 100,
+      "sale_price_max": 499,
+      "internet_bid_fee": 29
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 3,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 500,
+      "sale_price_max": 999,
+      "internet_bid_fee": 39
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 4,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 1000,
+      "sale_price_max": 1499,
+      "internet_bid_fee": 59
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 5,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 1500,
+      "sale_price_max": 1999,
+      "internet_bid_fee": 69
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 6,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 2000,
+      "sale_price_max": 3999,
+      "internet_bid_fee": 79
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 7,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 4000,
+      "sale_price_max": 5999,
+      "internet_bid_fee": 89
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 8,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 6000,
+      "sale_price_max": 7999,
+      "internet_bid_fee": 99
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 9,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 8000,
+      "sale_price_max": 100999,
+      "internet_bid_fee": 119
+    }
+  },
+  {
+    "model": "driveamericanapp.contact",
+    "pk": 1,
+    "fields": {
+      "user": "123",
+      "phone": "123",
+      "message": "123",
+      "created_date": "2020-02-14T14:42:22.288Z"
+    }
+  },
+  {
+    "model": "driveamericanapp.contact",
+    "pk": 2,
+    "fields": {
+      "user": "123",
+      "phone": "123",
+      "message": "",
+      "created_date": "2020-02-14T14:45:50.269Z"
+    }
+  },
+  {
+    "model": "driveamericanapp.contact",
+    "pk": 3,
+    "fields": {
+      "user": "1",
+      "phone": "1",
+      "message": "1",
+      "created_date": "2020-02-14T14:46:38.516Z"
+    }
+  },
+  {
+    "model": "driveamericanapp.contact",
+    "pk": 4,
+    "fields": {
+      "user": "1",
+      "phone": "1",
+      "message": "1",
+      "created_date": "2020-02-14T14:47:27.859Z"
+    }
+  },
+  {
+    "model": "driveamericanapp.contact",
+    "pk": 5,
+    "fields": {
+      "user": "1",
+      "phone": "1",
+      "message": "1",
+      "created_date": "2020-02-14T14:48:03.908Z"
+    }
+  },
+  {
+    "model": "driveamericanapp.contact",
+    "pk": 6,
+    "fields": {
+      "user": "123",
+      "phone": "123",
+      "message": "",
+      "created_date": "2020-02-19T13:28:01.850Z"
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 17,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ACE  Carson",
+      "city": "Carson",
+      "state": "CA",
+      "zip": "90248",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 150,
+      "port_indianapolis": 2050
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 18,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ACE  Perris",
+      "city": "Perris",
+      "state": "CA",
+      "zip": "92571",
+      "port_savannah": 1450,
+      "port_newark": 1550,
+      "port_houston": 850,
+      "port_los_angeles": 150,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 19,
+    "fields": {
+      "auction": 1,
+      "auction_location": "AkronCanton",
+      "city": "New Philadelphia",
+      "state": "OH",
+      "zip": "44663",
+      "port_savannah": 700,
+      "port_newark": 400,
+      "port_houston": 950,
+      "port_los_angeles": 1750,
+      "port_indianapolis": 400
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 20,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ALBANY ",
+      "city": "ALBANY",
+      "state": "NY",
+      "zip": "12205",
+      "port_savannah": 750,
+      "port_newark": 250,
+      "port_houston": 1250,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 21,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Albany ",
+      "city": "Schenectady",
+      "state": "NY",
+      "zip": "12303",
+      "port_savannah": 750,
+      "port_newark": 275,
+      "port_houston": 1250,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 22,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Albuquerque ",
+      "city": "Albuquerque",
+      "state": "NM",
+      "zip": "87105-\n0612",
+      "port_savannah": 1050,
+      "port_newark": 1350,
+      "port_houston": 525,
+      "port_los_angeles": 550,
+      "port_indianapolis": 1250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 23,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ALBUQUERQUE ",
+      "city": "ALBUQUERQU E",
+      "state": "NM",
+      "zip": "87105",
+      "port_savannah": 1050,
+      "port_newark": 1350,
+      "port_houston": 525,
+      "port_los_angeles": 550,
+      "port_indianapolis": 1250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 24,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ALTOONA ",
+      "city": "EBENSBURG",
+      "state": "PA",
+      "zip": "15931",
+      "port_savannah": 850,
+      "port_newark": 350,
+      "port_houston": 1250,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 25,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Altoona ",
+      "city": "East Freedom",
+      "state": "PA",
+      "zip": "16637",
+      "port_savannah": 750,
+      "port_newark": 350,
+      "port_houston": 1250,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 26,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Amarillo ",
+      "city": "Amarillo",
+      "state": "TX",
+      "zip": "79118",
+      "port_savannah": 950,
+      "port_newark": 1350,
+      "port_houston": 450,
+      "port_los_angeles": 750,
+      "port_indianapolis": 950
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 27,
+    "fields": {
+      "auction": 2,
+      "auction_location": "AMARILLO",
+      "city": "AMARILLO",
+      "state": "TX",
+      "zip": "79118",
+      "port_savannah": 950,
+      "port_newark": 1350,
+      "port_houston": 450,
+      "port_los_angeles": 750,
+      "port_indianapolis": 950
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 28,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Anaheim ",
+      "city": "Anaheim",
+      "state": "CA",
+      "zip": "92806-\n1308",
+      "port_savannah": 1450,
+      "port_newark": 1550,
+      "port_houston": 850,
+      "port_los_angeles": 150,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 29,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Anchorage ",
+      "city": "Wasilla",
+      "state": "AK",
+      "zip": "99654",
+      "port_savannah": 3350,
+      "port_newark": 2950,
+      "port_houston": 2750,
+      "port_los_angeles": 2000,
+      "port_indianapolis": 2550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 30,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ANCHORAGE ",
+      "city": "ANCHORAGE",
+      "state": "AK",
+      "zip": "99501",
+      "port_savannah": 3350,
+      "port_newark": 2950,
+      "port_houston": 2750,
+      "port_los_angeles": 2000,
+      "port_indianapolis": 2550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 31,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ANDREWS",
+      "city": "ANDREWS",
+      "state": "TX",
+      "zip": "79714",
+      "port_savannah": 900,
+      "port_newark": 1350,
+      "port_houston": 400,
+      "port_los_angeles": 750,
+      "port_indianapolis": 950
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 32,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ANTELOPE ",
+      "city": "ANTELOPE",
+      "state": "CA",
+      "zip": "95843",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 350,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 33,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Appleton ",
+      "city": "Appleton",
+      "state": "WI",
+      "zip": "54914-\n9156",
+      "port_savannah": 1100,
+      "port_newark": 800,
+      "port_houston": 1150,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 375
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 34,
+    "fields": {
+      "auction": 2,
+      "auction_location": "APPLETON",
+      "city": "APPLETON",
+      "state": "WI",
+      "zip": "54914",
+      "port_savannah": 1100,
+      "port_newark": 800,
+      "port_houston": 1150,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 400
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 35,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Asheville ",
+      "city": "Fletcher",
+      "state": "NC",
+      "zip": "28732",
+      "port_savannah": 325,
+      "port_newark": 450,
+      "port_houston": 850,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 36,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Ashland ",
+      "city": "Ashland",
+      "state": "KY",
+      "zip": "41102",
+      "port_savannah": 600,
+      "port_newark": 550,
+      "port_houston": 800,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 37,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Atlanta ",
+      "city": "Loganville",
+      "state": "GA",
+      "zip": "30052-\n4814",
+      "port_savannah": 250,
+      "port_newark": 800,
+      "port_houston": 800,
+      "port_los_angeles": 1600,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 38,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ATLANTA EAST ",
+      "city": "LOGANVILLE",
+      "state": "GA",
+      "zip": "30052",
+      "port_savannah": 250,
+      "port_newark": 800,
+      "port_houston": 800,
+      "port_los_angeles": 1600,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 39,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Atlanta East ",
+      "city": "Winder",
+      "state": "GA",
+      "zip": "30680",
+      "port_savannah": 275,
+      "port_newark": 800,
+      "port_houston": 800,
+      "port_los_angeles": 1600,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 40,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Atlanta North ",
+      "city": "Acworth",
+      "state": "GA",
+      "zip": "30101",
+      "port_savannah": 250,
+      "port_newark": 800,
+      "port_houston": 800,
+      "port_los_angeles": 1600,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 41,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ATLANTA NORTH ",
+      "city": "GAINESVILLE",
+      "state": "GA",
+      "zip": "30507",
+      "port_savannah": 275,
+      "port_newark": 800,
+      "port_houston": 800,
+      "port_los_angeles": 1600,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 42,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Atlanta South ",
+      "city": "Lake City",
+      "state": "GA",
+      "zip": "30260",
+      "port_savannah": 250,
+      "port_newark": 800,
+      "port_houston": 800,
+      "port_los_angeles": 1600,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 43,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ATLANTA SOUTH ",
+      "city": "ELLENWOOD",
+      "state": "GA",
+      "zip": "30294",
+      "port_savannah": 250,
+      "port_newark": 800,
+      "port_houston": 800,
+      "port_los_angeles": 1600,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 44,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ATLANTA WEST ",
+      "city": "AUSTELL",
+      "state": "GA",
+      "zip": "30168",
+      "port_savannah": 250,
+      "port_newark": 800,
+      "port_houston": 800,
+      "port_los_angeles": 1600,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 45,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Austin ",
+      "city": "Dale",
+      "state": "TX",
+      "zip": "78616",
+      "port_savannah": 750,
+      "port_newark": 1200,
+      "port_houston": 225,
+      "port_los_angeles": 850,
+      "port_indianapolis": 950
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 46,
+    "fields": {
+      "auction": 2,
+      "auction_location": "AUSTIN",
+      "city": "NEW BRAUNFELS",
+      "state": "TX",
+      "zip": "78130",
+      "port_savannah": 750,
+      "port_newark": 1200,
+      "port_houston": 225,
+      "port_los_angeles": 950,
+      "port_indianapolis": 950
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 47,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Avenel New Jersey ",
+      "city": "Avenel",
+      "state": "NJ",
+      "zip": "07001",
+      "port_savannah": 650,
+      "port_newark": 150,
+      "port_houston": 1050,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 600
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 48,
+    "fields": {
+      "auction": 2,
+      "auction_location": "BAKERSFIELD ",
+      "city": "BAKERSFIELD",
+      "state": "CA",
+      "zip": "93307",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 225,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 49,
+    "fields": {
+      "auction": 2,
+      "auction_location": "BALTIMORE ",
+      "city": "FINKSBURG",
+      "state": "MD",
+      "zip": "21048",
+      "port_savannah": 650,
+      "port_newark": 275,
+      "port_houston": 950,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 50,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Baltimore ",
+      "city": "Baltimore",
+      "state": "MD",
+      "zip": "21226",
+      "port_savannah": 650,
+      "port_newark": 275,
+      "port_houston": 950,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 51,
+    "fields": {
+      "auction": 2,
+      "auction_location": "BATON ROUGE ",
+      "city": "GREENWELL SPRINGS",
+      "state": "LA",
+      "zip": "70739",
+      "port_savannah": 450,
+      "port_newark": 850,
+      "port_houston": 300,
+      "port_los_angeles": 1050,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 52,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Baton Rouge ",
+      "city": "Livingston",
+      "state": "LA",
+      "zip": "70754",
+      "port_savannah": 450,
+      "port_newark": 850,
+      "port_houston": 325,
+      "port_los_angeles": 1050,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 53,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Billings ",
+      "city": "Billings",
+      "state": "MT",
+      "zip": "59101",
+      "port_savannah": 1650,
+      "port_newark": 1350,
+      "port_houston": 1350,
+      "port_los_angeles": 1050,
+      "port_indianapolis": 1050
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 54,
+    "fields": {
+      "auction": 2,
+      "auction_location": "BILLINGS ",
+      "city": "BILLINGS",
+      "state": "MT",
+      "zip": "59103",
+      "port_savannah": 1650,
+      "port_newark": 1350,
+      "port_houston": 1350,
+      "port_los_angeles": 1050,
+      "port_indianapolis": 1050
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 55,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Birmingham ",
+      "city": "Bessemer",
+      "state": "AL",
+      "zip": "35022",
+      "port_savannah": 375,
+      "port_newark": 700,
+      "port_houston": 600,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 56,
+    "fields": {
+      "auction": 2,
+      "auction_location": "BIRMINGHAM ",
+      "city": "HUEYTOWN",
+      "state": "AL",
+      "zip": "35023",
+      "port_savannah": 375,
+      "port_newark": 700,
+      "port_houston": 600,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 57,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Boise ",
+      "city": "Caldwell",
+      "state": "ID",
+      "zip": "83605-\n6077",
+      "port_savannah": 1750,
+      "port_newark": 1350,
+      "port_houston": 1150,
+      "port_los_angeles": 750,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 58,
+    "fields": {
+      "auction": 2,
+      "auction_location": "BOISE ",
+      "city": "NAMPA",
+      "state": "ID",
+      "zip": "83651",
+      "port_savannah": 1750,
+      "port_newark": 1350,
+      "port_houston": 1150,
+      "port_los_angeles": 750,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 59,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Boston  Shirley ",
+      "city": "Shirley",
+      "state": "MA",
+      "zip": "01464",
+      "port_savannah": 850,
+      "port_newark": 350,
+      "port_houston": 1250,
+      "port_los_angeles": 1850,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 60,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Bowling Green ",
+      "city": "Bowling Green",
+      "state": "KY",
+      "zip": "42101",
+      "port_savannah": 475,
+      "port_newark": 600,
+      "port_houston": 750,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 61,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Bridgeport PA ",
+      "city": "Bridgeport",
+      "state": "PA",
+      "zip": "19405",
+      "port_savannah": 700,
+      "port_newark": 250,
+      "port_houston": 1050,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 62,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Buckhannon ",
+      "city": "Buckhannon",
+      "state": "WV",
+      "zip": "26201",
+      "port_savannah": 650,
+      "port_newark": 550,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 63,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Buffalo ",
+      "city": "buffalo",
+      "state": "NY",
+      "zip": "14207",
+      "port_savannah": 850,
+      "port_newark": 425,
+      "port_houston": 1350,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 64,
+    "fields": {
+      "auction": 2,
+      "auction_location": "BUFFALO",
+      "city": "ANGOLA",
+      "state": "NY",
+      "zip": "14006",
+      "port_savannah": 850,
+      "port_newark": 425,
+      "port_houston": 1350,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 65,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Burlington ",
+      "city": "Essex",
+      "state": "VT",
+      "zip": "05451",
+      "port_savannah": 950,
+      "port_newark": 400,
+      "port_houston": 1400,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 900
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 66,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CANDIA NH ",
+      "city": "Candia",
+      "state": "NH",
+      "zip": "03034",
+      "port_savannah": 850,
+      "port_newark": 350,
+      "port_houston": 1350,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 850
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 67,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CARTERSVILLE ",
+      "city": "CARTERSVILLE",
+      "state": "GA",
+      "zip": "30120",
+      "port_savannah": 275,
+      "port_newark": 800,
+      "port_houston": 800,
+      "port_los_angeles": 1600,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 68,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Casper",
+      "city": "Casper",
+      "state": "WY",
+      "zip": "82601",
+      "port_savannah": 1150,
+      "port_newark": 1050,
+      "port_houston": 900,
+      "port_los_angeles": 950,
+      "port_indianapolis": 1000
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 69,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CASPER",
+      "city": "CASPER",
+      "state": "WY",
+      "zip": "82604",
+      "port_savannah": 1150,
+      "port_newark": 1050,
+      "port_houston": 900,
+      "port_los_angeles": 950,
+      "port_indianapolis": 1000
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 70,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Central New Jersey ",
+      "city": "Morganville",
+      "state": "NJ",
+      "zip": "07751",
+      "port_savannah": 650,
+      "port_newark": 150,
+      "port_houston": 1100,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 600
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 71,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CHAMBERSBURG ",
+      "city": "CHAMBERSBU RG",
+      "state": "PA",
+      "zip": "17201",
+      "port_savannah": 750,
+      "port_newark": 325,
+      "port_houston": 1150,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 72,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Charleston ",
+      "city": "Ravenel",
+      "state": "SC",
+      "zip": "29470",
+      "port_savannah": 200,
+      "port_newark": 500,
+      "port_houston": 750,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 850
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 73,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CHARLESTONHurri cane ",
+      "city": "HURRICANE",
+      "state": "WV",
+      "zip": "25526",
+      "port_savannah": 650,
+      "port_newark": 550,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 74,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Charlotte ",
+      "city": "Charlotte",
+      "state": "NC",
+      "zip": "28206-\n1286",
+      "port_savannah": 300,
+      "port_newark": 450,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 75,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Chattanooga ",
+      "city": "Chattanooga",
+      "state": "TN",
+      "zip": "37404",
+      "port_savannah": 375,
+      "port_newark": 650,
+      "port_houston": 600,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 76,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CHICAGO NORTH ",
+      "city": "ELGIN",
+      "state": "IL",
+      "zip": "60120",
+      "port_savannah": 800,
+      "port_newark": 500,
+      "port_houston": 850,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 200
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 77,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CHICAGO SOUTH ",
+      "city": "CHICAGO HEIGHTS",
+      "state": "IL",
+      "zip": "60411",
+      "port_savannah": 800,
+      "port_newark": 500,
+      "port_houston": 850,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 200
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 78,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ChicagoNorth ",
+      "city": "East Dundee",
+      "state": "IL",
+      "zip": "60118",
+      "port_savannah": 800,
+      "port_newark": 500,
+      "port_houston": 850,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 200
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 79,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ChicagoSouth ",
+      "city": "Markham",
+      "state": "IL",
+      "zip": "60428",
+      "port_savannah": 800,
+      "port_newark": 550,
+      "port_houston": 750,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 200
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 80,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ChicagoWest ",
+      "city": "Aurora",
+      "state": "IL",
+      "zip": "60505",
+      "port_savannah": 800,
+      "port_newark": 500,
+      "port_houston": 850,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 200
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 81,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CHINA GROVE ",
+      "city": "CHINA GROVE",
+      "state": "NC",
+      "zip": "28023",
+      "port_savannah": 275,
+      "port_newark": 450,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 82,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Cincinnati ",
+      "city": "West Chester",
+      "state": "OH",
+      "zip": "45069",
+      "port_savannah": 700,
+      "port_newark": 450,
+      "port_houston": 850,
+      "port_los_angeles": 1750,
+      "port_indianapolis": 250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 83,
+    "fields": {
+      "auction": 1,
+      "auction_location": "CincinnatiSouth ",
+      "city": "Amelia",
+      "state": "OH",
+      "zip": "45102",
+      "port_savannah": 700,
+      "port_newark": 450,
+      "port_houston": 850,
+      "port_los_angeles": 1750,
+      "port_indianapolis": 250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 84,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Clearwater ",
+      "city": "Clearwater",
+      "state": "FL",
+      "zip": "33760",
+      "port_savannah": 300,
+      "port_newark": 850,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 85,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Cleveland ",
+      "city": "Lorain",
+      "state": "OH",
+      "zip": "44053",
+      "port_savannah": 700,
+      "port_newark": 400,
+      "port_houston": 950,
+      "port_los_angeles": 1750,
+      "port_indianapolis": 400
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 86,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CLEVELAND EAST ",
+      "city": "NORTHFIELD",
+      "state": "OH",
+      "zip": "44067",
+      "port_savannah": 700,
+      "port_newark": 400,
+      "port_houston": 950,
+      "port_los_angeles": 1750,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 87,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CLEVELAND WEST ",
+      "city": "COLUMBIA STATION",
+      "state": "OH",
+      "zip": "44028",
+      "port_savannah": 700,
+      "port_newark": 400,
+      "port_houston": 950,
+      "port_los_angeles": 1750,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 88,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CO  Denver South",
+      "city": "LITTLETON",
+      "state": "CO",
+      "zip": "80125",
+      "port_savannah": 1100,
+      "port_newark": 1050,
+      "port_houston": 650,
+      "port_los_angeles": 850,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 89,
+    "fields": {
+      "auction": 2,
+      "auction_location": "COLORADO SPRINGS",
+      "city": "COLORADO SPRINGS",
+      "state": "CO",
+      "zip": "80907",
+      "port_savannah": 1100,
+      "port_newark": 1050,
+      "port_houston": 650,
+      "port_los_angeles": 850,
+      "port_indianapolis": 850
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 90,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Colton ",
+      "city": "Colton",
+      "state": "CA",
+      "zip": "92324",
+      "port_savannah": 1450,
+      "port_newark": 1550,
+      "port_houston": 850,
+      "port_los_angeles": 175,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 91,
+    "fields": {
+      "auction": 2,
+      "auction_location": "COLUMBIA MO ",
+      "city": "COLUMBIA",
+      "state": "MO",
+      "zip": "65201",
+      "port_savannah": 650,
+      "port_newark": 700,
+      "port_houston": 400,
+      "port_los_angeles": 1350,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 92,
+    "fields": {
+      "auction": 2,
+      "auction_location": "COLUMBIA SC ",
+      "city": "GASTON",
+      "state": "SC",
+      "zip": "29053",
+      "port_savannah": 225,
+      "port_newark": 500,
+      "port_houston": 750,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 93,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Columbia",
+      "city": "Columbia",
+      "state": "SC",
+      "zip": "29209",
+      "port_savannah": 225,
+      "port_newark": 500,
+      "port_houston": 750,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 94,
+    "fields": {
+      "auction": 2,
+      "auction_location": "COLUMBUS ",
+      "city": "COLUMBUS",
+      "state": "OH",
+      "zip": "43207",
+      "port_savannah": 700,
+      "port_newark": 400,
+      "port_houston": 850,
+      "port_los_angeles": 1750,
+      "port_indianapolis": 250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 95,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Columbus OH ",
+      "city": "Grove City",
+      "state": "OH",
+      "zip": "43123",
+      "port_savannah": 700,
+      "port_newark": 400,
+      "port_houston": 850,
+      "port_los_angeles": 1750,
+      "port_indianapolis": 250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 96,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Concord ",
+      "city": "Concord",
+      "state": "NC",
+      "zip": "28025",
+      "port_savannah": 300,
+      "port_newark": 450,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 97,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Corpus Christi ",
+      "city": "Corpus Christi",
+      "state": "TX",
+      "zip": "78405",
+      "port_savannah": 750,
+      "port_newark": 1200,
+      "port_houston": 250,
+      "port_los_angeles": 950,
+      "port_indianapolis": 950
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 98,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CORPUS CHRISTI",
+      "city": "CORPUS CHRISTI",
+      "state": "TX",
+      "zip": "78405",
+      "port_savannah": 750,
+      "port_newark": 1200,
+      "port_houston": 250,
+      "port_los_angeles": 950,
+      "port_indianapolis": 950
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 99,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CRASHEDTOYS ATLANTA ",
+      "city": "EAST POINT",
+      "state": "GA",
+      "zip": "30344",
+      "port_savannah": 275,
+      "port_newark": 800,
+      "port_houston": 800,
+      "port_los_angeles": 1600,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 100,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CRASHEDTOYS DALLAS",
+      "city": "DALLAS",
+      "state": "TX",
+      "zip": "75247",
+      "port_savannah": 750,
+      "port_newark": 950,
+      "port_houston": 250,
+      "port_los_angeles": 950,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 101,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CRASHEDTOYS EAST BETHEL",
+      "city": "EAST BETHEL",
+      "state": "MN",
+      "zip": "55011",
+      "port_savannah": 1100,
+      "port_newark": 800,
+      "port_houston": 1250,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 400
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 102,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CRASHEDTOYS MINNEAPOLIS ",
+      "city": "BLAINE",
+      "state": "MN",
+      "zip": "55434",
+      "port_savannah": 1150,
+      "port_newark": 850,
+      "port_houston": 1250,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 103,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CRASHEDTOYS SACRAMENTO",
+      "city": "SACRAMENTO",
+      "state": "CA",
+      "zip": "95828",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 325,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 104,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Culpeper",
+      "city": "Culpeper",
+      "state": "VA",
+      "zip": "22701",
+      "port_savannah": 550,
+      "port_newark": 390,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 105,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Dallas ",
+      "city": "Wilmer",
+      "state": "TX",
+      "zip": "75172",
+      "port_savannah": 750,
+      "port_newark": 950,
+      "port_houston": 250,
+      "port_los_angeles": 950,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 106,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DALLAS SOUTH ",
+      "city": "WILMER",
+      "state": "TX",
+      "zip": "75172",
+      "port_savannah": 750,
+      "port_newark": 950,
+      "port_houston": 250,
+      "port_los_angeles": 950,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 107,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DALLAS",
+      "city": "GRAND PRAIRIE",
+      "state": "TX",
+      "zip": "75051",
+      "port_savannah": 750,
+      "port_newark": 950,
+      "port_houston": 250,
+      "port_los_angeles": 950,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 108,
+    "fields": {
+      "auction": 1,
+      "auction_location": "DallasFt Worth ",
+      "city": "Grand Prairie",
+      "state": "TX",
+      "zip": "75050-\n4606",
+      "port_savannah": 750,
+      "port_newark": 950,
+      "port_houston": 250,
+      "port_los_angeles": 950,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 109,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DANVILLE ",
+      "city": "CHATHAM",
+      "state": "VA",
+      "zip": "24531",
+      "port_savannah": 550,
+      "port_newark": 390,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 110,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Davenport ",
+      "city": "Davenport",
+      "state": "IA",
+      "zip": "52802",
+      "port_savannah": 1100,
+      "port_newark": 600,
+      "port_houston": 850,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 400
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 111,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Dayton ",
+      "city": "Dayton",
+      "state": "OH",
+      "zip": "45417",
+      "port_savannah": 700,
+      "port_newark": 400,
+      "port_houston": 850,
+      "port_los_angeles": 1750,
+      "port_indianapolis": 250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 112,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DAYTON",
+      "city": "Moraine",
+      "state": "OH",
+      "zip": "45439",
+      "port_savannah": 700,
+      "port_newark": 400,
+      "port_houston": 850,
+      "port_los_angeles": 1750,
+      "port_indianapolis": 250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 113,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Denver ",
+      "city": "Denver",
+      "state": "CO",
+      "zip": "80221",
+      "port_savannah": 1100,
+      "port_newark": 1050,
+      "port_houston": 650,
+      "port_los_angeles": 850,
+      "port_indianapolis": 850
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 114,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DENVER CENTRAL",
+      "city": "DENVER",
+      "state": "CO",
+      "zip": "80229",
+      "port_savannah": 1100,
+      "port_newark": 1050,
+      "port_houston": 650,
+      "port_los_angeles": 850,
+      "port_indianapolis": 850
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 115,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Denver East ",
+      "city": "Commerce City",
+      "state": "CO",
+      "zip": "80022",
+      "port_savannah": 1100,
+      "port_newark": 1050,
+      "port_houston": 650,
+      "port_los_angeles": 850,
+      "port_indianapolis": 850
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 116,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DENVER SOUTH",
+      "city": "LITTLETON",
+      "state": "CO",
+      "zip": "80125",
+      "port_savannah": 1100,
+      "port_newark": 1050,
+      "port_houston": 650,
+      "port_los_angeles": 850,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 117,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DENVERBrighton ",
+      "city": "BRIGHTON",
+      "state": "CO",
+      "zip": "80603",
+      "port_savannah": 1100,
+      "port_newark": 1050,
+      "port_houston": 650,
+      "port_los_angeles": 850,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 118,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Des Moines ",
+      "city": "De Soto",
+      "state": "IA",
+      "zip": "50069",
+      "port_savannah": 1100,
+      "port_newark": 600,
+      "port_houston": 850,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 119,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DES MOINES ",
+      "city": "DES MOINES",
+      "state": "IA",
+      "zip": "50317",
+      "port_savannah": 1100,
+      "port_newark": 600,
+      "port_houston": 850,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 120,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Detroit ",
+      "city": "Belleville",
+      "state": "MI",
+      "zip": "48111",
+      "port_savannah": 750,
+      "port_newark": 450,
+      "port_houston": 950,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 425
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 121,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DETROIT ",
+      "city": "WOODHAVEN",
+      "state": "MI",
+      "zip": "48183",
+      "port_savannah": 750,
+      "port_newark": 450,
+      "port_houston": 950,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 122,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Dothan ",
+      "city": "Headland",
+      "state": "AL",
+      "zip": "36345-\n8203",
+      "port_savannah": 325,
+      "port_newark": 750,
+      "port_houston": 600,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 123,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Dundalk ",
+      "city": "Dundalk",
+      "state": "MD",
+      "zip": "21222",
+      "port_savannah": 650,
+      "port_newark": 300,
+      "port_houston": 950,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 124,
+    "fields": {
+      "auction": 1,
+      "auction_location": "East Bay ",
+      "city": "Bay Point",
+      "state": "CA",
+      "zip": "94565",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 325,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 125,
+    "fields": {
+      "auction": 1,
+      "auction_location": "El Paso ",
+      "city": "El Paso",
+      "state": "TX",
+      "zip": "79927",
+      "port_savannah": 950,
+      "port_newark": 1350,
+      "port_houston": 450,
+      "port_los_angeles": 650,
+      "port_indianapolis": 1250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 126,
+    "fields": {
+      "auction": 2,
+      "auction_location": "EL PASO",
+      "city": "Anthony",
+      "state": "TX",
+      "zip": "79821",
+      "port_savannah": 950,
+      "port_newark": 1350,
+      "port_houston": 450,
+      "port_los_angeles": 650,
+      "port_indianapolis": 1250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 127,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Erie ",
+      "city": "Garland",
+      "state": "PA",
+      "zip": "16416",
+      "port_savannah": 950,
+      "port_newark": 475,
+      "port_houston": 1350,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 128,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Eugene ",
+      "city": "Eugene",
+      "state": "OR",
+      "zip": "97402-\n2002",
+      "port_savannah": 1750,
+      "port_newark": 1550,
+      "port_houston": 1150,
+      "port_los_angeles": 525,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 129,
+    "fields": {
+      "auction": 2,
+      "auction_location": "EUGENE ",
+      "city": "EUGENE",
+      "state": "OR",
+      "zip": "97402",
+      "port_savannah": 1750,
+      "port_newark": 1550,
+      "port_houston": 1150,
+      "port_los_angeles": 520,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 130,
+    "fields": {
+      "auction": 2,
+      "auction_location": "EXETER",
+      "city": "EXETER",
+      "state": "RI",
+      "zip": "02822",
+      "port_savannah": 900,
+      "port_newark": 350,
+      "port_houston": 1250,
+      "port_los_angeles": 1850,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 131,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Fargo ",
+      "city": "Fargo",
+      "state": "ND",
+      "zip": "58102",
+      "port_savannah": 1350,
+      "port_newark": 1150,
+      "port_houston": 1350,
+      "port_los_angeles": 1250,
+      "port_indianapolis": 950
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 132,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Fayetteville ",
+      "city": "Lincoln",
+      "state": "AR",
+      "zip": "72744",
+      "port_savannah": 750,
+      "port_newark": 900,
+      "port_houston": 400,
+      "port_los_angeles": 1050,
+      "port_indianapolis": 600
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 133,
+    "fields": {
+      "auction": 2,
+      "auction_location": "FAYETTEVILLE ",
+      "city": "PRAIRIE GROVE",
+      "state": "AR",
+      "zip": "72753",
+      "port_savannah": 750,
+      "port_newark": 900,
+      "port_houston": 400,
+      "port_los_angeles": 1050,
+      "port_indianapolis": 600
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 134,
+    "fields": {
+      "auction": 2,
+      "auction_location": "FLINT ",
+      "city": "Davison",
+      "state": "MI",
+      "zip": "48423",
+      "port_savannah": 750,
+      "port_newark": 500,
+      "port_houston": 950,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 135,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Flint MI ",
+      "city": "Flint",
+      "state": "MI",
+      "zip": "48507",
+      "port_savannah": 750,
+      "port_newark": 500,
+      "port_houston": 950,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 136,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Fontana ",
+      "city": "Fontana",
+      "state": "CA",
+      "zip": "92335-\n5241",
+      "port_savannah": 1450,
+      "port_newark": 1550,
+      "port_houston": 850,
+      "port_los_angeles": 150,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 137,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Fort Myers ",
+      "city": "North Fort Myers",
+      "state": "FL",
+      "zip": "33903",
+      "port_savannah": 350,
+      "port_newark": 900,
+      "port_houston": 900,
+      "port_los_angeles": 1700,
+      "port_indianapolis": 1250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 138,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Fort Pierce",
+      "city": "Fort Pierce",
+      "state": "FL",
+      "zip": "34945",
+      "port_savannah": 325,
+      "port_newark": 850,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 1250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 139,
+    "fields": {
+      "auction": 2,
+      "auction_location": "FORT WAYNE ",
+      "city": "HARTFORD CITY",
+      "state": "IN",
+      "zip": "47348",
+      "port_savannah": 800,
+      "port_newark": 550,
+      "port_houston": 1050,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 200
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 140,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Fort Worth North ",
+      "city": "JUSTIN",
+      "state": "TX",
+      "zip": "76247",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 300,
+      "port_los_angeles": 0,
+      "port_indianapolis": 1050
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 141,
+    "fields": {
+      "auction": 2,
+      "auction_location": "FREDERICKSBURG ",
+      "city": "FREDERICKSB URG",
+      "state": "VA",
+      "zip": "22408",
+      "port_savannah": 600,
+      "port_newark": 390,
+      "port_houston": 950,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 142,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Fredericksgburg South ",
+      "city": "Fredericksburg",
+      "state": "VA",
+      "zip": "22408",
+      "port_savannah": 600,
+      "port_newark": 390,
+      "port_houston": 950,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 143,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Fremont ",
+      "city": "Fremont",
+      "state": "CA",
+      "zip": "94538",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 325,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 144,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Fresno ",
+      "city": "Fresno",
+      "state": "CA",
+      "zip": "93705",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 300,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 145,
+    "fields": {
+      "auction": 2,
+      "auction_location": "FRESNO ",
+      "city": "FRESNO",
+      "state": "CA",
+      "zip": "93725",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 300,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 146,
+    "fields": {
+      "auction": 2,
+      "auction_location": "FT PIERCE ",
+      "city": "FORT PIERCE",
+      "state": "FL",
+      "zip": "34946",
+      "port_savannah": 325,
+      "port_newark": 850,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 1250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 147,
+    "fields": {
+      "auction": 2,
+      "auction_location": "FT WORTH",
+      "city": "HASLET",
+      "state": "TX",
+      "zip": "76052",
+      "port_savannah": 750,
+      "port_newark": 950,
+      "port_houston": 250,
+      "port_los_angeles": 950,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 148,
+    "fields": {
+      "auction": 2,
+      "auction_location": "GLASSBORO EAST ",
+      "city": "GLASSBORO",
+      "state": "NJ",
+      "zip": "08028",
+      "port_savannah": 650,
+      "port_newark": 175,
+      "port_houston": 1150,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 149,
+    "fields": {
+      "auction": 2,
+      "auction_location": "GRAHAM ",
+      "city": "GRAHAM",
+      "state": "WA",
+      "zip": "98338",
+      "port_savannah": 1950,
+      "port_newark": 1550,
+      "port_houston": 1350,
+      "port_los_angeles": 650,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 150,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Grand Rapids ",
+      "city": "Byron Center",
+      "state": "MI",
+      "zip": "49315",
+      "port_savannah": 800,
+      "port_newark": 550,
+      "port_houston": 1050,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 151,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Greensboro ",
+      "city": "Graham",
+      "state": "NC",
+      "zip": "27253-\n9468",
+      "port_savannah": 300,
+      "port_newark": 450,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 152,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Greenville ",
+      "city": "Simpsonville",
+      "state": "SC",
+      "zip": "29681",
+      "port_savannah": 250,
+      "port_newark": 500,
+      "port_houston": 850,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 153,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Grenada ",
+      "city": "Grenada",
+      "state": "MS",
+      "zip": "38901",
+      "port_savannah": 500,
+      "port_newark": 800,
+      "port_houston": 450,
+      "port_los_angeles": 1150,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 154,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Gulf Coast ",
+      "city": "Moss Point",
+      "state": "MS",
+      "zip": "39562",
+      "port_savannah": 400,
+      "port_newark": 850,
+      "port_houston": 425,
+      "port_los_angeles": 1150,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 155,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HAMMOND ",
+      "city": "HAMMOND",
+      "state": "IN",
+      "zip": "46320",
+      "port_savannah": 800,
+      "port_newark": 500,
+      "port_houston": 850,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 200
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 156,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HAMPTON",
+      "city": "HAMPTON",
+      "state": "VA",
+      "zip": "23666",
+      "port_savannah": 550,
+      "port_newark": 390,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 157,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HARRISBURG ",
+      "city": "GRANTVILLE",
+      "state": "PA",
+      "zip": "17028",
+      "port_savannah": 750,
+      "port_newark": 250,
+      "port_houston": 1150,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 158,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HARTFORD ",
+      "city": "NEW BRITAIN",
+      "state": "CT",
+      "zip": "06051",
+      "port_savannah": 750,
+      "port_newark": 225,
+      "port_houston": 1250,
+      "port_los_angeles": 1750,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 159,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Hartford ",
+      "city": "East Windsor",
+      "state": "CT",
+      "zip": "06088",
+      "port_savannah": 750,
+      "port_newark": 225,
+      "port_houston": 1250,
+      "port_los_angeles": 1750,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 160,
+    "fields": {
+      "auction": 1,
+      "auction_location": "HartfordSouth ",
+      "city": "Middletown",
+      "state": "CT",
+      "zip": "06457",
+      "port_savannah": 750,
+      "port_newark": 225,
+      "port_houston": 1250,
+      "port_los_angeles": 1750,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 161,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HAYWARD  DESERT VIEW",
+      "city": "HAYWARD",
+      "state": "CA",
+      "zip": "94545",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 300,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 162,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HAYWARD ",
+      "city": "HAYWARD",
+      "state": "CA",
+      "zip": "94545",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 325,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 163,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HELENA ",
+      "city": "HELENA",
+      "state": "MT",
+      "zip": "59601",
+      "port_savannah": 1650,
+      "port_newark": 1350,
+      "port_houston": 1350,
+      "port_los_angeles": 1050,
+      "port_indianapolis": 1100
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 164,
+    "fields": {
+      "auction": 1,
+      "auction_location": "High Desert ",
+      "city": "Hesperia",
+      "state": "CA",
+      "zip": "92345",
+      "port_savannah": 1450,
+      "port_newark": 1550,
+      "port_houston": 850,
+      "port_los_angeles": 200,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 165,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HONOLULU LIHUE",
+      "city": "LIHUE",
+      "state": "HI",
+      "zip": "",
+      "port_savannah": 4500,
+      "port_newark": 5500,
+      "port_houston": 3900,
+      "port_los_angeles": 2850,
+      "port_indianapolis": 5300
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 166,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Honolulu Kailua-Kona",
+      "city": "Kailua-Kona Hawaii island",
+      "state": "HI",
+      "zip": "",
+      "port_savannah": 4150,
+      "port_newark": 5150,
+      "port_houston": 3550,
+      "port_los_angeles": 2500,
+      "port_indianapolis": 4950
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 167,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HONOLULU KAILUA-KONA",
+      "city": "KAILUA-KONA",
+      "state": "HI",
+      "zip": "",
+      "port_savannah": 4150,
+      "port_newark": 5150,
+      "port_houston": 3550,
+      "port_los_angeles": 2500,
+      "port_indianapolis": 4950
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 168,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Honolulu Kapolei Oahu",
+      "city": "Kapolei Oahu island",
+      "state": "HI",
+      "zip": "96707-1715",
+      "port_savannah": 3450,
+      "port_newark": 4450,
+      "port_houston": 2850,
+      "port_los_angeles": 1800,
+      "port_indianapolis": 4250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 169,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HONOLULU Kapolei Oahu",
+      "city": "KAPOLEI",
+      "state": "HI",
+      "zip": "96707",
+      "port_savannah": 3450,
+      "port_newark": 4450,
+      "port_houston": 2850,
+      "port_los_angeles": 1800,
+      "port_indianapolis": 4250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 170,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Honolulu Lihue Kauai",
+      "city": "Lihue Kauai island",
+      "state": "HI",
+      "zip": "",
+      "port_savannah": 4500,
+      "port_newark": 5500,
+      "port_houston": 3900,
+      "port_los_angeles": 2850,
+      "port_indianapolis": 5300
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 171,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Honolulu Maui",
+      "city": "Maui Maui Island",
+      "state": "HI",
+      "zip": "",
+      "port_savannah": 3750,
+      "port_newark": 4750,
+      "port_houston": 3150,
+      "port_los_angeles": 2100,
+      "port_indianapolis": 4550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 172,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HONOLULU MAUI",
+      "city": "MAUI",
+      "state": "HI",
+      "zip": "",
+      "port_savannah": 3750,
+      "port_newark": 4750,
+      "port_houston": 3150,
+      "port_los_angeles": 2100,
+      "port_indianapolis": 4550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 173,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Houston ",
+      "city": "Houston",
+      "state": "TX",
+      "zip": "77038-\n3532",
+      "port_savannah": 600,
+      "port_newark": 950,
+      "port_houston": 125,
+      "port_los_angeles": 850,
+      "port_indianapolis": 850
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 174,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HOUSTON ",
+      "city": "HOUSTON",
+      "state": "TX",
+      "zip": "77073",
+      "port_savannah": 600,
+      "port_newark": 950,
+      "port_houston": 125,
+      "port_los_angeles": 850,
+      "port_indianapolis": 850
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 175,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Houston South ",
+      "city": "Rosharon",
+      "state": "TX",
+      "zip": "77583",
+      "port_savannah": 600,
+      "port_newark": 950,
+      "port_houston": 125,
+      "port_los_angeles": 850,
+      "port_indianapolis": 850
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 176,
+    "fields": {
+      "auction": 1,
+      "auction_location": "HoustonNorth ",
+      "city": "Houston",
+      "state": "TX",
+      "zip": "77032",
+      "port_savannah": 600,
+      "port_newark": 950,
+      "port_houston": 125,
+      "port_los_angeles": 850,
+      "port_indianapolis": 850
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 177,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Huntsville ",
+      "city": "Athens",
+      "state": "AL",
+      "zip": "35613-\n6751",
+      "port_savannah": 350,
+      "port_newark": 650,
+      "port_houston": 650,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 178,
+    "fields": {
+      "auction": 2,
+      "auction_location": "IA  CRASHEDTOYS ELDRIDGE",
+      "city": "ELDRIDGE",
+      "state": "IA",
+      "zip": "52748",
+      "port_savannah": 1100,
+      "port_newark": 600,
+      "port_houston": 850,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 179,
+    "fields": {
+      "auction": 2,
+      "auction_location": "IA  DAVENPORT",
+      "city": "ELDRIDGE",
+      "state": "IA",
+      "zip": "52748",
+      "port_savannah": 1100,
+      "port_newark": 600,
+      "port_houston": 850,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 180,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Indianapolis ",
+      "city": "Indianapolis",
+      "state": "IN",
+      "zip": "46217",
+      "port_savannah": 700,
+      "port_newark": 450,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 125
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 181,
+    "fields": {
+      "auction": 2,
+      "auction_location": "INDIANAPOLIS ",
+      "city": "INDIANAPOLIS",
+      "state": "IN",
+      "zip": "46254",
+      "port_savannah": 700,
+      "port_newark": 450,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 125
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 182,
+    "fields": {
+      "auction": 2,
+      "auction_location": "IONIA",
+      "city": "PORTLAND",
+      "state": "MI",
+      "zip": "48875",
+      "port_savannah": 750,
+      "port_newark": 510,
+      "port_houston": 950,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 183,
+    "fields": {
+      "auction": 2,
+      "auction_location": "JACKSON ",
+      "city": "FLORENCE",
+      "state": "MS",
+      "zip": "39073",
+      "port_savannah": 450,
+      "port_newark": 800,
+      "port_houston": 425,
+      "port_los_angeles": 1150,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 184,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Jackson ",
+      "city": "Jackson",
+      "state": "MS",
+      "zip": "39206-\n2919",
+      "port_savannah": 450,
+      "port_newark": 800,
+      "port_houston": 425,
+      "port_los_angeles": 1150,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 185,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Jacksonville ",
+      "city": "Jacksonville",
+      "state": "FL",
+      "zip": "32219-\n1229",
+      "port_savannah": 200,
+      "port_newark": 750,
+      "port_houston": 650,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 1050
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 186,
+    "fields": {
+      "auction": 2,
+      "auction_location": "JACKSONVILLE EAST ",
+      "city": "JACKSONVILLE",
+      "state": "FL",
+      "zip": "32209",
+      "port_savannah": 200,
+      "port_newark": 750,
+      "port_houston": 650,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 1050
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 187,
+    "fields": {
+      "auction": 2,
+      "auction_location": "JACKSONVILLE WEST ",
+      "city": "JACKSONVILLE",
+      "state": "FL",
+      "zip": "32220",
+      "port_savannah": 200,
+      "port_newark": 750,
+      "port_houston": 650,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 1050
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 188,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Kansas City ",
+      "city": "Kansas City",
+      "state": "KS",
+      "zip": "66111",
+      "port_savannah": 700,
+      "port_newark": 700,
+      "port_houston": 500,
+      "port_los_angeles": 1350,
+      "port_indianapolis": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 189,
+    "fields": {
+      "auction": 2,
+      "auction_location": "KANSAS CITY ",
+      "city": "KANSAS CITY",
+      "state": "KS",
+      "zip": "66111",
+      "port_savannah": 700,
+      "port_newark": 700,
+      "port_houston": 500,
+      "port_los_angeles": 1350,
+      "port_indianapolis": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 190,
+    "fields": {
+      "auction": 2,
+      "auction_location": "KINCHELOE ",
+      "city": "KINCHELOE",
+      "state": "MI",
+      "zip": "49788",
+      "port_savannah": 1150,
+      "port_newark": 950,
+      "port_houston": 1350,
+      "port_los_angeles": 2350,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 191,
+    "fields": {
+      "auction": 2,
+      "auction_location": "KNOXVILLE ",
+      "city": "MADISONVILLE",
+      "state": "TN",
+      "zip": "37354",
+      "port_savannah": 350,
+      "port_newark": 500,
+      "port_houston": 700,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 192,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Knoxville ",
+      "city": "Knoxville",
+      "state": "TN",
+      "zip": "37914",
+      "port_savannah": 375,
+      "port_newark": 500,
+      "port_houston": 700,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 193,
+    "fields": {
+      "auction": 2,
+      "auction_location": "KY  LOUISVILLE ",
+      "city": "LOUISVILLE",
+      "state": "KY",
+      "zip": "40272",
+      "port_savannah": 450,
+      "port_newark": 500,
+      "port_houston": 750,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 194,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Lafayette ",
+      "city": "Lafayette",
+      "state": "LA",
+      "zip": "70507",
+      "port_savannah": 450,
+      "port_newark": 850,
+      "port_houston": 300,
+      "port_los_angeles": 1050,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 195,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LANSING ",
+      "city": "LANSING",
+      "state": "MI",
+      "zip": "48917",
+      "port_savannah": 750,
+      "port_newark": 550,
+      "port_houston": 950,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 196,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Las Vegas ",
+      "city": "Henderson",
+      "state": "NV",
+      "zip": "89011",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 300,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 197,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LAS VEGAS ",
+      "city": "LAS VEGAS",
+      "state": "NV",
+      "zip": "89115",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 325,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 198,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Laurel ",
+      "city": "Laurel",
+      "state": "MD",
+      "zip": "20707-\n6506",
+      "port_savannah": 650,
+      "port_newark": 290,
+      "port_houston": 950,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 199,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Lexington ",
+      "city": "Lexington",
+      "state": "SC",
+      "zip": "29073",
+      "port_savannah": 225,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 200,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LEXINGTON EAST ",
+      "city": "LEXINGTON",
+      "state": "KY",
+      "zip": "40509",
+      "port_savannah": 450,
+      "port_newark": 500,
+      "port_houston": 750,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 201,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LEXINGTON WEST ",
+      "city": "LAWRENCEBU RG",
+      "state": "KY",
+      "zip": "40342",
+      "port_savannah": 450,
+      "port_newark": 500,
+      "port_houston": 750,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 202,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Lincoln ",
+      "city": "Lincoln",
+      "state": "IL",
+      "zip": "62656",
+      "port_savannah": 800,
+      "port_newark": 550,
+      "port_houston": 750,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 203,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LINCOLN ",
+      "city": "GREENWOOD",
+      "state": "NE",
+      "zip": "68366",
+      "port_savannah": 950,
+      "port_newark": 650,
+      "port_houston": 750,
+      "port_los_angeles": 1350,
+      "port_indianapolis": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 204,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LITTLE ROCK ",
+      "city": "CONWAY",
+      "state": "AR",
+      "zip": "72032",
+      "port_savannah": 600,
+      "port_newark": 850,
+      "port_houston": 400,
+      "port_los_angeles": 1150,
+      "port_indianapolis": 600
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 205,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Little Rock ",
+      "city": "Scott",
+      "state": "AR",
+      "zip": "72142-\n9081",
+      "port_savannah": 600,
+      "port_newark": 850,
+      "port_houston": 400,
+      "port_los_angeles": 1150,
+      "port_indianapolis": 600
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 206,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LONG BEACH ",
+      "city": "WILMINGTON",
+      "state": "CA",
+      "zip": "90744",
+      "port_savannah": 1450,
+      "port_newark": 1550,
+      "port_houston": 850,
+      "port_los_angeles": 150,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 207,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LONG ISLAND ",
+      "city": "BROOKHAVEN",
+      "state": "NY",
+      "zip": "11719",
+      "port_savannah": 750,
+      "port_newark": 225,
+      "port_houston": 1150,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 208,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Long Island ",
+      "city": "Medford",
+      "state": "NY",
+      "zip": "11763",
+      "port_savannah": 750,
+      "port_newark": 200,
+      "port_houston": 1150,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 209,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Longview ",
+      "city": "Longview",
+      "state": "TX",
+      "zip": "75605-\n6771",
+      "port_savannah": 650,
+      "port_newark": 950,
+      "port_houston": 275,
+      "port_los_angeles": 950,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 210,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LONGVIEW",
+      "city": "LONGVIEW",
+      "state": "TX",
+      "zip": "75603",
+      "port_savannah": 650,
+      "port_newark": 950,
+      "port_houston": 275,
+      "port_los_angeles": 950,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 211,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LOS ANGELES ",
+      "city": "LOS ANGELES",
+      "state": "CA",
+      "zip": "90001",
+      "port_savannah": 1450,
+      "port_newark": 1550,
+      "port_houston": 850,
+      "port_los_angeles": 150,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 212,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Los Angeles ",
+      "city": "Gardena",
+      "state": "CA",
+      "zip": "90248-\n4056",
+      "port_savannah": 1450,
+      "port_newark": 1550,
+      "port_houston": 850,
+      "port_los_angeles": 150,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 213,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Louisville ",
+      "city": "Shepherdsville",
+      "state": "KY",
+      "zip": "40165",
+      "port_savannah": 450,
+      "port_newark": 500,
+      "port_houston": 750,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 214,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Louisville North ",
+      "city": "Eminence",
+      "state": "KY",
+      "zip": "40019",
+      "port_savannah": 450,
+      "port_newark": 500,
+      "port_houston": 750,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 215,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Lubbock",
+      "city": "Lubbock",
+      "state": "TX",
+      "zip": "79415",
+      "port_savannah": 950,
+      "port_newark": 1350,
+      "port_houston": 450,
+      "port_los_angeles": 750,
+      "port_indianapolis": 950
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 216,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LUFKIN",
+      "city": "LUFKIN",
+      "state": "TX",
+      "zip": "75904",
+      "port_savannah": 750,
+      "port_newark": 950,
+      "port_houston": 250,
+      "port_los_angeles": 950,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 217,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LUMBERTON",
+      "city": "LUMBERTON",
+      "state": "NC",
+      "zip": "28360",
+      "port_savannah": 325,
+      "port_newark": 450,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 218,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LYMAN ",
+      "city": "LYMAN",
+      "state": "ME",
+      "zip": "04002",
+      "port_savannah": 950,
+      "port_newark": 375,
+      "port_houston": 1400,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 900
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 219,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MACON ",
+      "city": "BYRON",
+      "state": "GA",
+      "zip": "31008",
+      "port_savannah": 250,
+      "port_newark": 800,
+      "port_houston": 800,
+      "port_los_angeles": 1600,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 220,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Macon ",
+      "city": "Macon",
+      "state": "GA",
+      "zip": "31217",
+      "port_savannah": 250,
+      "port_newark": 800,
+      "port_houston": 800,
+      "port_los_angeles": 1600,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 221,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MADISON ",
+      "city": "MADISON",
+      "state": "WI",
+      "zip": "53718",
+      "port_savannah": 1100,
+      "port_newark": 750,
+      "port_houston": 1050,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 300
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 222,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Manchester ",
+      "city": "Salem",
+      "state": "NH",
+      "zip": "03079",
+      "port_savannah": 850,
+      "port_newark": 350,
+      "port_houston": 1350,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 850
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 223,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MARTINEZ ",
+      "city": "MARTINEZ",
+      "state": "CA",
+      "zip": "94553",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 325,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 224,
+    "fields": {
+      "auction": 1,
+      "auction_location": "McAllen ",
+      "city": "Donna",
+      "state": "TX",
+      "zip": "78537",
+      "port_savannah": 950,
+      "port_newark": 1300,
+      "port_houston": 300,
+      "port_los_angeles": 950,
+      "port_indianapolis": 1050
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 225,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MCALLEN",
+      "city": "MERCEDES",
+      "state": "TX",
+      "zip": "78570",
+      "port_savannah": 950,
+      "port_newark": 1300,
+      "port_houston": 300,
+      "port_los_angeles": 950,
+      "port_indianapolis": 1050
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 226,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MEBANE ",
+      "city": "MEBANE",
+      "state": "NC",
+      "zip": "27302",
+      "port_savannah": 300,
+      "port_newark": 450,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 227,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Memphis ",
+      "city": "Memphis",
+      "state": "TN",
+      "zip": "38118",
+      "port_savannah": 425,
+      "port_newark": 750,
+      "port_houston": 550,
+      "port_los_angeles": 1350,
+      "port_indianapolis": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 228,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MEMPHIS ",
+      "city": "MEMPHIS",
+      "state": "TN",
+      "zip": "38118",
+      "port_savannah": 425,
+      "port_newark": 750,
+      "port_houston": 550,
+      "port_los_angeles": 1350,
+      "port_indianapolis": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 229,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Metro DC ",
+      "city": "Brandywine",
+      "state": "MD",
+      "zip": "20613",
+      "port_savannah": 650,
+      "port_newark": 300,
+      "port_houston": 950,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 230,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Miami ",
+      "city": "Opa Locka",
+      "state": "FL",
+      "zip": "33054",
+      "port_savannah": 350,
+      "port_newark": 900,
+      "port_houston": 900,
+      "port_los_angeles": 1700,
+      "port_indianapolis": 1250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 231,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MIAMI CENTRAL ",
+      "city": "MIAMI",
+      "state": "FL",
+      "zip": "33167",
+      "port_savannah": 350,
+      "port_newark": 900,
+      "port_houston": 900,
+      "port_los_angeles": 1700,
+      "port_indianapolis": 1250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 232,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MIAMI NORTH ",
+      "city": "opa locka",
+      "state": "FL",
+      "zip": "33054",
+      "port_savannah": 350,
+      "port_newark": 900,
+      "port_houston": 900,
+      "port_los_angeles": 1700,
+      "port_indianapolis": 1250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 233,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MIAMI SOUTH ",
+      "city": "HOMESTEAD",
+      "state": "FL",
+      "zip": "33032",
+      "port_savannah": 350,
+      "port_newark": 900,
+      "port_houston": 900,
+      "port_los_angeles": 1700,
+      "port_indianapolis": 1250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 234,
+    "fields": {
+      "auction": 1,
+      "auction_location": "MiamiNorth ",
+      "city": "fort lauderdale",
+      "state": "FL",
+      "zip": "33332",
+      "port_savannah": 350,
+      "port_newark": 900,
+      "port_houston": 900,
+      "port_los_angeles": 1700,
+      "port_indianapolis": 1250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 235,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Milwaukee ",
+      "city": "Sussex",
+      "state": "WI",
+      "zip": "53089",
+      "port_savannah": 1100,
+      "port_newark": 750,
+      "port_houston": 1050,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 300
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 236,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MILWAUKEE ",
+      "city": "CUDAHY",
+      "state": "WI",
+      "zip": "53110",
+      "port_savannah": 1100,
+      "port_newark": 750,
+      "port_houston": 1050,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 300
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 237,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MINNEAPOLIS ",
+      "city": "BLAINE",
+      "state": "Minnes ota",
+      "zip": "55434",
+      "port_savannah": 1100,
+      "port_newark": 800,
+      "port_houston": 1250,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 238,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MINNEAPOLIS NORTH ",
+      "city": "HAM LAKE",
+      "state": "MN",
+      "zip": "55304",
+      "port_savannah": 1100,
+      "port_newark": 800,
+      "port_houston": 1250,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 239,
+    "fields": {
+      "auction": 1,
+      "auction_location": "MinneapolisSt Paul ",
+      "city": "Maplewood",
+      "state": "MN",
+      "zip": "55117",
+      "port_savannah": 1100,
+      "port_newark": 800,
+      "port_houston": 1250,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 240,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Missoula ",
+      "city": "Missoula",
+      "state": "MT",
+      "zip": "59802",
+      "port_savannah": 1650,
+      "port_newark": 1350,
+      "port_houston": 1350,
+      "port_los_angeles": 1050,
+      "port_indianapolis": 1100
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 241,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MOBILE ",
+      "city": "EIGHT MILE",
+      "state": "AL",
+      "zip": "36613",
+      "port_savannah": 350,
+      "port_newark": 850,
+      "port_houston": 550,
+      "port_los_angeles": 1350,
+      "port_indianapolis": 1050
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 242,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MOCKSVILLE",
+      "city": "MOCKSVILLE",
+      "state": "NC",
+      "zip": "27028",
+      "port_savannah": 300,
+      "port_newark": 500,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 243,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MONTGOMERY ",
+      "city": "MONTGOMERY",
+      "state": "AL",
+      "zip": "36116",
+      "port_savannah": 325,
+      "port_newark": 750,
+      "port_houston": 600,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 244,
+    "fields": {
+      "auction": 2,
+      "auction_location": "NASHVILLE ",
+      "city": "LEBANON",
+      "state": "TN",
+      "zip": "37090",
+      "port_savannah": 375,
+      "port_newark": 550,
+      "port_houston": 650,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 245,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Nashville ",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37218",
+      "port_savannah": 375,
+      "port_newark": 550,
+      "port_houston": 650,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 246,
+    "fields": {
+      "auction": 1,
+      "auction_location": "New Castle ",
+      "city": "New Castle",
+      "state": "DE",
+      "zip": "19720",
+      "port_savannah": 650,
+      "port_newark": 275,
+      "port_houston": 1050,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 247,
+    "fields": {
+      "auction": 2,
+      "auction_location": "NEW ORLEANS ",
+      "city": "NEW ORLEANS",
+      "state": "LA",
+      "zip": "70129",
+      "port_savannah": 450,
+      "port_newark": 850,
+      "port_houston": 300,
+      "port_los_angeles": 1050,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 248,
+    "fields": {
+      "auction": 1,
+      "auction_location": "New Orleans ",
+      "city": "Covington",
+      "state": "LA",
+      "zip": "70433",
+      "port_savannah": 450,
+      "port_newark": 850,
+      "port_houston": 300,
+      "port_los_angeles": 1050,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 249,
+    "fields": {
+      "auction": 1,
+      "auction_location": "New Orleans East ",
+      "city": "New Orleans",
+      "state": "LA",
+      "zip": "70126",
+      "port_savannah": 450,
+      "port_newark": 850,
+      "port_houston": 300,
+      "port_los_angeles": 1050,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 250,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Newburgh ",
+      "city": "Rock Tavern",
+      "state": "NY",
+      "zip": "12575",
+      "port_savannah": 750,
+      "port_newark": 200,
+      "port_houston": 1150,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 251,
+    "fields": {
+      "auction": 2,
+      "auction_location": "NEWBURGHMarlbo ro ",
+      "city": "MARLBORO",
+      "state": "NY",
+      "zip": "12542",
+      "port_savannah": 750,
+      "port_newark": 200,
+      "port_houston": 1150,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 252,
+    "fields": {
+      "auction": 2,
+      "auction_location": "NORTH BOSTON ",
+      "city": "NORTH BILLERICA",
+      "state": "MA",
+      "zip": "01862",
+      "port_savannah": 850,
+      "port_newark": 350,
+      "port_houston": 1250,
+      "port_los_angeles": 1850,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 253,
+    "fields": {
+      "auction": 2,
+      "auction_location": "NORTH CHARLESTON ",
+      "city": "HARLEYVILLE",
+      "state": "SC",
+      "zip": "29448",
+      "port_savannah": 200,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 254,
+    "fields": {
+      "auction": 1,
+      "auction_location": "North Hollywood ",
+      "city": "North Hollywood",
+      "state": "CA",
+      "zip": "91605-\n3709",
+      "port_savannah": 1450,
+      "port_newark": 1550,
+      "port_houston": 850,
+      "port_los_angeles": 200,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 255,
+    "fields": {
+      "auction": 2,
+      "auction_location": "NORTH SEATTLE ",
+      "city": "ARLINGTON",
+      "state": "WA",
+      "zip": "98223",
+      "port_savannah": 1950,
+      "port_newark": 1550,
+      "port_houston": 1350,
+      "port_los_angeles": 650,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 256,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Northern New Jersey ",
+      "city": "Carteret",
+      "state": "NJ",
+      "zip": "07008-\n1008",
+      "port_savannah": 650,
+      "port_newark": 150,
+      "port_houston": 1050,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 600
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 257,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Northern Virginia ",
+      "city": "Fredericksburg",
+      "state": "VA",
+      "zip": "22406-\n1030",
+      "port_savannah": 600,
+      "port_newark": 390,
+      "port_houston": 950,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 258,
+    "fields": {
+      "auction": 2,
+      "auction_location": "OCALA ",
+      "city": "OCALA",
+      "state": "FL",
+      "zip": "34482",
+      "port_savannah": 275,
+      "port_newark": 850,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 259,
+    "fields": {
+      "auction": 2,
+      "auction_location": "OGDEN UT",
+      "city": "FARR WEST",
+      "state": "UT",
+      "zip": "84404",
+      "port_savannah": 1750,
+      "port_newark": 1350,
+      "port_houston": 1150,
+      "port_los_angeles": 500,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 260,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Oklahoma City ",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zip": "73121",
+      "port_savannah": 750,
+      "port_newark": 900,
+      "port_houston": 400,
+      "port_los_angeles": 950,
+      "port_indianapolis": 600
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 261,
+    "fields": {
+      "auction": 2,
+      "auction_location": "OKLAHOMA CITY ",
+      "city": "OKLAHOMA CITY",
+      "state": "OK",
+      "zip": "73129",
+      "port_savannah": 750,
+      "port_newark": 900,
+      "port_houston": 400,
+      "port_los_angeles": 950,
+      "port_indianapolis": 600
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 262,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Omaha ",
+      "city": "Springfield",
+      "state": "NE",
+      "zip": "68059",
+      "port_savannah": 950,
+      "port_newark": 725,
+      "port_houston": 750,
+      "port_los_angeles": 1350,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 263,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ORLANDO ",
+      "city": "ORLANDO",
+      "state": "FL",
+      "zip": "32822",
+      "port_savannah": 275,
+      "port_newark": 850,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 264,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Orlando ",
+      "city": "Orlando",
+      "state": "FL",
+      "zip": "32824",
+      "port_savannah": 275,
+      "port_newark": 850,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 265,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ORLANDO NORTH ",
+      "city": "APOPKA",
+      "state": "FL",
+      "zip": "32712",
+      "port_savannah": 275,
+      "port_newark": 850,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 266,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ORLANDO SOUTH ",
+      "city": "ORLANDO",
+      "state": "FL",
+      "zip": "32824",
+      "port_savannah": 275,
+      "port_newark": 850,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 267,
+    "fields": {
+      "auction": 1,
+      "auction_location": "OrlandoNorth ",
+      "city": "Sanford",
+      "state": "FL",
+      "zip": "32773",
+      "port_savannah": 275,
+      "port_newark": 850,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 268,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Paducah ",
+      "city": "Paducah",
+      "state": "KY",
+      "zip": "42002",
+      "port_savannah": 450,
+      "port_newark": 500,
+      "port_houston": 750,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 269,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PASCO ",
+      "city": "PASCO",
+      "state": "WA",
+      "zip": "99301",
+      "port_savannah": 1950,
+      "port_newark": 1550,
+      "port_houston": 1350,
+      "port_los_angeles": 750,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 270,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Pensacola ",
+      "city": "Milton",
+      "state": "FL",
+      "zip": "32583",
+      "port_savannah": 350,
+      "port_newark": 850,
+      "port_houston": 550,
+      "port_los_angeles": 1350,
+      "port_indianapolis": 1050
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 271,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PEORIA ",
+      "city": "PEKIN",
+      "state": "IL",
+      "zip": "61554",
+      "port_savannah": 800,
+      "port_newark": 500,
+      "port_houston": 850,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 272,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Permian Basin ",
+      "city": "Odessa",
+      "state": "TX",
+      "zip": "79764",
+      "port_savannah": 950,
+      "port_newark": 1350,
+      "port_houston": 450,
+      "port_los_angeles": 750,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 273,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PHILADELPHIA ",
+      "city": "PENNSBURG",
+      "state": "PA",
+      "zip": "18073",
+      "port_savannah": 650,
+      "port_newark": 200,
+      "port_houston": 1050,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 274,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Philadelphia ",
+      "city": "Conshohocken",
+      "state": "PA",
+      "zip": "19428-\n1058",
+      "port_savannah": 650,
+      "port_newark": 200,
+      "port_houston": 1050,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 275,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PHILADELPHIA EAST ",
+      "city": "CHALFONT",
+      "state": "PA",
+      "zip": "18914",
+      "port_savannah": 650,
+      "port_newark": 200,
+      "port_houston": 1050,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 276,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PHOENIX ",
+      "city": "PHOENIX",
+      "state": "AZ",
+      "zip": "85043",
+      "port_savannah": 1300,
+      "port_newark": 1350,
+      "port_houston": 700,
+      "port_los_angeles": 325,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 277,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Phoenix ",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85041",
+      "port_savannah": 1300,
+      "port_newark": 1350,
+      "port_houston": 700,
+      "port_los_angeles": 325,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 278,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Pittsburgh ",
+      "city": "Aliquippa",
+      "state": "PA",
+      "zip": "15001",
+      "port_savannah": 850,
+      "port_newark": 390,
+      "port_houston": 1250,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 279,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PITTSBURGH EAST ",
+      "city": "ADAMSBURG",
+      "state": "PA",
+      "zip": "15611",
+      "port_savannah": 850,
+      "port_newark": 390,
+      "port_houston": 1250,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 280,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PITTSBURGH NORTH ",
+      "city": "ELLWOOD CITY",
+      "state": "PA",
+      "zip": "16117",
+      "port_savannah": 850,
+      "port_newark": 390,
+      "port_houston": 1250,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 281,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PITTSBURGH SOUTH ",
+      "city": "WEST MIFFLIN",
+      "state": "PA",
+      "zip": "15122",
+      "port_savannah": 850,
+      "port_newark": 390,
+      "port_houston": 1250,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 282,
+    "fields": {
+      "auction": 1,
+      "auction_location": "PittsburghNorth ",
+      "city": "Gibsonia",
+      "state": "PA",
+      "zip": "15044",
+      "port_savannah": 850,
+      "port_newark": 390,
+      "port_houston": 1250,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 450
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 283,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Portage ",
+      "city": "Portage",
+      "state": "WI",
+      "zip": "53901",
+      "port_savannah": 1100,
+      "port_newark": 750,
+      "port_houston": 1050,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 284,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Portland  Gorham ",
+      "city": "Gorham",
+      "state": "ME",
+      "zip": "04038",
+      "port_savannah": 950,
+      "port_newark": 400,
+      "port_houston": 1400,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 900
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 285,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Portland ",
+      "city": "Portland",
+      "state": "OR",
+      "zip": "97230-\n4933",
+      "port_savannah": 1750,
+      "port_newark": 1550,
+      "port_houston": 1150,
+      "port_los_angeles": 525,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 286,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PORTLAND NORTH ",
+      "city": "PORTLAND",
+      "state": "OR",
+      "zip": "97218",
+      "port_savannah": 1750,
+      "port_newark": 1550,
+      "port_houston": 1150,
+      "port_los_angeles": 525,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 287,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PORTLAND SOUTH ",
+      "city": "WOODBURN",
+      "state": "OR",
+      "zip": "97071",
+      "port_savannah": 1750,
+      "port_newark": 1550,
+      "port_houston": 1150,
+      "port_los_angeles": 525,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 288,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Portland West ",
+      "city": "Portland",
+      "state": "OR",
+      "zip": "97217",
+      "port_savannah": 1750,
+      "port_newark": 1550,
+      "port_houston": 1150,
+      "port_los_angeles": 525,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 289,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Providence ",
+      "city": "Riverside",
+      "state": "RI",
+      "zip": "02915",
+      "port_savannah": 850,
+      "port_newark": 350,
+      "port_houston": 1350,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 290,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Pulaski ",
+      "city": "Pulaski",
+      "state": "VA",
+      "zip": "24301",
+      "port_savannah": 550,
+      "port_newark": 390,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 291,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PUNTA GORDA ",
+      "city": "PUNTA GORDA",
+      "state": "FL",
+      "zip": "33982",
+      "port_savannah": 350,
+      "port_newark": 900,
+      "port_houston": 900,
+      "port_los_angeles": 1700,
+      "port_indianapolis": 1250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 292,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Puyallup ",
+      "city": "Puyallup",
+      "state": "WA",
+      "zip": "98374",
+      "port_savannah": 1950,
+      "port_newark": 1550,
+      "port_houston": 1350,
+      "port_los_angeles": 650,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 293,
+    "fields": {
+      "auction": 2,
+      "auction_location": "RALEIGH ",
+      "city": "DUNN",
+      "state": "NC",
+      "zip": "28334",
+      "port_savannah": 275,
+      "port_newark": 450,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 294,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Raleigh ",
+      "city": "Clayton",
+      "state": "NC",
+      "zip": "27520",
+      "port_savannah": 275,
+      "port_newark": 450,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 295,
+    "fields": {
+      "auction": 2,
+      "auction_location": "RANCHO CUCAMONGA ",
+      "city": "RANCHO CUCAMONGA",
+      "state": "CA",
+      "zip": "91739",
+      "port_savannah": 1450,
+      "port_newark": 1550,
+      "port_houston": 850,
+      "port_los_angeles": 175,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 296,
+    "fields": {
+      "auction": 2,
+      "auction_location": "RENO ",
+      "city": "RENO",
+      "state": "NV",
+      "zip": "89506",
+      "port_savannah": 1650,
+      "port_newark": 1550,
+      "port_houston": 1050,
+      "port_los_angeles": 450,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 297,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Reno ",
+      "city": "Mccarran",
+      "state": "NV",
+      "zip": "89434",
+      "port_savannah": 1650,
+      "port_newark": 1550,
+      "port_houston": 1050,
+      "port_los_angeles": 450,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 298,
+    "fields": {
+      "auction": 2,
+      "auction_location": "RICHMOND ",
+      "city": "SANDSTON",
+      "state": "VA",
+      "zip": "23150",
+      "port_savannah": 550,
+      "port_newark": 325,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 299,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Richmond ",
+      "city": "Ashland",
+      "state": "VA",
+      "zip": "23005",
+      "port_savannah": 550,
+      "port_newark": 325,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 300,
+    "fields": {
+      "auction": 2,
+      "auction_location": "RICHMOND EAST",
+      "city": "CHARLES CITY",
+      "state": "VA",
+      "zip": "23030",
+      "port_savannah": 550,
+      "port_newark": 325,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 301,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Riverside ",
+      "city": "RIVERSIDE",
+      "state": "CA",
+      "zip": "92509",
+      "port_savannah": 1450,
+      "port_newark": 1550,
+      "port_houston": 850,
+      "port_los_angeles": 150,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 302,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Roanoke ",
+      "city": "Montvale",
+      "state": "VA",
+      "zip": "24122",
+      "port_savannah": 0,
+      "port_newark": 390,
+      "port_houston": 0,
+      "port_los_angeles": 0,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 303,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ROCHESTER ",
+      "city": "LEROY",
+      "state": "NY",
+      "zip": "14482",
+      "port_savannah": 850,
+      "port_newark": 350,
+      "port_houston": 1350,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 304,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Rochester ",
+      "city": "Bergen",
+      "state": "NY",
+      "zip": "14416",
+      "port_savannah": 850,
+      "port_newark": 375,
+      "port_houston": 1350,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 305,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Rosedale  ",
+      "city": "Rosedale",
+      "state": "MD",
+      "zip": "21237",
+      "port_savannah": 650,
+      "port_newark": 275,
+      "port_houston": 950,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 306,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SACRAMENTO ",
+      "city": "SACRAMENTO",
+      "state": "CA",
+      "zip": "95828",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 325,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 307,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Sacramento ",
+      "city": "Rancho Cordova",
+      "state": "CA",
+      "zip": "95742-\n7313",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 325,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 308,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SALT LAKE CITY ",
+      "city": "NORTH SALT LAKE",
+      "state": "UT",
+      "zip": "84054",
+      "port_savannah": 1750,
+      "port_newark": 1350,
+      "port_houston": 1150,
+      "port_los_angeles": 475,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 309,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Salt Lake City ",
+      "city": "Ogden",
+      "state": "UT",
+      "zip": "84401-\n0258",
+      "port_savannah": 1750,
+      "port_newark": 1350,
+      "port_houston": 1150,
+      "port_los_angeles": 500,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 310,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SAN ANTONIO ",
+      "city": "SAN ANTONIO",
+      "state": "TX",
+      "zip": "78224",
+      "port_savannah": 750,
+      "port_newark": 1200,
+      "port_houston": 250,
+      "port_los_angeles": 950,
+      "port_indianapolis": 950
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 311,
+    "fields": {
+      "auction": 1,
+      "auction_location": "San Antonio ",
+      "city": "San Antonio",
+      "state": "TX",
+      "zip": "78211",
+      "port_savannah": 750,
+      "port_newark": 1200,
+      "port_houston": 250,
+      "port_los_angeles": 950,
+      "port_indianapolis": 950
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 312,
+    "fields": {
+      "auction": 1,
+      "auction_location": "San AntonioSouth ",
+      "city": "San Antonio",
+      "state": "TX",
+      "zip": "78224",
+      "port_savannah": 750,
+      "port_newark": 1200,
+      "port_houston": 250,
+      "port_los_angeles": 950,
+      "port_indianapolis": 950
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 313,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SAN BERNARDINO ",
+      "city": "COLTON",
+      "state": "CA",
+      "zip": "92324",
+      "port_savannah": 1450,
+      "port_newark": 1550,
+      "port_houston": 850,
+      "port_los_angeles": 150,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 314,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SAN DIEGO ",
+      "city": "SAN DIEGO",
+      "state": "CA",
+      "zip": "92154",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 225,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 315,
+    "fields": {
+      "auction": 1,
+      "auction_location": "San Diego ",
+      "city": "San Diego",
+      "state": "CA",
+      "zip": "92154",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 225,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 316,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SAN JOSE ",
+      "city": "SAN MARTIN",
+      "state": "CA",
+      "zip": "95046",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 325,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 317,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SAVANNAH ",
+      "city": "SAVANNAH",
+      "state": "GA",
+      "zip": "31405",
+      "port_savannah": 150,
+      "port_newark": 600,
+      "port_houston": 600,
+      "port_los_angeles": 1400,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 318,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Savannah ",
+      "city": "Rincon",
+      "state": "GA",
+      "zip": "31326",
+      "port_savannah": 150,
+      "port_newark": 600,
+      "port_houston": 600,
+      "port_los_angeles": 1400,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 319,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SCRANTON ",
+      "city": "DURYEA",
+      "state": "PA",
+      "zip": "18642",
+      "port_savannah": 750,
+      "port_newark": 275,
+      "port_houston": 1150,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 320,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Scranton ",
+      "city": "Pittston",
+      "state": "PA",
+      "zip": "18640",
+      "port_savannah": 750,
+      "port_newark": 275,
+      "port_houston": 1150,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 321,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SEAFORD ",
+      "city": "SEAFORD",
+      "state": "DE",
+      "zip": "19973",
+      "port_savannah": 650,
+      "port_newark": 275,
+      "port_houston": 1050,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 322,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Seattle ",
+      "city": "Tukwila",
+      "state": "WA",
+      "zip": "98108",
+      "port_savannah": 1950,
+      "port_newark": 1550,
+      "port_houston": 1350,
+      "port_los_angeles": 650,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 323,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Seattle South ",
+      "city": "Sumner",
+      "state": "WA",
+      "zip": "98390",
+      "port_savannah": 1950,
+      "port_newark": 1550,
+      "port_houston": 1350,
+      "port_los_angeles": 650,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 324,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Shady Spring ",
+      "city": "Shady Spring",
+      "state": "WV",
+      "zip": "25918",
+      "port_savannah": 650,
+      "port_newark": 550,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 325,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Shreveport ",
+      "city": "Greenwood",
+      "state": "LA",
+      "zip": "71033",
+      "port_savannah": 600,
+      "port_newark": 850,
+      "port_houston": 300,
+      "port_los_angeles": 1050,
+      "port_indianapolis": 700
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 326,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SHREVEPORT ",
+      "city": "SHREVEPORT",
+      "state": "LA",
+      "zip": "71109",
+      "port_savannah": 600,
+      "port_newark": 850,
+      "port_houston": 300,
+      "port_los_angeles": 1050,
+      "port_indianapolis": 700
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 327,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SIKESTON ",
+      "city": "SIKESTON",
+      "state": "MO",
+      "zip": "63801",
+      "port_savannah": 650,
+      "port_newark": 700,
+      "port_houston": 400,
+      "port_los_angeles": 1350,
+      "port_indianapolis": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 328,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Sioux Falls ",
+      "city": "Sioux Falls",
+      "state": "SD",
+      "zip": "57104",
+      "port_savannah": 1350,
+      "port_newark": 1050,
+      "port_houston": 1250,
+      "port_los_angeles": 1250,
+      "port_indianapolis": 700
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 329,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SO SACRAMENTO ",
+      "city": "SACRAMENTO",
+      "state": "CA",
+      "zip": "95828",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 325,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 330,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SO SACRAMENTO ",
+      "city": "SACRAMENTO",
+      "state": "CA",
+      "zip": "95828",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 325,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 331,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SOMERVILLE ",
+      "city": "HILLSBOROUG H",
+      "state": "NJ",
+      "zip": "08844",
+      "port_savannah": 650,
+      "port_newark": 150,
+      "port_houston": 1150,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 332,
+    "fields": {
+      "auction": 1,
+      "auction_location": "South Bend ",
+      "city": "South Bend",
+      "state": "IN",
+      "zip": "46619",
+      "port_savannah": 700,
+      "port_newark": 500,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 225
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 333,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SOUTH BOSTON ",
+      "city": "MENDON",
+      "state": "MA",
+      "zip": "01756",
+      "port_savannah": 850,
+      "port_newark": 350,
+      "port_houston": 1250,
+      "port_los_angeles": 1850,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 334,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SOUTHERN ILLINOIS ",
+      "city": "ALORTON",
+      "state": "IL",
+      "zip": "62207",
+      "port_savannah": 700,
+      "port_newark": 550,
+      "port_houston": 750,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 335,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Southern New Jersey ",
+      "city": "Turnersville",
+      "state": "NJ",
+      "zip": "08012",
+      "port_savannah": 650,
+      "port_newark": 200,
+      "port_houston": 1150,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 336,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SPARTANBURG ",
+      "city": "SPARTANBUR G",
+      "state": "South Carolin a",
+      "zip": "29301",
+      "port_savannah": 275,
+      "port_newark": 500,
+      "port_houston": 750,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 337,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Specialty Division IL",
+      "city": "Wheeling",
+      "state": "IL",
+      "zip": "60090",
+      "port_savannah": 800,
+      "port_newark": 550,
+      "port_houston": 750,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 200
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 338,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SPOKANE ",
+      "city": "AIRWAY HEIGHTS",
+      "state": "WA",
+      "zip": "99001",
+      "port_savannah": 1950,
+      "port_newark": 1550,
+      "port_houston": 1350,
+      "port_los_angeles": 750,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 339,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Spokane ",
+      "city": "Spokane",
+      "state": "WA",
+      "zip": "99224-\n9048",
+      "port_savannah": 1950,
+      "port_newark": 1550,
+      "port_houston": 1350,
+      "port_los_angeles": 750,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 340,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SPRINGFIELD ",
+      "city": "ROGERSVILLE",
+      "state": "MO",
+      "zip": "65742",
+      "port_savannah": 650,
+      "port_newark": 700,
+      "port_houston": 650,
+      "port_los_angeles": 1350,
+      "port_indianapolis": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 341,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Springfield ",
+      "city": "Springfield",
+      "state": "MO",
+      "zip": "65803-\n5637",
+      "port_savannah": 650,
+      "port_newark": 700,
+      "port_houston": 650,
+      "port_los_angeles": 1350,
+      "port_indianapolis": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 342,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ST CLOUD ",
+      "city": "AVON",
+      "state": "MN",
+      "zip": "56310",
+      "port_savannah": 1150,
+      "port_newark": 850,
+      "port_houston": 1250,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 343,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ST LOUIS ",
+      "city": "BRIDGETON",
+      "state": "MO",
+      "zip": "63044",
+      "port_savannah": 700,
+      "port_newark": 550,
+      "port_houston": 750,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 225
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 344,
+    "fields": {
+      "auction": 1,
+      "auction_location": "St Louis ",
+      "city": "Granite City",
+      "state": "IL",
+      "zip": "62040-\n6466",
+      "port_savannah": 700,
+      "port_newark": 550,
+      "port_houston": 750,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 225
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 345,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Suffolk ",
+      "city": "Suffolk",
+      "state": "VA",
+      "zip": "23434",
+      "port_savannah": 550,
+      "port_newark": 390,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 346,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SUN VALLEY ",
+      "city": "SUN VALLEY",
+      "state": "CA",
+      "zip": "91352",
+      "port_savannah": 1450,
+      "port_newark": 1550,
+      "port_houston": 850,
+      "port_los_angeles": 200,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 347,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SYRACUSE ",
+      "city": "CENTRAL SQUARE",
+      "state": "NY",
+      "zip": "13036",
+      "port_savannah": 850,
+      "port_newark": 325,
+      "port_houston": 1250,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 348,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Syracuse ",
+      "city": "Cicero",
+      "state": "NY",
+      "zip": "13039",
+      "port_savannah": 850,
+      "port_newark": 325,
+      "port_houston": 1250,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 349,
+    "fields": {
+      "auction": 2,
+      "auction_location": "TALLAHASSEE ",
+      "city": "MIDWAY",
+      "state": "FL",
+      "zip": "32343",
+      "port_savannah": 325,
+      "port_newark": 850,
+      "port_houston": 900,
+      "port_los_angeles": 1700,
+      "port_indianapolis": 1250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 350,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Tampa ",
+      "city": "Palmetto",
+      "state": "FL",
+      "zip": "34221-\n2847",
+      "port_savannah": 300,
+      "port_newark": 850,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 351,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Tampa North ",
+      "city": "Hudson",
+      "state": "FL",
+      "zip": "34667",
+      "port_savannah": 300,
+      "port_newark": 850,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 352,
+    "fields": {
+      "auction": 2,
+      "auction_location": "TAMPA SOUTH ",
+      "city": "RIVERVIEW",
+      "state": "FL",
+      "zip": "33578",
+      "port_savannah": 300,
+      "port_newark": 850,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 1150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 353,
+    "fields": {
+      "auction": 2,
+      "auction_location": "TANNER ",
+      "city": "TANNER",
+      "state": "AL",
+      "zip": "35671",
+      "port_savannah": 350,
+      "port_newark": 650,
+      "port_houston": 650,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 354,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Taunton ",
+      "city": "East Taunton",
+      "state": "MA",
+      "zip": "02718",
+      "port_savannah": 850,
+      "port_newark": 350,
+      "port_houston": 1250,
+      "port_los_angeles": 1850,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 355,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Templeton",
+      "city": "Templeton",
+      "state": "MA",
+      "zip": "01468",
+      "port_savannah": 850,
+      "port_newark": 350,
+      "port_houston": 1250,
+      "port_los_angeles": 1850,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 356,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Tidewater VA ",
+      "city": "Yorktown",
+      "state": "VA",
+      "zip": "23693-\n4027",
+      "port_savannah": 550,
+      "port_newark": 390,
+      "port_houston": 850,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 357,
+    "fields": {
+      "auction": 2,
+      "auction_location": "TIFTON ",
+      "city": "TIFTON",
+      "state": "GA",
+      "zip": "31794",
+      "port_savannah": 250,
+      "port_newark": 750,
+      "port_houston": 650,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 358,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Tifton ",
+      "city": "Tifton",
+      "state": "GA",
+      "zip": "31794",
+      "port_savannah": 250,
+      "port_newark": 750,
+      "port_houston": 650,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 359,
+    "fields": {
+      "auction": 2,
+      "auction_location": "TRENTON ",
+      "city": "WINDSOR",
+      "state": "NJ",
+      "zip": "08561",
+      "port_savannah": 650,
+      "port_newark": 150,
+      "port_houston": 1150,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 360,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Tucson ",
+      "city": "Tucson",
+      "state": "AZ",
+      "zip": "85714",
+      "port_savannah": 1300,
+      "port_newark": 1350,
+      "port_houston": 700,
+      "port_los_angeles": 375,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 361,
+    "fields": {
+      "auction": 2,
+      "auction_location": "TUCSON AZ ",
+      "city": "TUCSON",
+      "state": "AZ",
+      "zip": "85706",
+      "port_savannah": 1300,
+      "port_newark": 1350,
+      "port_houston": 700,
+      "port_los_angeles": 375,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 362,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Tulsa  OK ",
+      "city": "Tulsa",
+      "state": "OK",
+      "zip": "74107",
+      "port_savannah": 750,
+      "port_newark": 900,
+      "port_houston": 400,
+      "port_los_angeles": 1050,
+      "port_indianapolis": 600
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 363,
+    "fields": {
+      "auction": 2,
+      "auction_location": "TULSA ",
+      "city": "TULSA",
+      "state": "OK",
+      "zip": "74107",
+      "port_savannah": 750,
+      "port_newark": 900,
+      "port_houston": 380,
+      "port_los_angeles": 1050,
+      "port_indianapolis": 600
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 364,
+    "fields": {
+      "auction": 2,
+      "auction_location": "VALLEJO ",
+      "city": "VALLEJO",
+      "state": "CA",
+      "zip": "94590",
+      "port_savannah": 1550,
+      "port_newark": 1550,
+      "port_houston": 950,
+      "port_los_angeles": 325,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 365,
+    "fields": {
+      "auction": 2,
+      "auction_location": "VAN NUYS ",
+      "city": "VAN NUYS",
+      "state": "CA",
+      "zip": "91405",
+      "port_savannah": 1450,
+      "port_newark": 1550,
+      "port_houston": 850,
+      "port_los_angeles": 175,
+      "port_indianapolis": 1350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 366,
+    "fields": {
+      "auction": 2,
+      "auction_location": "WACO ",
+      "city": "TEMPLE",
+      "state": "TX",
+      "zip": "76501",
+      "port_savannah": 750,
+      "port_newark": 950,
+      "port_houston": 300,
+      "port_los_angeles": 950,
+      "port_indianapolis": 800
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 367,
+    "fields": {
+      "auction": 2,
+      "auction_location": "WALTON ",
+      "city": "WALTON",
+      "state": "KY",
+      "zip": "41094",
+      "port_savannah": 550,
+      "port_newark": 430,
+      "port_houston": 850,
+      "port_los_angeles": 1750,
+      "port_indianapolis": 250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 368,
+    "fields": {
+      "auction": 2,
+      "auction_location": "WASHINGTON ",
+      "city": "WALDORF",
+      "state": "MD",
+      "zip": "20602",
+      "port_savannah": 650,
+      "port_newark": 300,
+      "port_houston": 950,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 650
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 369,
+    "fields": {
+      "auction": 2,
+      "auction_location": "WEST PALM BEACH ",
+      "city": "WEST PALM BEACH",
+      "state": "FL",
+      "zip": "33411",
+      "port_savannah": 350,
+      "port_newark": 900,
+      "port_houston": 900,
+      "port_los_angeles": 1700,
+      "port_indianapolis": 1250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 370,
+    "fields": {
+      "auction": 2,
+      "auction_location": "WEST WARREN ",
+      "city": "WEST WARREN",
+      "state": "MA",
+      "zip": "01092",
+      "port_savannah": 850,
+      "port_newark": 350,
+      "port_houston": 1350,
+      "port_los_angeles": 1950,
+      "port_indianapolis": 850
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 371,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Western Colorado ",
+      "city": "Delta",
+      "state": "CO",
+      "zip": "81416",
+      "port_savannah": 1550,
+      "port_newark": 1350,
+      "port_houston": 950,
+      "port_los_angeles": 1050,
+      "port_indianapolis": 1050
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 372,
+    "fields": {
+      "auction": 2,
+      "auction_location": "WHEELING ",
+      "city": "WHEELING",
+      "state": "IL",
+      "zip": "60090",
+      "port_savannah": 800,
+      "port_newark": 500,
+      "port_houston": 850,
+      "port_los_angeles": 1550,
+      "port_indianapolis": 200
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 373,
+    "fields": {
+      "auction": 2,
+      "auction_location": "WICHITA ",
+      "city": "WICHITA",
+      "state": "KS",
+      "zip": "67216",
+      "port_savannah": 800,
+      "port_newark": 750,
+      "port_houston": 500,
+      "port_los_angeles": 1350,
+      "port_indianapolis": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 374,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Wichita ",
+      "city": "Wichita",
+      "state": "KS",
+      "zip": "67219",
+      "port_savannah": 800,
+      "port_newark": 750,
+      "port_houston": 500,
+      "port_los_angeles": 1350,
+      "port_indianapolis": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 375,
+    "fields": {
+      "auction": 1,
+      "auction_location": "Wilmington ",
+      "city": "Castle Hayne",
+      "state": "NC",
+      "zip": "28429-\n5841",
+      "port_savannah": 300,
+      "port_newark": 450,
+      "port_houston": 850,
+      "port_los_angeles": 1450,
+      "port_indianapolis": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 376,
+    "fields": {
+      "auction": 2,
+      "auction_location": "YORK HAVEN ",
+      "city": "YORK HAVEN",
+      "state": "PA",
+      "zip": "17370",
+      "port_savannah": 750,
+      "port_newark": 275,
+      "port_houston": 1150,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 377,
+    "fields": {
+      "auction": 1,
+      "auction_location": "York Springs",
+      "city": "York Springs",
+      "state": "PA",
+      "zip": "17372",
+      "port_savannah": 750,
+      "port_newark": 275,
+      "port_houston": 1150,
+      "port_los_angeles": 1650,
+      "port_indianapolis": 550
+    }
+  }
+]
