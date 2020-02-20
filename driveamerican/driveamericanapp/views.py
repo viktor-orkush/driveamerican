@@ -24,6 +24,14 @@ port_shipping_price = {
     'port_indianapolis': 950
 }
 
+all_shipping_ports = {
+    'port_savannah': 'Savannah GA',
+    'port_newark': 'Newark NJ',
+    'port_houston': 'Houston TX',
+    'port_los_angeles': 'Los Angeles CA',
+    'port_indianapolis': 'Indianapolis IN'
+}
+
 
 def home(request):
     return render(request, 'index.html', )
@@ -75,11 +83,13 @@ class CalculateAllPaymentsAPI(APIView):
                                          'port_newark': tp_obj.port_newark,
                                          'port_savannah': tp_obj.port_savannah}
                 shipping_port = min(transportation_prices, key=transportation_prices.get)
+                shipping_port_name = all_shipping_ports[shipping_port]
                 transportation_in_usa = transportation_prices[shipping_port]
                 shipping_price = port_shipping_price.get(shipping_port)
             except TransportationPrice.DoesNotExist:
                 transportation_in_usa = 499
                 shipping_price = 899
+                shipping_port_name = 'N/A'
 
             broker_forwarder = 850
             parking_port = 30
@@ -102,6 +112,7 @@ class CalculateAllPaymentsAPI(APIView):
                                  'customs_clearance': customs_clearance,
                                  'transportation_in_usa': transportation_in_usa,
                                  'shipping_price': shipping_price,
+                                 'shipping_port': shipping_port_name,
                                  'broker_forwarder': broker_forwarder,
                                  'parking_port': parking_port,
                                  'transportation_in_ukraine': transportation_in_ukraine,

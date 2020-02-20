@@ -24,11 +24,19 @@
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: calc(12px + .35vw);
     line-height: 26px;
     color: #5d6e7b;
     overflow-x: hidden;
 }
+
+/*html { font-size: calc(1em + 1vw) }*/
+h1 { font-size: 1.912em; }
+h2 { font-size: 1.616em; }
+h3 { font-size: 1.471em; }
+h4 { font-size: 1.3em; }
+h5 { font-size: 1.243em; }
+h6 { font-size: 1.132em; }
 
 
 html, body, header, .view {
@@ -41,14 +49,14 @@ html, body, header, .view {
     border-color: var(--my-color-green) !important;
 }
 
-@media (max-width: 740px) {
-    html,
-    body,
-    header,
-    .view {
-        height: 100vh;
-    }
-}
+/*@media (max-width: 740px) {*/
+    /*html,*/
+    /*body,*/
+    /*header,*/
+    /*.view {*/
+        /*height: 100vh;*/
+    /*}*/
+/*}*/
 
 .top-nav-collapse {
     background: rgba(234, 237, 240, .8) !important;
@@ -166,11 +174,16 @@ h5 {
 }
 
 section {
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .bg-light {
     background-color: #f8f9fa !important;
+}
+
+.text-shadow{
+    text-shadow: 0 0 2px var(--my-color-green);
 }
 
 

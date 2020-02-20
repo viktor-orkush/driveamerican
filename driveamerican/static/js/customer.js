@@ -72,6 +72,7 @@ $("#calculate_all_payments_btn").on('click', function () {
                 $('#insurance_car').text(data['insurance_car'])
                 $('#transportation_in_usa').text(data['transportation_in_usa'])
                 $('#shipping_price').text(data['shipping_price'])
+                $('#shipping_port').text(data['shipping_port'])
                 $('#broker_forwarder').text(data['broker_forwarder'])
                 $('#parking_port').text(data['parking_port'])
                 $('#transportation_in_ukraine').text(data['transportation_in_ukraine'])
