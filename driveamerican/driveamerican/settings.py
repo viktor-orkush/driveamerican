@@ -25,7 +25,7 @@ SECRET_KEY = '=1_^#wpc806(sq&l@)2ed@5atc!=1+xsjkne!kl_u+s#u*sz5a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['195.123.208.134', 'driveamerican.com', 'www.driveamerican.com', '127.0.0.1']
+ALLOWED_HOSTS = ['driveamerican.top', 'www.driveamerican.top', '127.0.0.1']
 
 
 # Application definition
