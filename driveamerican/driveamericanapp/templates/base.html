@@ -1,6 +1,17 @@
 {% load static %}
 <html lang="en">
 <head>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-158872282-1');
+    </script>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="{% static 'media/favicon.ico' %}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,7 +30,8 @@
     <link href="{% static 'css/mdb.min.css' %}" rel="stylesheet">
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
     <link href="{% static 'css/style.css' %}" rel="stylesheet">
-
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158872282-1"></script>
 </head>
 <body>
 
@@ -32,7 +44,8 @@
 {% include 'contact_form.html' %}
 
 <div class="email-bt">
-    <button class="btn-contact" data-toggle="modal" data-target="#contact_form_id"><i class="fa fa-envelope"></i></button>
+    <button class="btn-contact" data-toggle="modal" data-target="#contact_form_id"><i class="fa fa-envelope"></i>
+    </button>
 </div>
 
 </body>
