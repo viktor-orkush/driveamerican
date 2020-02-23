@@ -20,8 +20,8 @@ port_shipping_price = {
     'port_savannah': 750,
     'port_newark': 750,
     'port_houston': 900,
-    'port_los_angeles': 950,
-    'port_indianapolis': 950
+    'port_los_angeles': 990,
+    'port_indianapolis': 990
 }
 
 all_shipping_ports = {
@@ -208,7 +208,10 @@ def get_excise(auto_engine_type, auto_engine, auto_age, e_power):
             cof = 100
         excise = math.ceil(get_cof_age(auto_age) * auto_engine * cof * RATE_DOLLAR_EURO)
     if auto_engine_type == 'diesel':
-        cof = 75
+        if auto_engine <= 3.5:
+            cof = 75
+        else:
+            cof = 150
         excise = math.ceil(get_cof_age(auto_age) * auto_engine * cof * RATE_DOLLAR_EURO)
     return excise
 

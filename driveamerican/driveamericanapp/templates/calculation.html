@@ -135,16 +135,11 @@
                             <div class="value"><span id="parking_port"></span>$</div>
                         </div>
                         <div class="calc_block-row">
-                            <div class="">Акциз</div>
-                            <div class="value"><span id="excise"></span>$</div>
-                        </div>
-                        <div class="calc_block-row">
-                            <div class="">Пошлина <span class="attr">10%</span></div>
-                            <div class="value"><span id="duty"></span>$</div>
-                        </div>
-                        <div class="calc_block-row">
-                            <div class="">НДС <span class="attr">20%</span></div>
-                            <div class="value"><span id="vat"></span>$</div>
+                            <div class="font-weight-bold">Растаможка</div>
+                            <div class="">Акциз <span id="excise"></span>$</div>
+                            <div class="">Пошлина <span id="duty"></span>$</div>
+                            <div class="">НДС <span id="vat"></span>$</div>
+                            <div class="value"> = <span id="customs_clearance"></span>$</div>
                         </div>
                         <div class="calc_block-row">
                             <div class="">Сертификация</div>
@@ -161,7 +156,7 @@
                             <div class="value"><span id="registration"></span>$</div>
                         </div>
                         <div class="calc_block-row">
-                            <div class="">Услуги компании</div>
+                            <div class="">Услуги компании <a href="{% url 'home' %}#services_section">"Пакет стандартний"</a></div>
                             <div class="value"><span id="company_services"></span>$</div>
                         </div>
                         <div class="calc_block-row total mt-3 font-weight-bold">
