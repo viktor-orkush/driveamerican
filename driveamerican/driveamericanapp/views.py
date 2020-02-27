@@ -82,6 +82,7 @@ class CalculateAllPaymentsAPI(APIView):
                                          'port_los_angeles': tp_obj.port_los_angeles,
                                          'port_newark': tp_obj.port_newark,
                                          'port_savannah': tp_obj.port_savannah}
+                transportation_prices = {k: v for k, v in transportation_prices.items() if v is not 0}
                 shipping_port = min(transportation_prices, key=transportation_prices.get)
                 shipping_port_name = all_shipping_ports[shipping_port]
                 transportation_in_usa = transportation_prices[shipping_port]

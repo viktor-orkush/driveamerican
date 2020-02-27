@@ -1,6 +1,6 @@
 import telebot
 
-TOKEN = "1054730836:AAFnXt4sdmTJDHly9TPUDC6wYadBJJf7Fig"
+TOKEN = "957100995:AAHi9hNCPViSiaLz7b-s2_wivjOlsFtT-Dk"
 CHAT_ID = "104299473"
 
 bot = telebot.TeleBot(TOKEN)
@@ -10,7 +10,7 @@ bot = telebot.TeleBot(TOKEN)
 def start(message):
     # save_chat_info(message.chat.id)
     print(message.chat.id)
-    bot.send_message(message.chat.id, "Этот бот служит для уведомления о приходе на сайт уведомления!")
+    bot.send_message(message.chat.id, "Этот бот служит для уведомления о приходе на сайт DriveAmerican уведомления!")
 
 
 def send_message(message):
