@@ -68,8 +68,8 @@ class CalculateAllPaymentsAPI(APIView):
 
             insurance_car = math.ceil((auto_price + auction_fee) * 0.01)
             excise = get_excise(fuel_type, auto_engine, auto_age, e_power)
-            duty = math.ceil((auto_price + auction_fee) * 0.1)
-            vat = math.ceil((auto_price + auction_fee + excise + duty + SHIPPING_PRICE_FOR_CALC_VAT) * 0.2)
+            duty = get_duty(fuel_type, auto_price, auction_fee)
+            vat = get_vat(fuel_type, auto_price, auction_fee, excise, duty)
             customs_clearance = excise + duty + vat
 
             # calculate transportation for different location
@@ -194,6 +194,16 @@ class UserContactRequest(APIView):
         else:
             context = {'result': 'error'}
         return JsonResponse(context)
+
+
+def get_duty(auto_engine_type, auto_price, auction_fee):
+    if auto_engine_type == 'electro': return 0
+    return math.ceil((auto_price + auction_fee) * 0.1)
+
+
+def get_vat(auto_engine_type, auto_price, auction_fee, excise, duty):
+    if auto_engine_type == 'electro': return 0
+    return math.ceil((auto_price + auction_fee + excise + duty + SHIPPING_PRICE_FOR_CALC_VAT) * 0.2)
 
 
 def get_excise(auto_engine_type, auto_engine, auto_age, e_power):
