@@ -73,18 +73,13 @@ class CalculateAllPaymentsAPI(APIView):
             # calculate transportation for different location
             auction_location = request.POST.get('auction_location')
             try:
-                auction_obj = Auction.objects.get(auction=auction)
-                tp_obj = TransportationPrice.objects.get(auction_location=auction_location, auction=auction_obj)
-                transportation_prices = {'port_houston': tp_obj.port_houston,
-                                         'port_los_angeles': tp_obj.port_los_angeles,
-                                         'port_newark': tp_obj.port_newark,
-                                         'port_savannah': tp_obj.port_savannah}
-                transportation_prices = {k: v for k, v in transportation_prices.items() if v is not 0}
+                transportation_prices = get_transportation_prices(auction, auction_location)
                 shipping_port = min(transportation_prices, key=transportation_prices.get)
+
                 shipping_port_name = all_shipping_ports[shipping_port]
                 transportation_in_usa = transportation_prices[shipping_port]
                 shipping_price = port_shipping_price.get(shipping_port)
-            except TransportationPrice.DoesNotExist:
+            except:
                 transportation_in_usa = 499
                 shipping_price = 899
                 shipping_port_name = 'N/A'
@@ -191,6 +186,21 @@ class UserContactRequest(APIView):
         else:
             context = {'result': 'error'}
         return JsonResponse(context)
+
+
+def get_transportation_prices(auction, auction_location):
+    try:
+        auction_obj = Auction.objects.get(auction=auction)
+        tp_obj = TransportationPrice.objects.get(auction_location=auction_location, auction=auction_obj)
+        transportation_prices = {'port_houston': tp_obj.port_houston,
+                                 'port_los_angeles': tp_obj.port_los_angeles,
+                                 'port_newark': tp_obj.port_newark,
+                                 'port_savannah': tp_obj.port_savannah}
+        return {k: v for k, v in transportation_prices.items() if v is not 0}
+    except Auction.DoesNotExist:
+        raise Auction.DoesNotExist
+    except TransportationPrice.DoesNotExist:
+        raise TransportationPrice.DoesNotExist
 
 
 def get_duty(auto_engine_type, auto_price, auction_fee):
