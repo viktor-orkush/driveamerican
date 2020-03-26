@@ -17,11 +17,10 @@ FUEL_TYPES = {'petrol': 'Бензин',
               'hybrid': 'Гибрид'}
 
 port_shipping_price = {
-    'port_savannah': 750,
-    'port_newark': 750,
+    'port_savannah': 790,
+    'port_newark': 790,
     'port_houston': 900,
     'port_los_angeles': 990,
-    'port_indianapolis': 990
 }
 
 all_shipping_ports = {
@@ -29,7 +28,6 @@ all_shipping_ports = {
     'port_newark': 'Newark NJ',
     'port_houston': 'Houston TX',
     'port_los_angeles': 'Los Angeles CA',
-    'port_indianapolis': 'Indianapolis IN'
 }
 
 
@@ -78,7 +76,6 @@ class CalculateAllPaymentsAPI(APIView):
                 auction_obj = Auction.objects.get(auction=auction)
                 tp_obj = TransportationPrice.objects.get(auction_location=auction_location, auction=auction_obj)
                 transportation_prices = {'port_houston': tp_obj.port_houston,
-                                         'port_indianapolis': tp_obj.port_indianapolis,
                                          'port_los_angeles': tp_obj.port_los_angeles,
                                          'port_newark': tp_obj.port_newark,
                                          'port_savannah': tp_obj.port_savannah}

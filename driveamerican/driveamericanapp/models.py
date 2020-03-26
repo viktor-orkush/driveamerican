@@ -45,7 +45,6 @@ class TransportationPrice(models.Model):
     port_newark = models.IntegerField(default=0, blank=True, null=True)
     port_houston = models.IntegerField(default=0, blank=True, null=True)
     port_los_angeles = models.IntegerField(default=0, blank=True, null=True)
-    port_indianapolis = models.IntegerField(default=0, blank=True, null=True)
 
     def __str__(self):
         return '"{auction_location}"'.format(auction_location = self.auction_location)

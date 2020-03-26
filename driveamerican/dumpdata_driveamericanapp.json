@@ -284,6 +284,26 @@
     }
   },
   {
+    "model": "driveamericanapp.contact",
+    "pk": 7,
+    "fields": {
+      "user": "1",
+      "phone": "1",
+      "message": "1",
+      "created_date": "2020-02-25T13:53:48.435Z"
+    }
+  },
+  {
+    "model": "driveamericanapp.contact",
+    "pk": 8,
+    "fields": {
+      "user": "1",
+      "phone": "1",
+      "message": "1",
+      "created_date": "2020-02-25T13:53:50.737Z"
+    }
+  },
+  {
     "model": "driveamericanapp.transportationprice",
     "pk": 17,
     "fields": {
@@ -295,8 +315,7 @@
       "port_savannah": 0,
       "port_newark": 0,
       "port_houston": 0,
-      "port_los_angeles": 150,
-      "port_indianapolis": 2050
+      "port_los_angeles": 150
     }
   },
   {
@@ -311,8 +330,7 @@
       "port_savannah": 1450,
       "port_newark": 1550,
       "port_houston": 850,
-      "port_los_angeles": 150,
-      "port_indianapolis": 1350
+      "port_los_angeles": 150
     }
   },
   {
@@ -327,8 +345,7 @@
       "port_savannah": 700,
       "port_newark": 400,
       "port_houston": 950,
-      "port_los_angeles": 1750,
-      "port_indianapolis": 400
+      "port_los_angeles": 1750
     }
   },
   {
@@ -343,8 +360,7 @@
       "port_savannah": 750,
       "port_newark": 250,
       "port_houston": 1250,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 500
+      "port_los_angeles": 1650
     }
   },
   {
@@ -359,8 +375,7 @@
       "port_savannah": 750,
       "port_newark": 275,
       "port_houston": 1250,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 500
+      "port_los_angeles": 1650
     }
   },
   {
@@ -375,8 +390,7 @@
       "port_savannah": 1050,
       "port_newark": 1350,
       "port_houston": 525,
-      "port_los_angeles": 550,
-      "port_indianapolis": 1250
+      "port_los_angeles": 550
     }
   },
   {
@@ -391,8 +405,7 @@
       "port_savannah": 1050,
       "port_newark": 1350,
       "port_houston": 525,
-      "port_los_angeles": 550,
-      "port_indianapolis": 1250
+      "port_los_angeles": 550
     }
   },
   {
@@ -407,8 +420,7 @@
       "port_savannah": 850,
       "port_newark": 350,
       "port_houston": 1250,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 450
+      "port_los_angeles": 1650
     }
   },
   {
@@ -423,8 +435,7 @@
       "port_savannah": 750,
       "port_newark": 350,
       "port_houston": 1250,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 550
+      "port_los_angeles": 1650
     }
   },
   {
@@ -439,8 +450,7 @@
       "port_savannah": 950,
       "port_newark": 1350,
       "port_houston": 450,
-      "port_los_angeles": 750,
-      "port_indianapolis": 950
+      "port_los_angeles": 750
     }
   },
   {
@@ -455,8 +465,7 @@
       "port_savannah": 950,
       "port_newark": 1350,
       "port_houston": 450,
-      "port_los_angeles": 750,
-      "port_indianapolis": 950
+      "port_los_angeles": 750
     }
   },
   {
@@ -471,8 +480,7 @@
       "port_savannah": 1450,
       "port_newark": 1550,
       "port_houston": 850,
-      "port_los_angeles": 150,
-      "port_indianapolis": 1350
+      "port_los_angeles": 150
     }
   },
   {
@@ -487,8 +495,7 @@
       "port_savannah": 3350,
       "port_newark": 2950,
       "port_houston": 2750,
-      "port_los_angeles": 2000,
-      "port_indianapolis": 2550
+      "port_los_angeles": 2000
     }
   },
   {
@@ -503,8 +510,7 @@
       "port_savannah": 3350,
       "port_newark": 2950,
       "port_houston": 2750,
-      "port_los_angeles": 2000,
-      "port_indianapolis": 2550
+      "port_los_angeles": 2000
     }
   },
   {
@@ -519,8 +525,7 @@
       "port_savannah": 900,
       "port_newark": 1350,
       "port_houston": 400,
-      "port_los_angeles": 750,
-      "port_indianapolis": 950
+      "port_los_angeles": 750
     }
   },
   {
@@ -535,8 +540,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 350,
-      "port_indianapolis": 1350
+      "port_los_angeles": 350
     }
   },
   {
@@ -551,8 +555,7 @@
       "port_savannah": 1100,
       "port_newark": 800,
       "port_houston": 1150,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 375
+      "port_los_angeles": 1950
     }
   },
   {
@@ -567,8 +570,7 @@
       "port_savannah": 1100,
       "port_newark": 800,
       "port_houston": 1150,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 400
+      "port_los_angeles": 1950
     }
   },
   {
@@ -583,8 +585,7 @@
       "port_savannah": 325,
       "port_newark": 450,
       "port_houston": 850,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 750
+      "port_los_angeles": 1450
     }
   },
   {
@@ -599,8 +600,7 @@
       "port_savannah": 600,
       "port_newark": 550,
       "port_houston": 800,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 500
+      "port_los_angeles": 1550
     }
   },
   {
@@ -615,8 +615,7 @@
       "port_savannah": 250,
       "port_newark": 800,
       "port_houston": 800,
-      "port_los_angeles": 1600,
-      "port_indianapolis": 750
+      "port_los_angeles": 1600
     }
   },
   {
@@ -631,8 +630,7 @@
       "port_savannah": 250,
       "port_newark": 800,
       "port_houston": 800,
-      "port_los_angeles": 1600,
-      "port_indianapolis": 750
+      "port_los_angeles": 1600
     }
   },
   {
@@ -647,8 +645,7 @@
       "port_savannah": 275,
       "port_newark": 800,
       "port_houston": 800,
-      "port_los_angeles": 1600,
-      "port_indianapolis": 750
+      "port_los_angeles": 1600
     }
   },
   {
@@ -663,8 +660,7 @@
       "port_savannah": 250,
       "port_newark": 800,
       "port_houston": 800,
-      "port_los_angeles": 1600,
-      "port_indianapolis": 750
+      "port_los_angeles": 1600
     }
   },
   {
@@ -679,8 +675,7 @@
       "port_savannah": 275,
       "port_newark": 800,
       "port_houston": 800,
-      "port_los_angeles": 1600,
-      "port_indianapolis": 750
+      "port_los_angeles": 1600
     }
   },
   {
@@ -695,8 +690,7 @@
       "port_savannah": 250,
       "port_newark": 800,
       "port_houston": 800,
-      "port_los_angeles": 1600,
-      "port_indianapolis": 750
+      "port_los_angeles": 1600
     }
   },
   {
@@ -711,8 +705,7 @@
       "port_savannah": 250,
       "port_newark": 800,
       "port_houston": 800,
-      "port_los_angeles": 1600,
-      "port_indianapolis": 750
+      "port_los_angeles": 1600
     }
   },
   {
@@ -727,8 +720,7 @@
       "port_savannah": 250,
       "port_newark": 800,
       "port_houston": 800,
-      "port_los_angeles": 1600,
-      "port_indianapolis": 750
+      "port_los_angeles": 1600
     }
   },
   {
@@ -743,8 +735,7 @@
       "port_savannah": 750,
       "port_newark": 1200,
       "port_houston": 225,
-      "port_los_angeles": 850,
-      "port_indianapolis": 950
+      "port_los_angeles": 850
     }
   },
   {
@@ -759,8 +750,7 @@
       "port_savannah": 750,
       "port_newark": 1200,
       "port_houston": 225,
-      "port_los_angeles": 950,
-      "port_indianapolis": 950
+      "port_los_angeles": 950
     }
   },
   {
@@ -775,8 +765,7 @@
       "port_savannah": 650,
       "port_newark": 150,
       "port_houston": 1050,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 600
+      "port_los_angeles": 1650
     }
   },
   {
@@ -791,8 +780,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 225,
-      "port_indianapolis": 1350
+      "port_los_angeles": 225
     }
   },
   {
@@ -807,8 +795,7 @@
       "port_savannah": 650,
       "port_newark": 275,
       "port_houston": 950,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -823,8 +810,7 @@
       "port_savannah": 650,
       "port_newark": 275,
       "port_houston": 950,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -839,8 +825,7 @@
       "port_savannah": 450,
       "port_newark": 850,
       "port_houston": 300,
-      "port_los_angeles": 1050,
-      "port_indianapolis": 800
+      "port_los_angeles": 1050
     }
   },
   {
@@ -855,8 +840,7 @@
       "port_savannah": 450,
       "port_newark": 850,
       "port_houston": 325,
-      "port_los_angeles": 1050,
-      "port_indianapolis": 800
+      "port_los_angeles": 1050
     }
   },
   {
@@ -871,8 +855,7 @@
       "port_savannah": 1650,
       "port_newark": 1350,
       "port_houston": 1350,
-      "port_los_angeles": 1050,
-      "port_indianapolis": 1050
+      "port_los_angeles": 1050
     }
   },
   {
@@ -887,8 +870,7 @@
       "port_savannah": 1650,
       "port_newark": 1350,
       "port_houston": 1350,
-      "port_los_angeles": 1050,
-      "port_indianapolis": 1050
+      "port_los_angeles": 1050
     }
   },
   {
@@ -903,8 +885,7 @@
       "port_savannah": 375,
       "port_newark": 700,
       "port_houston": 600,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 800
+      "port_los_angeles": 1450
     }
   },
   {
@@ -919,8 +900,7 @@
       "port_savannah": 375,
       "port_newark": 700,
       "port_houston": 600,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 800
+      "port_los_angeles": 1450
     }
   },
   {
@@ -935,8 +915,7 @@
       "port_savannah": 1750,
       "port_newark": 1350,
       "port_houston": 1150,
-      "port_los_angeles": 750,
-      "port_indianapolis": 750
+      "port_los_angeles": 750
     }
   },
   {
@@ -951,8 +930,7 @@
       "port_savannah": 1750,
       "port_newark": 1350,
       "port_houston": 1150,
-      "port_los_angeles": 750,
-      "port_indianapolis": 750
+      "port_los_angeles": 750
     }
   },
   {
@@ -967,8 +945,7 @@
       "port_savannah": 850,
       "port_newark": 350,
       "port_houston": 1250,
-      "port_los_angeles": 1850,
-      "port_indianapolis": 750
+      "port_los_angeles": 1850
     }
   },
   {
@@ -983,8 +960,7 @@
       "port_savannah": 475,
       "port_newark": 600,
       "port_houston": 750,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 475
+      "port_los_angeles": 1550
     }
   },
   {
@@ -999,8 +975,7 @@
       "port_savannah": 700,
       "port_newark": 250,
       "port_houston": 1050,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 550
+      "port_los_angeles": 1650
     }
   },
   {
@@ -1015,8 +990,7 @@
       "port_savannah": 650,
       "port_newark": 550,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 550
+      "port_los_angeles": 1650
     }
   },
   {
@@ -1031,8 +1005,7 @@
       "port_savannah": 850,
       "port_newark": 425,
       "port_houston": 1350,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 500
+      "port_los_angeles": 1650
     }
   },
   {
@@ -1047,8 +1020,7 @@
       "port_savannah": 850,
       "port_newark": 425,
       "port_houston": 1350,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 500
+      "port_los_angeles": 1650
     }
   },
   {
@@ -1063,8 +1035,7 @@
       "port_savannah": 950,
       "port_newark": 400,
       "port_houston": 1400,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 900
+      "port_los_angeles": 1950
     }
   },
   {
@@ -1079,8 +1050,7 @@
       "port_savannah": 850,
       "port_newark": 350,
       "port_houston": 1350,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 850
+      "port_los_angeles": 1950
     }
   },
   {
@@ -1095,8 +1065,7 @@
       "port_savannah": 275,
       "port_newark": 800,
       "port_houston": 800,
-      "port_los_angeles": 1600,
-      "port_indianapolis": 750
+      "port_los_angeles": 1600
     }
   },
   {
@@ -1111,8 +1080,7 @@
       "port_savannah": 1150,
       "port_newark": 1050,
       "port_houston": 900,
-      "port_los_angeles": 950,
-      "port_indianapolis": 1000
+      "port_los_angeles": 950
     }
   },
   {
@@ -1127,8 +1095,7 @@
       "port_savannah": 1150,
       "port_newark": 1050,
       "port_houston": 900,
-      "port_los_angeles": 950,
-      "port_indianapolis": 1000
+      "port_los_angeles": 950
     }
   },
   {
@@ -1143,8 +1110,7 @@
       "port_savannah": 650,
       "port_newark": 150,
       "port_houston": 1100,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 600
+      "port_los_angeles": 1650
     }
   },
   {
@@ -1159,8 +1125,7 @@
       "port_savannah": 750,
       "port_newark": 325,
       "port_houston": 1150,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 550
+      "port_los_angeles": 1650
     }
   },
   {
@@ -1175,8 +1140,7 @@
       "port_savannah": 200,
       "port_newark": 500,
       "port_houston": 750,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 850
+      "port_los_angeles": 1450
     }
   },
   {
@@ -1191,8 +1155,7 @@
       "port_savannah": 650,
       "port_newark": 550,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 550
+      "port_los_angeles": 1650
     }
   },
   {
@@ -1207,8 +1170,7 @@
       "port_savannah": 300,
       "port_newark": 450,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 800
+      "port_los_angeles": 1650
     }
   },
   {
@@ -1223,8 +1185,7 @@
       "port_savannah": 375,
       "port_newark": 650,
       "port_houston": 600,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 650
+      "port_los_angeles": 1450
     }
   },
   {
@@ -1239,8 +1200,7 @@
       "port_savannah": 800,
       "port_newark": 500,
       "port_houston": 850,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 200
+      "port_los_angeles": 1550
     }
   },
   {
@@ -1255,8 +1215,7 @@
       "port_savannah": 800,
       "port_newark": 500,
       "port_houston": 850,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 200
+      "port_los_angeles": 1550
     }
   },
   {
@@ -1271,8 +1230,7 @@
       "port_savannah": 800,
       "port_newark": 500,
       "port_houston": 850,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 200
+      "port_los_angeles": 1550
     }
   },
   {
@@ -1287,8 +1245,7 @@
       "port_savannah": 800,
       "port_newark": 550,
       "port_houston": 750,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 200
+      "port_los_angeles": 1550
     }
   },
   {
@@ -1303,8 +1260,7 @@
       "port_savannah": 800,
       "port_newark": 500,
       "port_houston": 850,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 200
+      "port_los_angeles": 1550
     }
   },
   {
@@ -1319,8 +1275,7 @@
       "port_savannah": 275,
       "port_newark": 450,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 800
+      "port_los_angeles": 1650
     }
   },
   {
@@ -1335,8 +1290,7 @@
       "port_savannah": 700,
       "port_newark": 450,
       "port_houston": 850,
-      "port_los_angeles": 1750,
-      "port_indianapolis": 250
+      "port_los_angeles": 1750
     }
   },
   {
@@ -1351,8 +1305,7 @@
       "port_savannah": 700,
       "port_newark": 450,
       "port_houston": 850,
-      "port_los_angeles": 1750,
-      "port_indianapolis": 250
+      "port_los_angeles": 1750
     }
   },
   {
@@ -1367,8 +1320,7 @@
       "port_savannah": 300,
       "port_newark": 850,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 1150
+      "port_los_angeles": 1650
     }
   },
   {
@@ -1383,8 +1335,7 @@
       "port_savannah": 700,
       "port_newark": 400,
       "port_houston": 950,
-      "port_los_angeles": 1750,
-      "port_indianapolis": 400
+      "port_los_angeles": 1750
     }
   },
   {
@@ -1399,8 +1350,7 @@
       "port_savannah": 700,
       "port_newark": 400,
       "port_houston": 950,
-      "port_los_angeles": 1750,
-      "port_indianapolis": 450
+      "port_los_angeles": 1750
     }
   },
   {
@@ -1415,8 +1365,7 @@
       "port_savannah": 700,
       "port_newark": 400,
       "port_houston": 950,
-      "port_los_angeles": 1750,
-      "port_indianapolis": 450
+      "port_los_angeles": 1750
     }
   },
   {
@@ -1431,8 +1380,7 @@
       "port_savannah": 1100,
       "port_newark": 1050,
       "port_houston": 650,
-      "port_los_angeles": 850,
-      "port_indianapolis": 650
+      "port_los_angeles": 850
     }
   },
   {
@@ -1447,8 +1395,7 @@
       "port_savannah": 1100,
       "port_newark": 1050,
       "port_houston": 650,
-      "port_los_angeles": 850,
-      "port_indianapolis": 850
+      "port_los_angeles": 850
     }
   },
   {
@@ -1463,8 +1410,7 @@
       "port_savannah": 1450,
       "port_newark": 1550,
       "port_houston": 850,
-      "port_los_angeles": 175,
-      "port_indianapolis": 1350
+      "port_los_angeles": 175
     }
   },
   {
@@ -1479,8 +1425,7 @@
       "port_savannah": 650,
       "port_newark": 700,
       "port_houston": 400,
-      "port_los_angeles": 1350,
-      "port_indianapolis": 450
+      "port_los_angeles": 1350
     }
   },
   {
@@ -1495,8 +1440,7 @@
       "port_savannah": 225,
       "port_newark": 500,
       "port_houston": 750,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 800
+      "port_los_angeles": 1450
     }
   },
   {
@@ -1511,8 +1455,7 @@
       "port_savannah": 225,
       "port_newark": 500,
       "port_houston": 750,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 800
+      "port_los_angeles": 1450
     }
   },
   {
@@ -1527,8 +1470,7 @@
       "port_savannah": 700,
       "port_newark": 400,
       "port_houston": 850,
-      "port_los_angeles": 1750,
-      "port_indianapolis": 250
+      "port_los_angeles": 1750
     }
   },
   {
@@ -1543,8 +1485,7 @@
       "port_savannah": 700,
       "port_newark": 400,
       "port_houston": 850,
-      "port_los_angeles": 1750,
-      "port_indianapolis": 250
+      "port_los_angeles": 1750
     }
   },
   {
@@ -1559,8 +1500,7 @@
       "port_savannah": 300,
       "port_newark": 450,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 800
+      "port_los_angeles": 1650
     }
   },
   {
@@ -1575,8 +1515,7 @@
       "port_savannah": 750,
       "port_newark": 1200,
       "port_houston": 250,
-      "port_los_angeles": 950,
-      "port_indianapolis": 950
+      "port_los_angeles": 950
     }
   },
   {
@@ -1591,8 +1530,7 @@
       "port_savannah": 750,
       "port_newark": 1200,
       "port_houston": 250,
-      "port_los_angeles": 950,
-      "port_indianapolis": 950
+      "port_los_angeles": 950
     }
   },
   {
@@ -1607,8 +1545,7 @@
       "port_savannah": 275,
       "port_newark": 800,
       "port_houston": 800,
-      "port_los_angeles": 1600,
-      "port_indianapolis": 750
+      "port_los_angeles": 1600
     }
   },
   {
@@ -1623,8 +1560,7 @@
       "port_savannah": 750,
       "port_newark": 950,
       "port_houston": 250,
-      "port_los_angeles": 950,
-      "port_indianapolis": 800
+      "port_los_angeles": 950
     }
   },
   {
@@ -1639,8 +1575,7 @@
       "port_savannah": 1100,
       "port_newark": 800,
       "port_houston": 1250,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 400
+      "port_los_angeles": 1950
     }
   },
   {
@@ -1655,8 +1590,7 @@
       "port_savannah": 1150,
       "port_newark": 850,
       "port_houston": 1250,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 450
+      "port_los_angeles": 1950
     }
   },
   {
@@ -1671,8 +1605,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 325,
-      "port_indianapolis": 1350
+      "port_los_angeles": 325
     }
   },
   {
@@ -1687,8 +1620,7 @@
       "port_savannah": 550,
       "port_newark": 390,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -1703,8 +1635,7 @@
       "port_savannah": 750,
       "port_newark": 950,
       "port_houston": 250,
-      "port_los_angeles": 950,
-      "port_indianapolis": 800
+      "port_los_angeles": 950
     }
   },
   {
@@ -1719,8 +1650,7 @@
       "port_savannah": 750,
       "port_newark": 950,
       "port_houston": 250,
-      "port_los_angeles": 950,
-      "port_indianapolis": 800
+      "port_los_angeles": 950
     }
   },
   {
@@ -1735,8 +1665,7 @@
       "port_savannah": 750,
       "port_newark": 950,
       "port_houston": 250,
-      "port_los_angeles": 950,
-      "port_indianapolis": 800
+      "port_los_angeles": 950
     }
   },
   {
@@ -1751,8 +1680,7 @@
       "port_savannah": 750,
       "port_newark": 950,
       "port_houston": 250,
-      "port_los_angeles": 950,
-      "port_indianapolis": 800
+      "port_los_angeles": 950
     }
   },
   {
@@ -1767,8 +1695,7 @@
       "port_savannah": 550,
       "port_newark": 390,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -1783,8 +1710,7 @@
       "port_savannah": 1100,
       "port_newark": 600,
       "port_houston": 850,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 400
+      "port_los_angeles": 1450
     }
   },
   {
@@ -1799,8 +1725,7 @@
       "port_savannah": 700,
       "port_newark": 400,
       "port_houston": 850,
-      "port_los_angeles": 1750,
-      "port_indianapolis": 250
+      "port_los_angeles": 1750
     }
   },
   {
@@ -1815,8 +1740,7 @@
       "port_savannah": 700,
       "port_newark": 400,
       "port_houston": 850,
-      "port_los_angeles": 1750,
-      "port_indianapolis": 250
+      "port_los_angeles": 1750
     }
   },
   {
@@ -1831,8 +1755,7 @@
       "port_savannah": 1100,
       "port_newark": 1050,
       "port_houston": 650,
-      "port_los_angeles": 850,
-      "port_indianapolis": 850
+      "port_los_angeles": 850
     }
   },
   {
@@ -1847,8 +1770,7 @@
       "port_savannah": 1100,
       "port_newark": 1050,
       "port_houston": 650,
-      "port_los_angeles": 850,
-      "port_indianapolis": 850
+      "port_los_angeles": 850
     }
   },
   {
@@ -1863,8 +1785,7 @@
       "port_savannah": 1100,
       "port_newark": 1050,
       "port_houston": 650,
-      "port_los_angeles": 850,
-      "port_indianapolis": 850
+      "port_los_angeles": 850
     }
   },
   {
@@ -1879,8 +1800,7 @@
       "port_savannah": 1100,
       "port_newark": 1050,
       "port_houston": 650,
-      "port_los_angeles": 850,
-      "port_indianapolis": 650
+      "port_los_angeles": 850
     }
   },
   {
@@ -1895,8 +1815,7 @@
       "port_savannah": 1100,
       "port_newark": 1050,
       "port_houston": 650,
-      "port_los_angeles": 850,
-      "port_indianapolis": 650
+      "port_los_angeles": 850
     }
   },
   {
@@ -1911,8 +1830,7 @@
       "port_savannah": 1100,
       "port_newark": 600,
       "port_houston": 850,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 450
+      "port_los_angeles": 1450
     }
   },
   {
@@ -1927,8 +1845,7 @@
       "port_savannah": 1100,
       "port_newark": 600,
       "port_houston": 850,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 450
+      "port_los_angeles": 1450
     }
   },
   {
@@ -1943,8 +1860,7 @@
       "port_savannah": 750,
       "port_newark": 450,
       "port_houston": 950,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 425
+      "port_los_angeles": 1950
     }
   },
   {
@@ -1959,8 +1875,7 @@
       "port_savannah": 750,
       "port_newark": 450,
       "port_houston": 950,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 450
+      "port_los_angeles": 1950
     }
   },
   {
@@ -1975,8 +1890,7 @@
       "port_savannah": 325,
       "port_newark": 750,
       "port_houston": 600,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 800
+      "port_los_angeles": 1450
     }
   },
   {
@@ -1991,8 +1905,7 @@
       "port_savannah": 650,
       "port_newark": 300,
       "port_houston": 950,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -2007,8 +1920,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 325,
-      "port_indianapolis": 1350
+      "port_los_angeles": 325
     }
   },
   {
@@ -2023,8 +1935,7 @@
       "port_savannah": 950,
       "port_newark": 1350,
       "port_houston": 450,
-      "port_los_angeles": 650,
-      "port_indianapolis": 1250
+      "port_los_angeles": 650
     }
   },
   {
@@ -2039,8 +1950,7 @@
       "port_savannah": 950,
       "port_newark": 1350,
       "port_houston": 450,
-      "port_los_angeles": 650,
-      "port_indianapolis": 1250
+      "port_los_angeles": 650
     }
   },
   {
@@ -2055,8 +1965,7 @@
       "port_savannah": 950,
       "port_newark": 475,
       "port_houston": 1350,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 450
+      "port_los_angeles": 1650
     }
   },
   {
@@ -2071,8 +1980,7 @@
       "port_savannah": 1750,
       "port_newark": 1550,
       "port_houston": 1150,
-      "port_los_angeles": 525,
-      "port_indianapolis": 1350
+      "port_los_angeles": 525
     }
   },
   {
@@ -2087,8 +1995,7 @@
       "port_savannah": 1750,
       "port_newark": 1550,
       "port_houston": 1150,
-      "port_los_angeles": 520,
-      "port_indianapolis": 1350
+      "port_los_angeles": 520
     }
   },
   {
@@ -2103,8 +2010,7 @@
       "port_savannah": 900,
       "port_newark": 350,
       "port_houston": 1250,
-      "port_los_angeles": 1850,
-      "port_indianapolis": 750
+      "port_los_angeles": 1850
     }
   },
   {
@@ -2119,8 +2025,7 @@
       "port_savannah": 1350,
       "port_newark": 1150,
       "port_houston": 1350,
-      "port_los_angeles": 1250,
-      "port_indianapolis": 950
+      "port_los_angeles": 1250
     }
   },
   {
@@ -2135,8 +2040,7 @@
       "port_savannah": 750,
       "port_newark": 900,
       "port_houston": 400,
-      "port_los_angeles": 1050,
-      "port_indianapolis": 600
+      "port_los_angeles": 1050
     }
   },
   {
@@ -2151,8 +2055,7 @@
       "port_savannah": 750,
       "port_newark": 900,
       "port_houston": 400,
-      "port_los_angeles": 1050,
-      "port_indianapolis": 600
+      "port_los_angeles": 1050
     }
   },
   {
@@ -2167,8 +2070,7 @@
       "port_savannah": 750,
       "port_newark": 500,
       "port_houston": 950,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 450
+      "port_los_angeles": 1950
     }
   },
   {
@@ -2183,8 +2085,7 @@
       "port_savannah": 750,
       "port_newark": 500,
       "port_houston": 950,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 450
+      "port_los_angeles": 1950
     }
   },
   {
@@ -2199,8 +2100,7 @@
       "port_savannah": 1450,
       "port_newark": 1550,
       "port_houston": 850,
-      "port_los_angeles": 150,
-      "port_indianapolis": 1350
+      "port_los_angeles": 150
     }
   },
   {
@@ -2215,8 +2115,7 @@
       "port_savannah": 350,
       "port_newark": 900,
       "port_houston": 900,
-      "port_los_angeles": 1700,
-      "port_indianapolis": 1250
+      "port_los_angeles": 1700
     }
   },
   {
@@ -2231,8 +2130,7 @@
       "port_savannah": 325,
       "port_newark": 850,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 1250
+      "port_los_angeles": 1650
     }
   },
   {
@@ -2247,8 +2145,7 @@
       "port_savannah": 800,
       "port_newark": 550,
       "port_houston": 1050,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 200
+      "port_los_angeles": 1950
     }
   },
   {
@@ -2263,8 +2160,7 @@
       "port_savannah": 0,
       "port_newark": 0,
       "port_houston": 300,
-      "port_los_angeles": 0,
-      "port_indianapolis": 1050
+      "port_los_angeles": 0
     }
   },
   {
@@ -2279,8 +2175,7 @@
       "port_savannah": 600,
       "port_newark": 390,
       "port_houston": 950,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -2295,8 +2190,7 @@
       "port_savannah": 600,
       "port_newark": 390,
       "port_houston": 950,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -2311,8 +2205,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 325,
-      "port_indianapolis": 1350
+      "port_los_angeles": 325
     }
   },
   {
@@ -2327,8 +2220,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 300,
-      "port_indianapolis": 1350
+      "port_los_angeles": 300
     }
   },
   {
@@ -2343,8 +2235,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 300,
-      "port_indianapolis": 1350
+      "port_los_angeles": 300
     }
   },
   {
@@ -2359,8 +2250,7 @@
       "port_savannah": 325,
       "port_newark": 850,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 1250
+      "port_los_angeles": 1650
     }
   },
   {
@@ -2375,8 +2265,7 @@
       "port_savannah": 750,
       "port_newark": 950,
       "port_houston": 250,
-      "port_los_angeles": 950,
-      "port_indianapolis": 800
+      "port_los_angeles": 950
     }
   },
   {
@@ -2391,8 +2280,7 @@
       "port_savannah": 650,
       "port_newark": 175,
       "port_houston": 1150,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -2407,8 +2295,7 @@
       "port_savannah": 1950,
       "port_newark": 1550,
       "port_houston": 1350,
-      "port_los_angeles": 650,
-      "port_indianapolis": 1150
+      "port_los_angeles": 650
     }
   },
   {
@@ -2423,8 +2310,7 @@
       "port_savannah": 800,
       "port_newark": 550,
       "port_houston": 1050,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 450
+      "port_los_angeles": 1950
     }
   },
   {
@@ -2439,8 +2325,7 @@
       "port_savannah": 300,
       "port_newark": 450,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 800
+      "port_los_angeles": 1650
     }
   },
   {
@@ -2455,8 +2340,7 @@
       "port_savannah": 250,
       "port_newark": 500,
       "port_houston": 850,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 750
+      "port_los_angeles": 1450
     }
   },
   {
@@ -2471,8 +2355,7 @@
       "port_savannah": 500,
       "port_newark": 800,
       "port_houston": 450,
-      "port_los_angeles": 1150,
-      "port_indianapolis": 800
+      "port_los_angeles": 1150
     }
   },
   {
@@ -2487,8 +2370,7 @@
       "port_savannah": 400,
       "port_newark": 850,
       "port_houston": 425,
-      "port_los_angeles": 1150,
-      "port_indianapolis": 800
+      "port_los_angeles": 1150
     }
   },
   {
@@ -2503,8 +2385,7 @@
       "port_savannah": 800,
       "port_newark": 500,
       "port_houston": 850,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 200
+      "port_los_angeles": 1550
     }
   },
   {
@@ -2519,8 +2400,7 @@
       "port_savannah": 550,
       "port_newark": 390,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -2535,8 +2415,7 @@
       "port_savannah": 750,
       "port_newark": 250,
       "port_houston": 1150,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 550
+      "port_los_angeles": 1650
     }
   },
   {
@@ -2551,8 +2430,7 @@
       "port_savannah": 750,
       "port_newark": 225,
       "port_houston": 1250,
-      "port_los_angeles": 1750,
-      "port_indianapolis": 750
+      "port_los_angeles": 1750
     }
   },
   {
@@ -2567,8 +2445,7 @@
       "port_savannah": 750,
       "port_newark": 225,
       "port_houston": 1250,
-      "port_los_angeles": 1750,
-      "port_indianapolis": 750
+      "port_los_angeles": 1750
     }
   },
   {
@@ -2583,8 +2460,7 @@
       "port_savannah": 750,
       "port_newark": 225,
       "port_houston": 1250,
-      "port_los_angeles": 1750,
-      "port_indianapolis": 750
+      "port_los_angeles": 1750
     }
   },
   {
@@ -2599,8 +2475,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 300,
-      "port_indianapolis": 1350
+      "port_los_angeles": 300
     }
   },
   {
@@ -2615,8 +2490,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 325,
-      "port_indianapolis": 1350
+      "port_los_angeles": 325
     }
   },
   {
@@ -2631,8 +2505,7 @@
       "port_savannah": 1650,
       "port_newark": 1350,
       "port_houston": 1350,
-      "port_los_angeles": 1050,
-      "port_indianapolis": 1100
+      "port_los_angeles": 1050
     }
   },
   {
@@ -2647,8 +2520,7 @@
       "port_savannah": 1450,
       "port_newark": 1550,
       "port_houston": 850,
-      "port_los_angeles": 200,
-      "port_indianapolis": 1350
+      "port_los_angeles": 200
     }
   },
   {
@@ -2663,8 +2535,7 @@
       "port_savannah": 4500,
       "port_newark": 5500,
       "port_houston": 3900,
-      "port_los_angeles": 2850,
-      "port_indianapolis": 5300
+      "port_los_angeles": 2850
     }
   },
   {
@@ -2679,8 +2550,7 @@
       "port_savannah": 4150,
       "port_newark": 5150,
       "port_houston": 3550,
-      "port_los_angeles": 2500,
-      "port_indianapolis": 4950
+      "port_los_angeles": 2500
     }
   },
   {
@@ -2695,8 +2565,7 @@
       "port_savannah": 4150,
       "port_newark": 5150,
       "port_houston": 3550,
-      "port_los_angeles": 2500,
-      "port_indianapolis": 4950
+      "port_los_angeles": 2500
     }
   },
   {
@@ -2711,8 +2580,7 @@
       "port_savannah": 3450,
       "port_newark": 4450,
       "port_houston": 2850,
-      "port_los_angeles": 1800,
-      "port_indianapolis": 4250
+      "port_los_angeles": 1800
     }
   },
   {
@@ -2727,8 +2595,7 @@
       "port_savannah": 3450,
       "port_newark": 4450,
       "port_houston": 2850,
-      "port_los_angeles": 1800,
-      "port_indianapolis": 4250
+      "port_los_angeles": 1800
     }
   },
   {
@@ -2743,8 +2610,7 @@
       "port_savannah": 4500,
       "port_newark": 5500,
       "port_houston": 3900,
-      "port_los_angeles": 2850,
-      "port_indianapolis": 5300
+      "port_los_angeles": 2850
     }
   },
   {
@@ -2759,8 +2625,7 @@
       "port_savannah": 3750,
       "port_newark": 4750,
       "port_houston": 3150,
-      "port_los_angeles": 2100,
-      "port_indianapolis": 4550
+      "port_los_angeles": 2100
     }
   },
   {
@@ -2775,8 +2640,7 @@
       "port_savannah": 3750,
       "port_newark": 4750,
       "port_houston": 3150,
-      "port_los_angeles": 2100,
-      "port_indianapolis": 4550
+      "port_los_angeles": 2100
     }
   },
   {
@@ -2791,8 +2655,7 @@
       "port_savannah": 600,
       "port_newark": 950,
       "port_houston": 125,
-      "port_los_angeles": 850,
-      "port_indianapolis": 850
+      "port_los_angeles": 850
     }
   },
   {
@@ -2807,8 +2670,7 @@
       "port_savannah": 600,
       "port_newark": 950,
       "port_houston": 125,
-      "port_los_angeles": 850,
-      "port_indianapolis": 850
+      "port_los_angeles": 850
     }
   },
   {
@@ -2823,8 +2685,7 @@
       "port_savannah": 600,
       "port_newark": 950,
       "port_houston": 125,
-      "port_los_angeles": 850,
-      "port_indianapolis": 850
+      "port_los_angeles": 850
     }
   },
   {
@@ -2839,8 +2700,7 @@
       "port_savannah": 600,
       "port_newark": 950,
       "port_houston": 125,
-      "port_los_angeles": 850,
-      "port_indianapolis": 850
+      "port_los_angeles": 850
     }
   },
   {
@@ -2855,8 +2715,7 @@
       "port_savannah": 350,
       "port_newark": 650,
       "port_houston": 650,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 800
+      "port_los_angeles": 1450
     }
   },
   {
@@ -2871,8 +2730,7 @@
       "port_savannah": 1100,
       "port_newark": 600,
       "port_houston": 850,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 450
+      "port_los_angeles": 1450
     }
   },
   {
@@ -2887,8 +2745,7 @@
       "port_savannah": 1100,
       "port_newark": 600,
       "port_houston": 850,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 450
+      "port_los_angeles": 1450
     }
   },
   {
@@ -2903,8 +2760,7 @@
       "port_savannah": 700,
       "port_newark": 450,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 125
+      "port_los_angeles": 1650
     }
   },
   {
@@ -2919,8 +2775,7 @@
       "port_savannah": 700,
       "port_newark": 450,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 125
+      "port_los_angeles": 1650
     }
   },
   {
@@ -2935,8 +2790,7 @@
       "port_savannah": 750,
       "port_newark": 510,
       "port_houston": 950,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 450
+      "port_los_angeles": 1950
     }
   },
   {
@@ -2951,8 +2805,7 @@
       "port_savannah": 450,
       "port_newark": 800,
       "port_houston": 425,
-      "port_los_angeles": 1150,
-      "port_indianapolis": 800
+      "port_los_angeles": 1150
     }
   },
   {
@@ -2967,8 +2820,7 @@
       "port_savannah": 450,
       "port_newark": 800,
       "port_houston": 425,
-      "port_los_angeles": 1150,
-      "port_indianapolis": 800
+      "port_los_angeles": 1150
     }
   },
   {
@@ -2983,8 +2835,7 @@
       "port_savannah": 200,
       "port_newark": 750,
       "port_houston": 650,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 1050
+      "port_los_angeles": 1450
     }
   },
   {
@@ -2999,8 +2850,7 @@
       "port_savannah": 200,
       "port_newark": 750,
       "port_houston": 650,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 1050
+      "port_los_angeles": 1450
     }
   },
   {
@@ -3015,8 +2865,7 @@
       "port_savannah": 200,
       "port_newark": 750,
       "port_houston": 650,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 1050
+      "port_los_angeles": 1450
     }
   },
   {
@@ -3031,8 +2880,7 @@
       "port_savannah": 700,
       "port_newark": 700,
       "port_houston": 500,
-      "port_los_angeles": 1350,
-      "port_indianapolis": 500
+      "port_los_angeles": 1350
     }
   },
   {
@@ -3047,8 +2895,7 @@
       "port_savannah": 700,
       "port_newark": 700,
       "port_houston": 500,
-      "port_los_angeles": 1350,
-      "port_indianapolis": 500
+      "port_los_angeles": 1350
     }
   },
   {
@@ -3063,8 +2910,7 @@
       "port_savannah": 1150,
       "port_newark": 950,
       "port_houston": 1350,
-      "port_los_angeles": 2350,
-      "port_indianapolis": 750
+      "port_los_angeles": 2350
     }
   },
   {
@@ -3079,8 +2925,7 @@
       "port_savannah": 350,
       "port_newark": 500,
       "port_houston": 700,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 650
+      "port_los_angeles": 1450
     }
   },
   {
@@ -3095,8 +2940,7 @@
       "port_savannah": 375,
       "port_newark": 500,
       "port_houston": 700,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 650
+      "port_los_angeles": 1450
     }
   },
   {
@@ -3111,8 +2955,7 @@
       "port_savannah": 450,
       "port_newark": 500,
       "port_houston": 750,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 450
+      "port_los_angeles": 1550
     }
   },
   {
@@ -3127,8 +2970,7 @@
       "port_savannah": 450,
       "port_newark": 850,
       "port_houston": 300,
-      "port_los_angeles": 1050,
-      "port_indianapolis": 800
+      "port_los_angeles": 1050
     }
   },
   {
@@ -3143,8 +2985,7 @@
       "port_savannah": 750,
       "port_newark": 550,
       "port_houston": 950,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 450
+      "port_los_angeles": 1950
     }
   },
   {
@@ -3159,8 +3000,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 300,
-      "port_indianapolis": 1350
+      "port_los_angeles": 300
     }
   },
   {
@@ -3175,8 +3015,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 325,
-      "port_indianapolis": 1350
+      "port_los_angeles": 325
     }
   },
   {
@@ -3191,8 +3030,7 @@
       "port_savannah": 650,
       "port_newark": 290,
       "port_houston": 950,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -3207,8 +3045,7 @@
       "port_savannah": 225,
       "port_newark": 0,
       "port_houston": 0,
-      "port_los_angeles": 0,
-      "port_indianapolis": 1350
+      "port_los_angeles": 0
     }
   },
   {
@@ -3223,8 +3060,7 @@
       "port_savannah": 450,
       "port_newark": 500,
       "port_houston": 750,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 450
+      "port_los_angeles": 1550
     }
   },
   {
@@ -3239,8 +3075,7 @@
       "port_savannah": 450,
       "port_newark": 500,
       "port_houston": 750,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 450
+      "port_los_angeles": 1550
     }
   },
   {
@@ -3255,8 +3090,7 @@
       "port_savannah": 800,
       "port_newark": 550,
       "port_houston": 750,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 250
+      "port_los_angeles": 1550
     }
   },
   {
@@ -3271,8 +3105,7 @@
       "port_savannah": 950,
       "port_newark": 650,
       "port_houston": 750,
-      "port_los_angeles": 1350,
-      "port_indianapolis": 550
+      "port_los_angeles": 1350
     }
   },
   {
@@ -3287,8 +3120,7 @@
       "port_savannah": 600,
       "port_newark": 850,
       "port_houston": 400,
-      "port_los_angeles": 1150,
-      "port_indianapolis": 600
+      "port_los_angeles": 1150
     }
   },
   {
@@ -3303,8 +3135,7 @@
       "port_savannah": 600,
       "port_newark": 850,
       "port_houston": 400,
-      "port_los_angeles": 1150,
-      "port_indianapolis": 600
+      "port_los_angeles": 1150
     }
   },
   {
@@ -3319,8 +3150,7 @@
       "port_savannah": 1450,
       "port_newark": 1550,
       "port_houston": 850,
-      "port_los_angeles": 150,
-      "port_indianapolis": 1350
+      "port_los_angeles": 150
     }
   },
   {
@@ -3335,8 +3165,7 @@
       "port_savannah": 750,
       "port_newark": 225,
       "port_houston": 1150,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -3351,8 +3180,7 @@
       "port_savannah": 750,
       "port_newark": 200,
       "port_houston": 1150,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -3367,8 +3195,7 @@
       "port_savannah": 650,
       "port_newark": 950,
       "port_houston": 275,
-      "port_los_angeles": 950,
-      "port_indianapolis": 800
+      "port_los_angeles": 950
     }
   },
   {
@@ -3383,8 +3210,7 @@
       "port_savannah": 650,
       "port_newark": 950,
       "port_houston": 275,
-      "port_los_angeles": 950,
-      "port_indianapolis": 800
+      "port_los_angeles": 950
     }
   },
   {
@@ -3399,8 +3225,7 @@
       "port_savannah": 1450,
       "port_newark": 1550,
       "port_houston": 850,
-      "port_los_angeles": 150,
-      "port_indianapolis": 1350
+      "port_los_angeles": 150
     }
   },
   {
@@ -3415,8 +3240,7 @@
       "port_savannah": 1450,
       "port_newark": 1550,
       "port_houston": 850,
-      "port_los_angeles": 150,
-      "port_indianapolis": 1350
+      "port_los_angeles": 150
     }
   },
   {
@@ -3431,8 +3255,7 @@
       "port_savannah": 450,
       "port_newark": 500,
       "port_houston": 750,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 450
+      "port_los_angeles": 1550
     }
   },
   {
@@ -3447,8 +3270,7 @@
       "port_savannah": 450,
       "port_newark": 500,
       "port_houston": 750,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 450
+      "port_los_angeles": 1550
     }
   },
   {
@@ -3463,8 +3285,7 @@
       "port_savannah": 950,
       "port_newark": 1350,
       "port_houston": 450,
-      "port_los_angeles": 750,
-      "port_indianapolis": 950
+      "port_los_angeles": 750
     }
   },
   {
@@ -3479,8 +3300,7 @@
       "port_savannah": 750,
       "port_newark": 950,
       "port_houston": 250,
-      "port_los_angeles": 950,
-      "port_indianapolis": 800
+      "port_los_angeles": 950
     }
   },
   {
@@ -3495,8 +3315,7 @@
       "port_savannah": 325,
       "port_newark": 450,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 800
+      "port_los_angeles": 1650
     }
   },
   {
@@ -3511,8 +3330,7 @@
       "port_savannah": 950,
       "port_newark": 375,
       "port_houston": 1400,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 900
+      "port_los_angeles": 1950
     }
   },
   {
@@ -3527,8 +3345,7 @@
       "port_savannah": 250,
       "port_newark": 800,
       "port_houston": 800,
-      "port_los_angeles": 1600,
-      "port_indianapolis": 750
+      "port_los_angeles": 1600
     }
   },
   {
@@ -3543,8 +3360,7 @@
       "port_savannah": 250,
       "port_newark": 800,
       "port_houston": 800,
-      "port_los_angeles": 1600,
-      "port_indianapolis": 750
+      "port_los_angeles": 1600
     }
   },
   {
@@ -3559,8 +3375,7 @@
       "port_savannah": 1100,
       "port_newark": 750,
       "port_houston": 1050,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 300
+      "port_los_angeles": 1950
     }
   },
   {
@@ -3575,8 +3390,7 @@
       "port_savannah": 850,
       "port_newark": 350,
       "port_houston": 1350,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 850
+      "port_los_angeles": 1950
     }
   },
   {
@@ -3591,8 +3405,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 325,
-      "port_indianapolis": 1350
+      "port_los_angeles": 325
     }
   },
   {
@@ -3607,8 +3420,7 @@
       "port_savannah": 950,
       "port_newark": 1300,
       "port_houston": 300,
-      "port_los_angeles": 950,
-      "port_indianapolis": 1050
+      "port_los_angeles": 950
     }
   },
   {
@@ -3623,8 +3435,7 @@
       "port_savannah": 950,
       "port_newark": 1300,
       "port_houston": 300,
-      "port_los_angeles": 950,
-      "port_indianapolis": 1050
+      "port_los_angeles": 950
     }
   },
   {
@@ -3639,8 +3450,7 @@
       "port_savannah": 300,
       "port_newark": 450,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 800
+      "port_los_angeles": 1650
     }
   },
   {
@@ -3655,8 +3465,7 @@
       "port_savannah": 425,
       "port_newark": 750,
       "port_houston": 550,
-      "port_los_angeles": 1350,
-      "port_indianapolis": 550
+      "port_los_angeles": 1350
     }
   },
   {
@@ -3671,8 +3480,7 @@
       "port_savannah": 425,
       "port_newark": 750,
       "port_houston": 550,
-      "port_los_angeles": 1350,
-      "port_indianapolis": 550
+      "port_los_angeles": 1350
     }
   },
   {
@@ -3687,8 +3495,7 @@
       "port_savannah": 650,
       "port_newark": 300,
       "port_houston": 950,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -3703,8 +3510,7 @@
       "port_savannah": 350,
       "port_newark": 900,
       "port_houston": 900,
-      "port_los_angeles": 1700,
-      "port_indianapolis": 1250
+      "port_los_angeles": 1700
     }
   },
   {
@@ -3719,8 +3525,7 @@
       "port_savannah": 350,
       "port_newark": 900,
       "port_houston": 900,
-      "port_los_angeles": 1700,
-      "port_indianapolis": 1250
+      "port_los_angeles": 1700
     }
   },
   {
@@ -3735,8 +3540,7 @@
       "port_savannah": 350,
       "port_newark": 900,
       "port_houston": 900,
-      "port_los_angeles": 1700,
-      "port_indianapolis": 1250
+      "port_los_angeles": 1700
     }
   },
   {
@@ -3751,8 +3555,7 @@
       "port_savannah": 350,
       "port_newark": 900,
       "port_houston": 900,
-      "port_los_angeles": 1700,
-      "port_indianapolis": 1250
+      "port_los_angeles": 1700
     }
   },
   {
@@ -3767,8 +3570,7 @@
       "port_savannah": 350,
       "port_newark": 900,
       "port_houston": 900,
-      "port_los_angeles": 1700,
-      "port_indianapolis": 1250
+      "port_los_angeles": 1700
     }
   },
   {
@@ -3783,8 +3585,7 @@
       "port_savannah": 1100,
       "port_newark": 750,
       "port_houston": 1050,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 300
+      "port_los_angeles": 1950
     }
   },
   {
@@ -3799,8 +3600,7 @@
       "port_savannah": 1100,
       "port_newark": 750,
       "port_houston": 1050,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 300
+      "port_los_angeles": 1950
     }
   },
   {
@@ -3815,8 +3615,7 @@
       "port_savannah": 1100,
       "port_newark": 800,
       "port_houston": 1250,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 450
+      "port_los_angeles": 1950
     }
   },
   {
@@ -3831,8 +3630,7 @@
       "port_savannah": 1100,
       "port_newark": 800,
       "port_houston": 1250,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 450
+      "port_los_angeles": 1950
     }
   },
   {
@@ -3847,8 +3645,7 @@
       "port_savannah": 1100,
       "port_newark": 800,
       "port_houston": 1250,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 450
+      "port_los_angeles": 1950
     }
   },
   {
@@ -3863,8 +3660,7 @@
       "port_savannah": 1650,
       "port_newark": 1350,
       "port_houston": 1350,
-      "port_los_angeles": 1050,
-      "port_indianapolis": 1100
+      "port_los_angeles": 1050
     }
   },
   {
@@ -3879,8 +3675,7 @@
       "port_savannah": 350,
       "port_newark": 850,
       "port_houston": 550,
-      "port_los_angeles": 1350,
-      "port_indianapolis": 1050
+      "port_los_angeles": 1350
     }
   },
   {
@@ -3895,8 +3690,7 @@
       "port_savannah": 300,
       "port_newark": 500,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 800
+      "port_los_angeles": 1650
     }
   },
   {
@@ -3911,8 +3705,7 @@
       "port_savannah": 325,
       "port_newark": 750,
       "port_houston": 600,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 800
+      "port_los_angeles": 1450
     }
   },
   {
@@ -3927,8 +3720,7 @@
       "port_savannah": 375,
       "port_newark": 550,
       "port_houston": 650,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 550
+      "port_los_angeles": 1450
     }
   },
   {
@@ -3943,8 +3735,7 @@
       "port_savannah": 375,
       "port_newark": 550,
       "port_houston": 650,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 550
+      "port_los_angeles": 1450
     }
   },
   {
@@ -3959,8 +3750,7 @@
       "port_savannah": 650,
       "port_newark": 275,
       "port_houston": 1050,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -3975,8 +3765,7 @@
       "port_savannah": 450,
       "port_newark": 850,
       "port_houston": 300,
-      "port_los_angeles": 1050,
-      "port_indianapolis": 800
+      "port_los_angeles": 1050
     }
   },
   {
@@ -3991,8 +3780,7 @@
       "port_savannah": 450,
       "port_newark": 850,
       "port_houston": 300,
-      "port_los_angeles": 1050,
-      "port_indianapolis": 800
+      "port_los_angeles": 1050
     }
   },
   {
@@ -4007,8 +3795,7 @@
       "port_savannah": 450,
       "port_newark": 850,
       "port_houston": 300,
-      "port_los_angeles": 1050,
-      "port_indianapolis": 800
+      "port_los_angeles": 1050
     }
   },
   {
@@ -4023,8 +3810,7 @@
       "port_savannah": 750,
       "port_newark": 200,
       "port_houston": 1150,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 500
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4039,8 +3825,7 @@
       "port_savannah": 750,
       "port_newark": 200,
       "port_houston": 1150,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 500
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4055,8 +3840,7 @@
       "port_savannah": 850,
       "port_newark": 350,
       "port_houston": 1250,
-      "port_los_angeles": 1850,
-      "port_indianapolis": 750
+      "port_los_angeles": 1850
     }
   },
   {
@@ -4071,8 +3855,7 @@
       "port_savannah": 200,
       "port_newark": 0,
       "port_houston": 0,
-      "port_los_angeles": 0,
-      "port_indianapolis": 1350
+      "port_los_angeles": 0
     }
   },
   {
@@ -4087,8 +3870,7 @@
       "port_savannah": 1450,
       "port_newark": 1550,
       "port_houston": 850,
-      "port_los_angeles": 200,
-      "port_indianapolis": 1350
+      "port_los_angeles": 200
     }
   },
   {
@@ -4103,8 +3885,7 @@
       "port_savannah": 1950,
       "port_newark": 1550,
       "port_houston": 1350,
-      "port_los_angeles": 650,
-      "port_indianapolis": 1150
+      "port_los_angeles": 650
     }
   },
   {
@@ -4119,8 +3900,7 @@
       "port_savannah": 650,
       "port_newark": 150,
       "port_houston": 1050,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 600
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4135,8 +3915,7 @@
       "port_savannah": 600,
       "port_newark": 390,
       "port_houston": 950,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4151,8 +3930,7 @@
       "port_savannah": 275,
       "port_newark": 850,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 1150
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4167,8 +3945,7 @@
       "port_savannah": 1750,
       "port_newark": 1350,
       "port_houston": 1150,
-      "port_los_angeles": 500,
-      "port_indianapolis": 750
+      "port_los_angeles": 500
     }
   },
   {
@@ -4183,8 +3960,7 @@
       "port_savannah": 750,
       "port_newark": 900,
       "port_houston": 400,
-      "port_los_angeles": 950,
-      "port_indianapolis": 600
+      "port_los_angeles": 950
     }
   },
   {
@@ -4199,8 +3975,7 @@
       "port_savannah": 750,
       "port_newark": 900,
       "port_houston": 400,
-      "port_los_angeles": 950,
-      "port_indianapolis": 600
+      "port_los_angeles": 950
     }
   },
   {
@@ -4215,8 +3990,7 @@
       "port_savannah": 950,
       "port_newark": 725,
       "port_houston": 750,
-      "port_los_angeles": 1350,
-      "port_indianapolis": 650
+      "port_los_angeles": 1350
     }
   },
   {
@@ -4231,8 +4005,7 @@
       "port_savannah": 275,
       "port_newark": 850,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 1150
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4247,8 +4020,7 @@
       "port_savannah": 275,
       "port_newark": 850,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 1150
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4263,8 +4035,7 @@
       "port_savannah": 275,
       "port_newark": 850,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 1150
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4279,8 +4050,7 @@
       "port_savannah": 275,
       "port_newark": 850,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 1150
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4295,8 +4065,7 @@
       "port_savannah": 275,
       "port_newark": 850,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 1150
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4311,8 +4080,7 @@
       "port_savannah": 450,
       "port_newark": 500,
       "port_houston": 750,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 450
+      "port_los_angeles": 1550
     }
   },
   {
@@ -4327,8 +4095,7 @@
       "port_savannah": 1950,
       "port_newark": 1550,
       "port_houston": 1350,
-      "port_los_angeles": 750,
-      "port_indianapolis": 1150
+      "port_los_angeles": 750
     }
   },
   {
@@ -4343,8 +4110,7 @@
       "port_savannah": 350,
       "port_newark": 850,
       "port_houston": 550,
-      "port_los_angeles": 1350,
-      "port_indianapolis": 1050
+      "port_los_angeles": 1350
     }
   },
   {
@@ -4359,8 +4125,7 @@
       "port_savannah": 800,
       "port_newark": 500,
       "port_houston": 850,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 250
+      "port_los_angeles": 1550
     }
   },
   {
@@ -4375,8 +4140,7 @@
       "port_savannah": 950,
       "port_newark": 1350,
       "port_houston": 450,
-      "port_los_angeles": 750,
-      "port_indianapolis": 1150
+      "port_los_angeles": 750
     }
   },
   {
@@ -4391,8 +4155,7 @@
       "port_savannah": 650,
       "port_newark": 200,
       "port_houston": 1050,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 550
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4407,8 +4170,7 @@
       "port_savannah": 650,
       "port_newark": 200,
       "port_houston": 1050,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 550
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4423,8 +4185,7 @@
       "port_savannah": 650,
       "port_newark": 200,
       "port_houston": 1050,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 550
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4439,8 +4200,7 @@
       "port_savannah": 1300,
       "port_newark": 1350,
       "port_houston": 700,
-      "port_los_angeles": 325,
-      "port_indianapolis": 1350
+      "port_los_angeles": 325
     }
   },
   {
@@ -4455,8 +4215,7 @@
       "port_savannah": 1300,
       "port_newark": 1350,
       "port_houston": 700,
-      "port_los_angeles": 325,
-      "port_indianapolis": 1350
+      "port_los_angeles": 325
     }
   },
   {
@@ -4471,8 +4230,7 @@
       "port_savannah": 850,
       "port_newark": 390,
       "port_houston": 1250,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 450
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4487,8 +4245,7 @@
       "port_savannah": 850,
       "port_newark": 390,
       "port_houston": 1250,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 450
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4503,8 +4260,7 @@
       "port_savannah": 850,
       "port_newark": 390,
       "port_houston": 1250,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 450
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4519,8 +4275,7 @@
       "port_savannah": 850,
       "port_newark": 390,
       "port_houston": 1250,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 450
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4535,8 +4290,7 @@
       "port_savannah": 850,
       "port_newark": 390,
       "port_houston": 1250,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 450
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4551,8 +4305,7 @@
       "port_savannah": 1100,
       "port_newark": 750,
       "port_houston": 1050,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 350
+      "port_los_angeles": 1950
     }
   },
   {
@@ -4567,8 +4320,7 @@
       "port_savannah": 950,
       "port_newark": 400,
       "port_houston": 1400,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 900
+      "port_los_angeles": 1950
     }
   },
   {
@@ -4583,8 +4335,7 @@
       "port_savannah": 1750,
       "port_newark": 1550,
       "port_houston": 1150,
-      "port_los_angeles": 525,
-      "port_indianapolis": 1350
+      "port_los_angeles": 525
     }
   },
   {
@@ -4599,8 +4350,7 @@
       "port_savannah": 1750,
       "port_newark": 1550,
       "port_houston": 1150,
-      "port_los_angeles": 525,
-      "port_indianapolis": 1350
+      "port_los_angeles": 525
     }
   },
   {
@@ -4615,8 +4365,7 @@
       "port_savannah": 1750,
       "port_newark": 1550,
       "port_houston": 1150,
-      "port_los_angeles": 525,
-      "port_indianapolis": 1350
+      "port_los_angeles": 525
     }
   },
   {
@@ -4631,8 +4380,7 @@
       "port_savannah": 1750,
       "port_newark": 1550,
       "port_houston": 1150,
-      "port_los_angeles": 525,
-      "port_indianapolis": 1350
+      "port_los_angeles": 525
     }
   },
   {
@@ -4647,8 +4395,7 @@
       "port_savannah": 850,
       "port_newark": 350,
       "port_houston": 1350,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 750
+      "port_los_angeles": 1950
     }
   },
   {
@@ -4663,8 +4410,7 @@
       "port_savannah": 550,
       "port_newark": 390,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4679,8 +4425,7 @@
       "port_savannah": 350,
       "port_newark": 900,
       "port_houston": 900,
-      "port_los_angeles": 1700,
-      "port_indianapolis": 1250
+      "port_los_angeles": 1700
     }
   },
   {
@@ -4695,8 +4440,7 @@
       "port_savannah": 1950,
       "port_newark": 1550,
       "port_houston": 1350,
-      "port_los_angeles": 650,
-      "port_indianapolis": 1150
+      "port_los_angeles": 650
     }
   },
   {
@@ -4711,8 +4455,7 @@
       "port_savannah": 275,
       "port_newark": 450,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 800
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4727,8 +4470,7 @@
       "port_savannah": 275,
       "port_newark": 450,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 800
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4743,8 +4485,7 @@
       "port_savannah": 1450,
       "port_newark": 1550,
       "port_houston": 850,
-      "port_los_angeles": 175,
-      "port_indianapolis": 1350
+      "port_los_angeles": 175
     }
   },
   {
@@ -4759,8 +4500,7 @@
       "port_savannah": 1650,
       "port_newark": 1550,
       "port_houston": 1050,
-      "port_los_angeles": 450,
-      "port_indianapolis": 1350
+      "port_los_angeles": 450
     }
   },
   {
@@ -4775,8 +4515,7 @@
       "port_savannah": 1650,
       "port_newark": 1550,
       "port_houston": 1050,
-      "port_los_angeles": 450,
-      "port_indianapolis": 1350
+      "port_los_angeles": 450
     }
   },
   {
@@ -4791,8 +4530,7 @@
       "port_savannah": 550,
       "port_newark": 325,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4807,8 +4545,7 @@
       "port_savannah": 550,
       "port_newark": 325,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4823,8 +4560,7 @@
       "port_savannah": 550,
       "port_newark": 325,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4839,8 +4575,7 @@
       "port_savannah": 1450,
       "port_newark": 1550,
       "port_houston": 850,
-      "port_los_angeles": 150,
-      "port_indianapolis": 1350
+      "port_los_angeles": 150
     }
   },
   {
@@ -4855,8 +4590,7 @@
       "port_savannah": 0,
       "port_newark": 390,
       "port_houston": 0,
-      "port_los_angeles": 0,
-      "port_indianapolis": 1350
+      "port_los_angeles": 0
     }
   },
   {
@@ -4871,8 +4605,7 @@
       "port_savannah": 850,
       "port_newark": 350,
       "port_houston": 1350,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 500
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4887,8 +4620,7 @@
       "port_savannah": 850,
       "port_newark": 375,
       "port_houston": 1350,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 500
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4903,8 +4635,7 @@
       "port_savannah": 650,
       "port_newark": 275,
       "port_houston": 950,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -4919,8 +4650,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 325,
-      "port_indianapolis": 1350
+      "port_los_angeles": 325
     }
   },
   {
@@ -4935,8 +4665,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 325,
-      "port_indianapolis": 1350
+      "port_los_angeles": 325
     }
   },
   {
@@ -4951,8 +4680,7 @@
       "port_savannah": 1750,
       "port_newark": 1350,
       "port_houston": 1150,
-      "port_los_angeles": 475,
-      "port_indianapolis": 750
+      "port_los_angeles": 475
     }
   },
   {
@@ -4967,8 +4695,7 @@
       "port_savannah": 1750,
       "port_newark": 1350,
       "port_houston": 1150,
-      "port_los_angeles": 500,
-      "port_indianapolis": 750
+      "port_los_angeles": 500
     }
   },
   {
@@ -4983,8 +4710,7 @@
       "port_savannah": 750,
       "port_newark": 1200,
       "port_houston": 250,
-      "port_los_angeles": 950,
-      "port_indianapolis": 950
+      "port_los_angeles": 950
     }
   },
   {
@@ -4999,8 +4725,7 @@
       "port_savannah": 750,
       "port_newark": 1200,
       "port_houston": 250,
-      "port_los_angeles": 950,
-      "port_indianapolis": 950
+      "port_los_angeles": 950
     }
   },
   {
@@ -5015,8 +4740,7 @@
       "port_savannah": 750,
       "port_newark": 1200,
       "port_houston": 250,
-      "port_los_angeles": 950,
-      "port_indianapolis": 950
+      "port_los_angeles": 950
     }
   },
   {
@@ -5031,8 +4755,7 @@
       "port_savannah": 1450,
       "port_newark": 1550,
       "port_houston": 850,
-      "port_los_angeles": 150,
-      "port_indianapolis": 1350
+      "port_los_angeles": 150
     }
   },
   {
@@ -5047,8 +4770,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 225,
-      "port_indianapolis": 1350
+      "port_los_angeles": 225
     }
   },
   {
@@ -5063,8 +4785,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 225,
-      "port_indianapolis": 1350
+      "port_los_angeles": 225
     }
   },
   {
@@ -5079,8 +4800,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 325,
-      "port_indianapolis": 1350
+      "port_los_angeles": 325
     }
   },
   {
@@ -5095,8 +4815,7 @@
       "port_savannah": 150,
       "port_newark": 600,
       "port_houston": 600,
-      "port_los_angeles": 1400,
-      "port_indianapolis": 800
+      "port_los_angeles": 1400
     }
   },
   {
@@ -5111,8 +4830,7 @@
       "port_savannah": 150,
       "port_newark": 600,
       "port_houston": 600,
-      "port_los_angeles": 1400,
-      "port_indianapolis": 800
+      "port_los_angeles": 1400
     }
   },
   {
@@ -5127,8 +4845,7 @@
       "port_savannah": 750,
       "port_newark": 275,
       "port_houston": 1150,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 550
+      "port_los_angeles": 1650
     }
   },
   {
@@ -5143,8 +4860,7 @@
       "port_savannah": 750,
       "port_newark": 275,
       "port_houston": 1150,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 550
+      "port_los_angeles": 1650
     }
   },
   {
@@ -5159,8 +4875,7 @@
       "port_savannah": 650,
       "port_newark": 275,
       "port_houston": 1050,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -5175,8 +4890,7 @@
       "port_savannah": 1950,
       "port_newark": 1550,
       "port_houston": 1350,
-      "port_los_angeles": 650,
-      "port_indianapolis": 1150
+      "port_los_angeles": 650
     }
   },
   {
@@ -5191,8 +4905,7 @@
       "port_savannah": 1950,
       "port_newark": 1550,
       "port_houston": 1350,
-      "port_los_angeles": 650,
-      "port_indianapolis": 1150
+      "port_los_angeles": 650
     }
   },
   {
@@ -5207,8 +4920,7 @@
       "port_savannah": 650,
       "port_newark": 550,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 550
+      "port_los_angeles": 1650
     }
   },
   {
@@ -5223,8 +4935,7 @@
       "port_savannah": 600,
       "port_newark": 850,
       "port_houston": 300,
-      "port_los_angeles": 1050,
-      "port_indianapolis": 700
+      "port_los_angeles": 1050
     }
   },
   {
@@ -5239,8 +4950,7 @@
       "port_savannah": 600,
       "port_newark": 850,
       "port_houston": 300,
-      "port_los_angeles": 1050,
-      "port_indianapolis": 700
+      "port_los_angeles": 1050
     }
   },
   {
@@ -5255,8 +4965,7 @@
       "port_savannah": 650,
       "port_newark": 700,
       "port_houston": 400,
-      "port_los_angeles": 1350,
-      "port_indianapolis": 475
+      "port_los_angeles": 1350
     }
   },
   {
@@ -5271,8 +4980,7 @@
       "port_savannah": 1350,
       "port_newark": 1050,
       "port_houston": 1250,
-      "port_los_angeles": 1250,
-      "port_indianapolis": 700
+      "port_los_angeles": 1250
     }
   },
   {
@@ -5287,8 +4995,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 325,
-      "port_indianapolis": 1350
+      "port_los_angeles": 325
     }
   },
   {
@@ -5303,8 +5010,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 325,
-      "port_indianapolis": 1350
+      "port_los_angeles": 325
     }
   },
   {
@@ -5319,8 +5025,7 @@
       "port_savannah": 650,
       "port_newark": 150,
       "port_houston": 1150,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -5335,8 +5040,7 @@
       "port_savannah": 700,
       "port_newark": 500,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 225
+      "port_los_angeles": 1650
     }
   },
   {
@@ -5351,8 +5055,7 @@
       "port_savannah": 850,
       "port_newark": 350,
       "port_houston": 1250,
-      "port_los_angeles": 1850,
-      "port_indianapolis": 750
+      "port_los_angeles": 1850
     }
   },
   {
@@ -5367,8 +5070,7 @@
       "port_savannah": 700,
       "port_newark": 550,
       "port_houston": 750,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 250
+      "port_los_angeles": 1550
     }
   },
   {
@@ -5383,8 +5085,7 @@
       "port_savannah": 650,
       "port_newark": 200,
       "port_houston": 1150,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -5399,8 +5100,7 @@
       "port_savannah": 275,
       "port_newark": 500,
       "port_houston": 750,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 800
+      "port_los_angeles": 1450
     }
   },
   {
@@ -5415,8 +5115,7 @@
       "port_savannah": 800,
       "port_newark": 550,
       "port_houston": 750,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 200
+      "port_los_angeles": 1550
     }
   },
   {
@@ -5431,8 +5130,7 @@
       "port_savannah": 1950,
       "port_newark": 1550,
       "port_houston": 1350,
-      "port_los_angeles": 750,
-      "port_indianapolis": 1150
+      "port_los_angeles": 750
     }
   },
   {
@@ -5447,8 +5145,7 @@
       "port_savannah": 1950,
       "port_newark": 1550,
       "port_houston": 1350,
-      "port_los_angeles": 750,
-      "port_indianapolis": 1150
+      "port_los_angeles": 750
     }
   },
   {
@@ -5463,8 +5160,7 @@
       "port_savannah": 650,
       "port_newark": 700,
       "port_houston": 650,
-      "port_los_angeles": 1350,
-      "port_indianapolis": 500
+      "port_los_angeles": 1350
     }
   },
   {
@@ -5479,8 +5175,7 @@
       "port_savannah": 650,
       "port_newark": 700,
       "port_houston": 650,
-      "port_los_angeles": 1350,
-      "port_indianapolis": 500
+      "port_los_angeles": 1350
     }
   },
   {
@@ -5495,8 +5190,7 @@
       "port_savannah": 1150,
       "port_newark": 850,
       "port_houston": 1250,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 500
+      "port_los_angeles": 1950
     }
   },
   {
@@ -5511,8 +5205,7 @@
       "port_savannah": 700,
       "port_newark": 550,
       "port_houston": 750,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 225
+      "port_los_angeles": 1550
     }
   },
   {
@@ -5527,8 +5220,7 @@
       "port_savannah": 700,
       "port_newark": 550,
       "port_houston": 750,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 225
+      "port_los_angeles": 1550
     }
   },
   {
@@ -5543,8 +5235,7 @@
       "port_savannah": 550,
       "port_newark": 390,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -5559,8 +5250,7 @@
       "port_savannah": 1450,
       "port_newark": 1550,
       "port_houston": 850,
-      "port_los_angeles": 200,
-      "port_indianapolis": 1350
+      "port_los_angeles": 200
     }
   },
   {
@@ -5575,8 +5265,7 @@
       "port_savannah": 850,
       "port_newark": 325,
       "port_houston": 1250,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 500
+      "port_los_angeles": 1650
     }
   },
   {
@@ -5591,8 +5280,7 @@
       "port_savannah": 850,
       "port_newark": 325,
       "port_houston": 1250,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 500
+      "port_los_angeles": 1650
     }
   },
   {
@@ -5607,8 +5295,7 @@
       "port_savannah": 325,
       "port_newark": 850,
       "port_houston": 900,
-      "port_los_angeles": 1700,
-      "port_indianapolis": 1250
+      "port_los_angeles": 1700
     }
   },
   {
@@ -5623,8 +5310,7 @@
       "port_savannah": 300,
       "port_newark": 850,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 1150
+      "port_los_angeles": 1650
     }
   },
   {
@@ -5639,8 +5325,7 @@
       "port_savannah": 300,
       "port_newark": 850,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 1150
+      "port_los_angeles": 1650
     }
   },
   {
@@ -5655,8 +5340,7 @@
       "port_savannah": 300,
       "port_newark": 850,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 1150
+      "port_los_angeles": 1650
     }
   },
   {
@@ -5671,8 +5355,7 @@
       "port_savannah": 350,
       "port_newark": 650,
       "port_houston": 650,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 800
+      "port_los_angeles": 1450
     }
   },
   {
@@ -5687,8 +5370,7 @@
       "port_savannah": 850,
       "port_newark": 350,
       "port_houston": 1250,
-      "port_los_angeles": 1850,
-      "port_indianapolis": 750
+      "port_los_angeles": 1850
     }
   },
   {
@@ -5703,8 +5385,7 @@
       "port_savannah": 850,
       "port_newark": 350,
       "port_houston": 1250,
-      "port_los_angeles": 1850,
-      "port_indianapolis": 750
+      "port_los_angeles": 1850
     }
   },
   {
@@ -5719,8 +5400,7 @@
       "port_savannah": 550,
       "port_newark": 390,
       "port_houston": 850,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -5735,8 +5415,7 @@
       "port_savannah": 250,
       "port_newark": 750,
       "port_houston": 650,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 800
+      "port_los_angeles": 1450
     }
   },
   {
@@ -5751,8 +5430,7 @@
       "port_savannah": 250,
       "port_newark": 750,
       "port_houston": 650,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 800
+      "port_los_angeles": 1450
     }
   },
   {
@@ -5767,8 +5445,7 @@
       "port_savannah": 650,
       "port_newark": 150,
       "port_houston": 1150,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -5783,8 +5460,7 @@
       "port_savannah": 1300,
       "port_newark": 1350,
       "port_houston": 700,
-      "port_los_angeles": 375,
-      "port_indianapolis": 1350
+      "port_los_angeles": 375
     }
   },
   {
@@ -5799,8 +5475,7 @@
       "port_savannah": 1300,
       "port_newark": 1350,
       "port_houston": 700,
-      "port_los_angeles": 375,
-      "port_indianapolis": 1350
+      "port_los_angeles": 375
     }
   },
   {
@@ -5815,8 +5490,7 @@
       "port_savannah": 750,
       "port_newark": 900,
       "port_houston": 400,
-      "port_los_angeles": 1050,
-      "port_indianapolis": 600
+      "port_los_angeles": 1050
     }
   },
   {
@@ -5831,8 +5505,7 @@
       "port_savannah": 750,
       "port_newark": 900,
       "port_houston": 380,
-      "port_los_angeles": 1050,
-      "port_indianapolis": 600
+      "port_los_angeles": 1050
     }
   },
   {
@@ -5847,8 +5520,7 @@
       "port_savannah": 1550,
       "port_newark": 1550,
       "port_houston": 950,
-      "port_los_angeles": 325,
-      "port_indianapolis": 1350
+      "port_los_angeles": 325
     }
   },
   {
@@ -5863,8 +5535,7 @@
       "port_savannah": 1450,
       "port_newark": 1550,
       "port_houston": 850,
-      "port_los_angeles": 175,
-      "port_indianapolis": 1350
+      "port_los_angeles": 175
     }
   },
   {
@@ -5879,8 +5550,7 @@
       "port_savannah": 750,
       "port_newark": 950,
       "port_houston": 300,
-      "port_los_angeles": 950,
-      "port_indianapolis": 800
+      "port_los_angeles": 950
     }
   },
   {
@@ -5895,8 +5565,7 @@
       "port_savannah": 550,
       "port_newark": 430,
       "port_houston": 850,
-      "port_los_angeles": 1750,
-      "port_indianapolis": 250
+      "port_los_angeles": 1750
     }
   },
   {
@@ -5911,8 +5580,7 @@
       "port_savannah": 650,
       "port_newark": 300,
       "port_houston": 950,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 650
+      "port_los_angeles": 1650
     }
   },
   {
@@ -5927,8 +5595,7 @@
       "port_savannah": 350,
       "port_newark": 900,
       "port_houston": 900,
-      "port_los_angeles": 1700,
-      "port_indianapolis": 1250
+      "port_los_angeles": 1700
     }
   },
   {
@@ -5943,8 +5610,7 @@
       "port_savannah": 850,
       "port_newark": 350,
       "port_houston": 1350,
-      "port_los_angeles": 1950,
-      "port_indianapolis": 850
+      "port_los_angeles": 1950
     }
   },
   {
@@ -5959,8 +5625,7 @@
       "port_savannah": 1550,
       "port_newark": 1350,
       "port_houston": 950,
-      "port_los_angeles": 1050,
-      "port_indianapolis": 1050
+      "port_los_angeles": 1050
     }
   },
   {
@@ -5975,8 +5640,7 @@
       "port_savannah": 800,
       "port_newark": 500,
       "port_houston": 850,
-      "port_los_angeles": 1550,
-      "port_indianapolis": 200
+      "port_los_angeles": 1550
     }
   },
   {
@@ -5991,8 +5655,7 @@
       "port_savannah": 800,
       "port_newark": 750,
       "port_houston": 500,
-      "port_los_angeles": 1350,
-      "port_indianapolis": 500
+      "port_los_angeles": 1350
     }
   },
   {
@@ -6007,8 +5670,7 @@
       "port_savannah": 800,
       "port_newark": 750,
       "port_houston": 500,
-      "port_los_angeles": 1350,
-      "port_indianapolis": 500
+      "port_los_angeles": 1350
     }
   },
   {
@@ -6023,8 +5685,7 @@
       "port_savannah": 300,
       "port_newark": 450,
       "port_houston": 850,
-      "port_los_angeles": 1450,
-      "port_indianapolis": 750
+      "port_los_angeles": 1450
     }
   },
   {
@@ -6039,8 +5700,7 @@
       "port_savannah": 750,
       "port_newark": 275,
       "port_houston": 1150,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 550
+      "port_los_angeles": 1650
     }
   },
   {
@@ -6055,8 +5715,7 @@
       "port_savannah": 750,
       "port_newark": 275,
       "port_houston": 1150,
-      "port_los_angeles": 1650,
-      "port_indianapolis": 550
+      "port_los_angeles": 1650
     }
   }
 ]
