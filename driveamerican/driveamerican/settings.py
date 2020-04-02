@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'driveamericanapp',
     'blogapp',
+    'core',
     'rest_framework',
     'crispy_forms',
 ]
