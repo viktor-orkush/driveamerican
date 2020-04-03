@@ -12,6 +12,7 @@ urlpatterns = [
     path('calculation/', views.calculation, name='calculation'),
     path('faq/', views.faq, name='faq'),
     path('blog/', include('blogapp.urls')),
+    path('', include('core.urls')),
 
     # api urls
     path('calculate_customs/', views.CalculateCustomsAPI.as_view(), name='calculate_customs'),
