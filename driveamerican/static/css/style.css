@@ -49,15 +49,6 @@ html, body, header, .view {
     border-color: var(--my-color-green) !important;
 }
 
-/*@media (max-width: 740px) {*/
-    /*html,*/
-    /*body,*/
-    /*header,*/
-    /*.view {*/
-        /*height: 100vh;*/
-    /*}*/
-/*}*/
-
 .top-nav-collapse {
     background: rgba(234, 237, 240, .8) !important;
     box-shadow: 0 0 4px rgba(0, 0, 0, .4) !important;
@@ -106,8 +97,7 @@ h5 {
 }
 
 .jarallax {
-    /*background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');*/
-    background-image: url('/static/media/header.jpg');
+    background-image: url('/static/media/header.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -185,7 +175,6 @@ section {
 .text-shadow{
     text-shadow: 0 0 2px var(--my-color-green);
 }
-
 
 
 /*кнопка обратной связи*/
