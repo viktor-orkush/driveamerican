@@ -4,9 +4,6 @@
     --my-color-white: #EEEDE8;
 }
 
-.blue-text {
-    color: var(--my-color-blue) !important;
-}
 
 .btn-light-blue {
     color: #fff;
@@ -19,6 +16,7 @@
 
 .green-text {
     color: var(--my-color-green) !important;
+    text-shadow: 5px 5px 5px var(--my-color-white);
 }
 
 body {
@@ -31,12 +29,29 @@ body {
 }
 
 /*html { font-size: calc(1em + 1vw) }*/
-h1 { font-size: 1.912em; }
-h2 { font-size: 1.616em; }
-h3 { font-size: 1.471em; }
-h4 { font-size: 1.3em; }
-h5 { font-size: 1.243em; }
-h6 { font-size: 1.132em; }
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 1.616em;
+}
+
+h3 {
+    font-size: 1.471em;
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
+h5 {
+    font-size: 1.243em;
+}
+
+h6 {
+    font-size: 1.132em;
+}
 
 
 html, body, header, .view {
@@ -103,6 +118,11 @@ h5 {
     background-position: center center;
 }
 
+.blue_bg {
+    opacity: 0.8;
+    background-color: var(--my-color-blue);
+    color: var(--my-color-white)!important;
+}
 
 .calc_block-table .calc_block-row {
     border-top: 1px solid #d1d3d7;
@@ -172,7 +192,7 @@ section {
     background-color: #f8f9fa !important;
 }
 
-.text-shadow{
+.text-shadow {
     text-shadow: 0 0 2px var(--my-color-green);
 }
 
@@ -206,11 +226,13 @@ section {
     background: var(--my-color-white);
     transition: .3s;
 }
-.email-bt .btn-contact{
+
+.email-bt .btn-contact {
     background-color: transparent;
     border-color: transparent;
 }
-.email-bt .btn-contact:focus .btn-contact:active{
+
+.email-bt .btn-contact:focus .btn-contact:active {
     background-color: transparent;
     border-color: transparent;
 }
