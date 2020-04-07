@@ -1,11 +1,12 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block title %}DriveAmerican калькулятор расчета пригона авто из америки{% endblock %}
-{% block description %}Калькулятор растаможки авто в Украине. расчет стоимости авто из США в Украину.{% endblock %}
-{% block keywords %}рассчитать стоимость авто из сша, Калькулятор растаможки авто в Украине, доставка авто из США, Как
-    заказать авто из США, перевозка автомобиля из США, в контейнере, Америка, купить, продам, доставка авто морская,
-    авто на судне{% endblock %}
+{% block title %}Калькулятор растаможки авто из америки  2020 по закону 8487 | DriveAmerican{% endblock %}
+{% block description %}Калькулятор растаможки авто 2020 Украина. Тарифы на растаможку авто из США (Закон 8487\8488),
+    какие документы нужны для регистрации авто из сша{% endblock %}
+{% block keywords %}рассчитать стоимость авто из сша, калькулятор растаможки авто в Украине,все платежи по пригону авто из сша,
+    как заказать авто из США, перевозка автомобиля из США в контейнере по 4 машины
+    морская, все документы для постановки авто из США{% endblock %}
 
 {% block content %}
 
@@ -76,8 +77,8 @@
                                     <label for="auction_city">Площадка аукциона:</label>
                                     <select name="auction_location" id="auction_location"
                                             class="form-control" data-dependent="port">
-{#                                        <option value="">---</option>#}
-{#                                        <option value="AL - ADESA BIRMINGHAM">AL - ADESA BIRMINGHAM</option>#}
+                                        {#                                        <option value="">---</option>#}
+                                        {#                                        <option value="AL - ADESA BIRMINGHAM">AL - ADESA BIRMINGHAM</option>#}
                                     </select>
 
                                     <div class="calc_block_btn">
@@ -113,7 +114,8 @@
                             <div class=" value"><span id="transportation_in_usa"></span>$</div>
                         </div>
                         <div class="calc_block-row">
-                            <div class="">Доставка морем из <span class="font-weight-bold" id="shipping_port"></span> порт США в Украину
+                            <div class="">Доставка морем из <span class="font-weight-bold" id="shipping_port"></span>
+                                порт США в Украину
                             </div>
                             <div class="value"><span id="shipping_price"></span>$</div>
                         </div>
@@ -156,7 +158,8 @@
                             <div class="value"><span id="registration"></span>$</div>
                         </div>
                         <div class="calc_block-row">
-                            <div class="">Услуги компании <a href="{% url 'home' %}#services_section">"Пакет стандартний"</a></div>
+                            <div class="">Услуги компании <a href="{% url 'home' %}#services_section">"Пакет
+                                стандартний"</a></div>
                             <div class="value"><span id="company_services"></span>$</div>
                         </div>
                         <div class="calc_block-row total mt-3 font-weight-bold">
@@ -172,49 +175,49 @@
     <!-- Section -->
     <section class="page-section bg-light">
         <div class="container">
-        <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Необходимые документы для регистрации авто из США</h2>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <ul class="list alt list-ok">
-                    <li class="fx animated undefined">
-                        Техпаспорт (право собственности)
-                        Title, Salvage certificate;
-                    </li>
-                    <li class="fx animated undefined">
-                        Инвойс(счет/фактура) от продавца
-                        клиенту со стоимостью авто;
-                    </li>
-                    <li class="fx animated undefined">
-                        Экспортная декларация;
-                    </li>
-                    <li class="fx animated undefined">
-                        Форма МД-2 (выдается на таможне), а также
-                        МД-6 (акт осмотра);
-                    </li>
-                    <li class="fx animated undefined">
-                        Удостоверение таможни (выдается после
-                        растаможки авто);
-                    </li>
-                    <li class="fx animated undefined">
-                        Сертификат соответствия.
-                    </li>
-                </ul>
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Необходимые документы для регистрации авто из США</h2>
             </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <ul class="list alt list-ok">
+                        <li class="fx animated undefined">
+                            Техпаспорт (право собственности)
+                            Title, Salvage certificate;
+                        </li>
+                        <li class="fx animated undefined">
+                            Инвойс(счет/фактура) от продавца
+                            клиенту со стоимостью авто;
+                        </li>
+                        <li class="fx animated undefined">
+                            Экспортная декларация;
+                        </li>
+                        <li class="fx animated undefined">
+                            Форма МД-2 (выдается на таможне), а также
+                            МД-6 (акт осмотра);
+                        </li>
+                        <li class="fx animated undefined">
+                            Удостоверение таможни (выдается после
+                            растаможки авто);
+                        </li>
+                        <li class="fx animated undefined">
+                            Сертификат соответствия.
+                        </li>
+                    </ul>
+                </div>
 
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <a href="#" target="_blank"><img
-                        src="{% static 'media/customs_img/title_130.png'%}"></a>
-                <a href="#" target="_blank"><img
-                        src="{% static 'media/customs_img/invoice_130.png'%}"></a>
-                <a href="#" target="_blank"><img src="{% static 'media/customs_img/ex_130.png'%}"></a>
-                <a href="#" target="_blank"><img src="{% static 'media/customs_img/md_130.png'%}"></a>
-                <a href="#" target="_blank"><img src="{% static 'media/customs_img/pm_130.png'%}"></a>
-                <a href="#" target="_blank"><img src="{% static 'media/customs_img/certificate1_210.png'%}"></a>
-                <a href="#" target="_blank"><img src="{% static 'media/customs_img/certificate2_210.png'%}"></a>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <a href="#" target="_blank"><img
+                            src="{% static 'media/customs_img/title_130.png' %}"></a>
+                    <a href="#" target="_blank"><img
+                            src="{% static 'media/customs_img/invoice_130.png' %}"></a>
+                    <a href="#" target="_blank"><img src="{% static 'media/customs_img/ex_130.png' %}"></a>
+                    <a href="#" target="_blank"><img src="{% static 'media/customs_img/md_130.png' %}"></a>
+                    <a href="#" target="_blank"><img src="{% static 'media/customs_img/pm_130.png' %}"></a>
+                    <a href="#" target="_blank"><img src="{% static 'media/customs_img/certificate1_210.png' %}"></a>
+                    <a href="#" target="_blank"><img src="{% static 'media/customs_img/certificate2_210.png' %}"></a>
+                </div>
             </div>
-        </div>
         </div>
     </section>
 
