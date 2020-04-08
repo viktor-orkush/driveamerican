@@ -33,10 +33,7 @@ class GoogleSheetsAPI:
                                          majorDimension='ROWS').execute()
         values = result.get('values', [])
         for row in values:
-            # print('%s' % (row))
             auction = Auction.objects.get(auction=auction_name)
-            # print(re.sub(r'[^A-Za-z\s]', '', row[0]))
-            # print(re.split(r'[,(\-!?:]+', row[0]))
             auction_location = str(row[0][0:-4])
             state = str(row[0][-2:])
             print(str(auction_location) + ' ' + str(state))
@@ -48,14 +45,6 @@ class GoogleSheetsAPI:
                                                port_houston=row[4],
                                                port_los_angeles=row[2])
 
-    def str_to_int(self, value):
-        res = 0
-        if value == '':
-            res = 0
-        else:
-            res = value
-        return res
-
     def delete_all_row_in_table_transportation_prices(self):
         TransportationPrice.objects.all().delete()
 
@@ -63,4 +52,4 @@ class GoogleSheetsAPI:
 SPREADSHEET_ID = '1Uz9k2Xbow6lnnSo6qHkZRB-9wUBSAVDKKD_xflL3tkA'
 if __name__ == '__main__':
     sheet = GoogleSheetsAPI(JSON_CONFIG)
-    sheet.import_data_from_sheets_to_db(SPREADSHEET_ID, 'Copart')
+    # sheet.import_data_from_sheets_to_db(SPREADSHEET_ID, 'Copart')

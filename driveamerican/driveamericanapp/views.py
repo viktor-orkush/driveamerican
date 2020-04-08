@@ -11,16 +11,17 @@ from driveamericanapp.telegram_notification import send_message
 
 RATE_DOLLAR_EURO = 1.15
 SHIPPING_PRICE_FOR_CALC_VAT = 400
+MY_EXTRA_75 = 75
 FUEL_TYPES = {'petrol': 'Бензин',
               'diesel': 'Дизель',
               'electro': 'Электро',
               'hybrid': 'Гибрид'}
 
 port_shipping_price = {
-    'port_savannah': 790,
-    'port_newark': 790,
-    'port_houston': 900,
-    'port_los_angeles': 990,
+    'port_savannah': 890,
+    'port_newark': 890,
+    'port_houston': 990,
+    'port_los_angeles': 1090,
 }
 
 all_shipping_ports = {
@@ -44,7 +45,7 @@ def calculation(request):
                                                 'auto_engine': 2.0,
                                                 'auto_age': '2015',
                                                 'fuel_type': 'petrol',
-                                                'years': range(2010, int(datetime.datetime.now().year)),
+                                                'years': range(2005, int(datetime.datetime.now().year)),
                                                 'engine_capacity': [capacity / 10 for capacity in range(7, 40)]})
 
 
@@ -77,10 +78,10 @@ class CalculateAllPaymentsAPI(APIView):
                 shipping_port = min(transportation_prices, key=transportation_prices.get)
 
                 shipping_port_name = all_shipping_ports[shipping_port]
-                transportation_in_usa = transportation_prices[shipping_port]
+                transportation_in_usa = transportation_prices[shipping_port] + MY_EXTRA_75
                 shipping_price = port_shipping_price.get(shipping_port)
             except:
-                transportation_in_usa = 499
+                transportation_in_usa = 399
                 shipping_price = 899
                 shipping_port_name = 'N/A'
 

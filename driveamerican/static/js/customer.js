@@ -97,7 +97,7 @@ $("#calculate_all_payments_btn").on('click', function () {
 });
 
 
-//calculate all payments for byu cars in usa
+//get auction location
 $("#auction_id").change(function () {
     // console.log('change')
     $.ajax({
@@ -105,20 +105,35 @@ $("#auction_id").change(function () {
         type: "GET",
         data: $('#calculate_customs_form').serialize(),
         success: function (data) {
-            // $('#auction_location').append(new Option(data['auction_locations']));
             $('#auction_location').empty();
             $.each(data['auction_locations'], function (val, text) {
                 $('#auction_location').append(
-                    $('<option></option>').val(text.auction_location).html(text.state + ' - '+ text.auction_location)
+                    $('<option></option>').val(text.auction_location).html(text.state + ' - ' + text.auction_location)
                 );
             });
-
             console.log('data success')
-            // if (data['result'] == 'success') {
-            //     $('#total_cost').text(data['total_cost'])
-            // } else if (data['result'] == 'error') {
-            //     console.log('data error');
-            // }
+        },
+        error: function (err) {
+            console.log('function error result ' + err);
+        }
+    });
+});
+
+//get all auction location IAAI when load page
+$(document).ready(function () {
+    $.ajax({
+        url: '/calculate_all_payments/',
+        type: "GET",
+        data: {auction: "IAAI"},
+        dataType: "json",
+        success: function (data) {
+            $('#auction_location').empty();
+            $.each(data['auction_locations'], function (val, text) {
+                $('#auction_location').append(
+                    $('<option></option>').val(text.auction_location).html(text.state + ' - ' + text.auction_location)
+                );
+            });
+            console.log('data success')
         },
         error: function (err) {
             console.log('function error result ' + err);
