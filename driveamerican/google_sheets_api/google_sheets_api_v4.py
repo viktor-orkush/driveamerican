@@ -15,52 +15,52 @@ from driveamericanapp.models import Auction, TransportationPrice
 
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 # SAMPLE_SPREADSHEET_ID = '1IG13mYrF1FGEWeFQ0ZaJfFVvYUOFVxiGZylVD8wxEic'
-SAMPLE_SPREADSHEET_ID = '1EX5zEpBjmcHGzMVYcIw7_j6KXr9NrJyG'
+JSON_CONFIG = 'driveamerican-6d11d1ea30b7.json'
 
 
-def connect_sheets():
-    credentials = service_account.Credentials.from_service_account_file('driveamerican-6d11d1ea30b7.json')
-    # scoped_credentials = credentials.with_scopes(SCOPES)
+class GoogleSheetsAPI:
+    def __init__(self, json_config):
+        try:
+            credentials = service_account.Credentials.from_service_account_file(json_config)
+            service = build('sheets', 'v4', credentials=credentials)
+            self.sheet = service.spreadsheets()
+        except FileNotFoundError:
+            raise FileNotFoundError
 
-    service = build('sheets', 'v4', credentials=credentials)
-    sheet = service.spreadsheets()
-    return sheet
-
-
-def import_data_from_sheets_to_db():
-    result = connect_sheets().values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID,
-                                           range='A1:E',
-                                           majorDimension='ROWS').execute()
-    values = result.get('values', [])
-
-    for row in values:
-        print('%s' % (row))
-        if row[1] == 'IAAI' or row[1] == 'Copart':
-            auction = Auction.objects.get(auction=row[1])
+    def import_data_from_sheets_to_db(self, spreadsheet_id, auction_name):
+        result = self.sheet.values().get(spreadsheetId=spreadsheet_id,
+                                         range='A2:E',
+                                         majorDimension='ROWS').execute()
+        values = result.get('values', [])
+        for row in values:
+            # print('%s' % (row))
+            auction = Auction.objects.get(auction=auction_name)
             # print(re.sub(r'[^A-Za-z\s]', '', row[0]))
             # print(re.split(r'[,(\-!?:]+', row[0]))
-            print(re.sub(r'[^A-Za-z\s]', '', re.split(r'[,(!?:]+', row[0])[0]))
-            print('savannah =  ' + str(str_to_int(re.sub('\D', '', row[4]))))
+            auction_location = str(row[0][0:-4])
+            state = str(row[0][-2:])
+            print(str(auction_location) + ' ' + str(state))
+            TransportationPrice.objects.create(auction=auction,
+                                               auction_location=auction_location,
+                                               state=state,
+                                               port_savannah=row[1],
+                                               port_newark=row[3],
+                                               port_houston=row[4],
+                                               port_los_angeles=row[2])
 
-            # TransportationPrice.objects.create(auction=auction,
-            #                                    auction_location=re.sub(r'[^A-Za-z\s]', '',
-            #                                                            re.split(r'[,(!?:]+', row[0])[0]),
-            #                                    city=row[2], state=row[3], zip=row[4],
-            #                                    port_savannah=str_to_int(re.sub('\D', '', row[5])),
-            #                                    port_newark=str_to_int(re.sub('\D', '', row[6])),
-            #                                    port_houston=str_to_int(re.sub('\D', '', row[7])),
-            #                                    port_los_angeles=str_to_int(re.sub('\D', '', row[8])),
-            #                                    port_indianapolis=str_to_int(re.sub('\D', '', row[9])))
-
-
-def str_to_int(value):
-    res = 0
-    if value == '':
+    def str_to_int(self, value):
         res = 0
-    else:
-        res = value
-    return res
+        if value == '':
+            res = 0
+        else:
+            res = value
+        return res
+
+    def delete_all_row_in_table_transportation_prices(self):
+        TransportationPrice.objects.all().delete()
 
 
+SPREADSHEET_ID = '1Uz9k2Xbow6lnnSo6qHkZRB-9wUBSAVDKKD_xflL3tkA'
 if __name__ == '__main__':
-    import_data_from_sheets_to_db()
+    sheet = GoogleSheetsAPI(JSON_CONFIG)
+    sheet.import_data_from_sheets_to_db(SPREADSHEET_ID, 'Copart')

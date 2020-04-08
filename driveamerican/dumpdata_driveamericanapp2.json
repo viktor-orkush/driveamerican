@@ -1,0 +1,5064 @@
+[
+  {
+    "model": "driveamericanapp.auction",
+    "pk": 1,
+    "fields": {
+      "auction": "IAAI"
+    }
+  },
+  {
+    "model": "driveamericanapp.auction",
+    "pk": 2,
+    "fields": {
+      "auction": "Copart"
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 1,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 0,
+      "sale_price_max": 99,
+      "buyer_fee": 1
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 2,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 100,
+      "sale_price_max": 299,
+      "buyer_fee": 60
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 3,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 300,
+      "sale_price_max": 499,
+      "buyer_fee": 100
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 4,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 500,
+      "sale_price_max": 799,
+      "buyer_fee": 160
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 5,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 800,
+      "sale_price_max": 1199,
+      "buyer_fee": 205
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 6,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 1200,
+      "sale_price_max": 1499,
+      "buyer_fee": 255
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 7,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 1500,
+      "sale_price_max": 2199,
+      "buyer_fee": 325
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 8,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 2200,
+      "sale_price_max": 2999,
+      "buyer_fee": 360
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 9,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 3000,
+      "sale_price_max": 4499,
+      "buyer_fee": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 10,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 3000,
+      "sale_price_max": 4499,
+      "buyer_fee": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 11,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 4500,
+      "sale_price_max": 7499,
+      "buyer_fee": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.buyerfee",
+    "pk": 12,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 7500,
+      "sale_price_max": 19999,
+      "buyer_fee": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 1,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 0,
+      "sale_price_max": 99,
+      "internet_bid_fee": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 2,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 100,
+      "sale_price_max": 499,
+      "internet_bid_fee": 29
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 3,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 500,
+      "sale_price_max": 999,
+      "internet_bid_fee": 39
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 4,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 1000,
+      "sale_price_max": 1499,
+      "internet_bid_fee": 59
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 5,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 1500,
+      "sale_price_max": 1999,
+      "internet_bid_fee": 69
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 6,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 2000,
+      "sale_price_max": 3999,
+      "internet_bid_fee": 79
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 7,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 4000,
+      "sale_price_max": 5999,
+      "internet_bid_fee": 89
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 8,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 6000,
+      "sale_price_max": 7999,
+      "internet_bid_fee": 99
+    }
+  },
+  {
+    "model": "driveamericanapp.internetbidfee",
+    "pk": 9,
+    "fields": {
+      "auction": 1,
+      "sale_price_min": 8000,
+      "sale_price_max": 100999,
+      "internet_bid_fee": 119
+    }
+  },
+  {
+    "model": "driveamericanapp.contact",
+    "pk": 1,
+    "fields": {
+      "user": "123",
+      "phone": "123",
+      "message": "123",
+      "created_date": "2020-02-14T14:42:22.288Z"
+    }
+  },
+  {
+    "model": "driveamericanapp.contact",
+    "pk": 2,
+    "fields": {
+      "user": "123",
+      "phone": "123",
+      "message": "",
+      "created_date": "2020-02-14T14:45:50.269Z"
+    }
+  },
+  {
+    "model": "driveamericanapp.contact",
+    "pk": 3,
+    "fields": {
+      "user": "1",
+      "phone": "1",
+      "message": "1",
+      "created_date": "2020-02-14T14:46:38.516Z"
+    }
+  },
+  {
+    "model": "driveamericanapp.contact",
+    "pk": 4,
+    "fields": {
+      "user": "1",
+      "phone": "1",
+      "message": "1",
+      "created_date": "2020-02-14T14:47:27.859Z"
+    }
+  },
+  {
+    "model": "driveamericanapp.contact",
+    "pk": 5,
+    "fields": {
+      "user": "1",
+      "phone": "1",
+      "message": "1",
+      "created_date": "2020-02-14T14:48:03.908Z"
+    }
+  },
+  {
+    "model": "driveamericanapp.contact",
+    "pk": 6,
+    "fields": {
+      "user": "123",
+      "phone": "123",
+      "message": "",
+      "created_date": "2020-02-19T13:28:01.850Z"
+    }
+  },
+  {
+    "model": "driveamericanapp.contact",
+    "pk": 7,
+    "fields": {
+      "user": "1",
+      "phone": "1",
+      "message": "1",
+      "created_date": "2020-02-25T13:53:48.435Z"
+    }
+  },
+  {
+    "model": "driveamericanapp.contact",
+    "pk": 8,
+    "fields": {
+      "user": "1",
+      "phone": "1",
+      "message": "1",
+      "created_date": "2020-02-25T13:53:50.737Z"
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 1,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ABILENE ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 350,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 2,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ACE CARSON ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 150
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 3,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ACE-PE",
+      "state": "IS",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 170
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 4,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ACRON CANTON ",
+      "state": "OH",
+      "port_savannah": 0,
+      "port_newark": 375,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 5,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ADESA BIRMINGHAM ",
+      "state": "AL",
+      "port_savannah": 325,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 6,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ALBANY ",
+      "state": "NY",
+      "port_savannah": 0,
+      "port_newark": 250,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 7,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ALBUQUERQUE ",
+      "state": "NM",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 8,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ALTOONA ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 375,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 9,
+    "fields": {
+      "auction": 1,
+      "auction_location": "AMARILLO ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 400,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 10,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ANAHEIM ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 130
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 11,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ANCHORAGE ",
+      "state": "AK",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 2000
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 12,
+    "fields": {
+      "auction": 1,
+      "auction_location": "APPLETON ",
+      "state": "WI",
+      "port_savannah": 575,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 13,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ASHEVILLE ",
+      "state": "NC",
+      "port_savannah": 275,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 14,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ASHLAND ",
+      "state": "KY",
+      "port_savannah": 500,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 15,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ATLANTA ",
+      "state": "GA",
+      "port_savannah": 225,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 16,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ATLANTA EAST ",
+      "state": "GA",
+      "port_savannah": 225,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 17,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ATLANTA NORTH ",
+      "state": "GA",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 18,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ATLANTA SOUTH ",
+      "state": "GA",
+      "port_savannah": 225,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 19,
+    "fields": {
+      "auction": 1,
+      "auction_location": "AUSTIN ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 225,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 20,
+    "fields": {
+      "auction": 1,
+      "auction_location": "AVENEL ",
+      "state": "NJ",
+      "port_savannah": 0,
+      "port_newark": 125,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 21,
+    "fields": {
+      "auction": 1,
+      "auction_location": "BALTIMORE ",
+      "state": "MD",
+      "port_savannah": 0,
+      "port_newark": 250,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 22,
+    "fields": {
+      "auction": 1,
+      "auction_location": "BATON ROUGE ",
+      "state": "LA",
+      "port_savannah": 375,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 23,
+    "fields": {
+      "auction": 1,
+      "auction_location": "BILLINGS ",
+      "state": "MT",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 24,
+    "fields": {
+      "auction": 1,
+      "auction_location": "BIRMINGHAM ",
+      "state": "AL",
+      "port_savannah": 300,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 25,
+    "fields": {
+      "auction": 1,
+      "auction_location": "BIRMINGHAM - BLENDED SALES ",
+      "state": "AL",
+      "port_savannah": 300,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 26,
+    "fields": {
+      "auction": 1,
+      "auction_location": "BOISE ",
+      "state": "ID",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 27,
+    "fields": {
+      "auction": 1,
+      "auction_location": "BOSTON-SHIRLEY ",
+      "state": "MA",
+      "port_savannah": 0,
+      "port_newark": 250,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 28,
+    "fields": {
+      "auction": 1,
+      "auction_location": "BOWLING GREEN ",
+      "state": "KY",
+      "port_savannah": 475,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 29,
+    "fields": {
+      "auction": 1,
+      "auction_location": "BRIDGEPORT ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 200,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 30,
+    "fields": {
+      "auction": 1,
+      "auction_location": "BUCKHANNON ",
+      "state": "WV",
+      "port_savannah": 0,
+      "port_newark": 475,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 31,
+    "fields": {
+      "auction": 1,
+      "auction_location": "BUFFALO ",
+      "state": "NY",
+      "port_savannah": 0,
+      "port_newark": 425,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 32,
+    "fields": {
+      "auction": 1,
+      "auction_location": "BURLINGTON ",
+      "state": "VT",
+      "port_savannah": 0,
+      "port_newark": 475,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 33,
+    "fields": {
+      "auction": 1,
+      "auction_location": "CASPER ",
+      "state": "WY",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 875
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 34,
+    "fields": {
+      "auction": 1,
+      "auction_location": "CENTRAL NEW JERSEY ",
+      "state": "NJ",
+      "port_savannah": 0,
+      "port_newark": 150,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 35,
+    "fields": {
+      "auction": 1,
+      "auction_location": "CHARLESTON ",
+      "state": "SC",
+      "port_savannah": 200,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 36,
+    "fields": {
+      "auction": 1,
+      "auction_location": "CHARLOTTE ",
+      "state": "NC",
+      "port_savannah": 225,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 37,
+    "fields": {
+      "auction": 1,
+      "auction_location": "CHATTANOOGA ",
+      "state": "TN",
+      "port_savannah": 350,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 38,
+    "fields": {
+      "auction": 1,
+      "auction_location": "CHICAGO NORTH ",
+      "state": "IL",
+      "port_savannah": 0,
+      "port_newark": 475,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 39,
+    "fields": {
+      "auction": 1,
+      "auction_location": "CHICAGO SOUTH ",
+      "state": "IL",
+      "port_savannah": 0,
+      "port_newark": 475,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 40,
+    "fields": {
+      "auction": 1,
+      "auction_location": "CHICAGO WEST ",
+      "state": "IL",
+      "port_savannah": 0,
+      "port_newark": 475,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 41,
+    "fields": {
+      "auction": 1,
+      "auction_location": "CINCINNATI ",
+      "state": "OH",
+      "port_savannah": 0,
+      "port_newark": 425,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 42,
+    "fields": {
+      "auction": 1,
+      "auction_location": "CINCINNATI SOUTH ",
+      "state": "OH",
+      "port_savannah": 0,
+      "port_newark": 425,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 43,
+    "fields": {
+      "auction": 1,
+      "auction_location": "CLEARWATER ",
+      "state": "FL",
+      "port_savannah": 275,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 44,
+    "fields": {
+      "auction": 1,
+      "auction_location": "CLEVELAND ",
+      "state": "OH",
+      "port_savannah": 0,
+      "port_newark": 400,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 45,
+    "fields": {
+      "auction": 1,
+      "auction_location": "COLTON ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 175
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 46,
+    "fields": {
+      "auction": 1,
+      "auction_location": "COLUMBIA ",
+      "state": "SC",
+      "port_savannah": 190,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 47,
+    "fields": {
+      "auction": 1,
+      "auction_location": "COLUMBUS ",
+      "state": "OH",
+      "port_savannah": 0,
+      "port_newark": 400,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 48,
+    "fields": {
+      "auction": 1,
+      "auction_location": "CONCORD ",
+      "state": "NC",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 49,
+    "fields": {
+      "auction": 1,
+      "auction_location": "CORPUS CHRISTI ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 250,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 50,
+    "fields": {
+      "auction": 1,
+      "auction_location": "CULPEPER ",
+      "state": "VA",
+      "port_savannah": 0,
+      "port_newark": 350,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 51,
+    "fields": {
+      "auction": 1,
+      "auction_location": "DALLAS ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 200,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 52,
+    "fields": {
+      "auction": 1,
+      "auction_location": "DALLAS / FT. WORTH ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 200,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 53,
+    "fields": {
+      "auction": 1,
+      "auction_location": "DAVENPORT ",
+      "state": "IA",
+      "port_savannah": 0,
+      "port_newark": 550,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 54,
+    "fields": {
+      "auction": 1,
+      "auction_location": "DAYTON ",
+      "state": "OH",
+      "port_savannah": 0,
+      "port_newark": 400,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 55,
+    "fields": {
+      "auction": 1,
+      "auction_location": "DENVER ",
+      "state": "CO",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 56,
+    "fields": {
+      "auction": 1,
+      "auction_location": "DENVER EAST ",
+      "state": "CO",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 57,
+    "fields": {
+      "auction": 1,
+      "auction_location": "DES MOINES ",
+      "state": "IA",
+      "port_savannah": 0,
+      "port_newark": 550,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 58,
+    "fields": {
+      "auction": 1,
+      "auction_location": "DETROIT ",
+      "state": "MI",
+      "port_savannah": 0,
+      "port_newark": 375,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 59,
+    "fields": {
+      "auction": 1,
+      "auction_location": "DOTHAN ",
+      "state": "AL",
+      "port_savannah": 300,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 60,
+    "fields": {
+      "auction": 1,
+      "auction_location": "DUNDALK ",
+      "state": "MD",
+      "port_savannah": 0,
+      "port_newark": 250,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 61,
+    "fields": {
+      "auction": 1,
+      "auction_location": "EAST BAY ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 300
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 62,
+    "fields": {
+      "auction": 1,
+      "auction_location": "EL PASO ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 375,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 63,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ERIE ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 450,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 64,
+    "fields": {
+      "auction": 1,
+      "auction_location": "EUGENE ",
+      "state": "OR",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 65,
+    "fields": {
+      "auction": 1,
+      "auction_location": "FARGO ",
+      "state": "ND",
+      "port_savannah": 0,
+      "port_newark": 850,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 66,
+    "fields": {
+      "auction": 1,
+      "auction_location": "FAYETTEVILLE ",
+      "state": "AR",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 400,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 67,
+    "fields": {
+      "auction": 1,
+      "auction_location": "FLINT ",
+      "state": "MI",
+      "port_savannah": 0,
+      "port_newark": 475,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 68,
+    "fields": {
+      "auction": 1,
+      "auction_location": "FONTANA ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 170
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 69,
+    "fields": {
+      "auction": 1,
+      "auction_location": "FORT MYERS ",
+      "state": "FL",
+      "port_savannah": 300,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 70,
+    "fields": {
+      "auction": 1,
+      "auction_location": "FORT WORTH NORTH ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 225,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 71,
+    "fields": {
+      "auction": 1,
+      "auction_location": "FREDERICKSBURG-SOUTH ",
+      "state": "VA",
+      "port_savannah": 0,
+      "port_newark": 275,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 72,
+    "fields": {
+      "auction": 1,
+      "auction_location": "FREMONT ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 300
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 73,
+    "fields": {
+      "auction": 1,
+      "auction_location": "FRESNO ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 74,
+    "fields": {
+      "auction": 1,
+      "auction_location": "FT.PIERCE ",
+      "state": "FL",
+      "port_savannah": 300,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 75,
+    "fields": {
+      "auction": 1,
+      "auction_location": "GRAND RAPIDS ",
+      "state": "MI",
+      "port_savannah": 0,
+      "port_newark": 475,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 76,
+    "fields": {
+      "auction": 1,
+      "auction_location": "GREAT LAKES ",
+      "state": "MI",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 77,
+    "fields": {
+      "auction": 1,
+      "auction_location": "GREENSBORO ",
+      "state": "NC",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 78,
+    "fields": {
+      "auction": 1,
+      "auction_location": "GREENVILLE ",
+      "state": "SC",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 79,
+    "fields": {
+      "auction": 1,
+      "auction_location": "GRENADA ",
+      "state": "MS",
+      "port_savannah": 425,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 80,
+    "fields": {
+      "auction": 1,
+      "auction_location": "GULF COAST ",
+      "state": "MS",
+      "port_savannah": 325,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 81,
+    "fields": {
+      "auction": 1,
+      "auction_location": "HARTFORD SOUTH ",
+      "state": "CT",
+      "port_savannah": 0,
+      "port_newark": 225,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 82,
+    "fields": {
+      "auction": 1,
+      "auction_location": "HARTFORD ",
+      "state": "CT",
+      "port_savannah": 0,
+      "port_newark": 225,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 83,
+    "fields": {
+      "auction": 1,
+      "auction_location": "HIGH DESER",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 200
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 84,
+    "fields": {
+      "auction": 1,
+      "auction_location": "HONOLULU ",
+      "state": "HI",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 1600
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 85,
+    "fields": {
+      "auction": 1,
+      "auction_location": "HOUSTON ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 200,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 86,
+    "fields": {
+      "auction": 1,
+      "auction_location": "HOUSTON NORTH ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 200,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 87,
+    "fields": {
+      "auction": 1,
+      "auction_location": "HOUSTON SOUTH ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 200,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 88,
+    "fields": {
+      "auction": 1,
+      "auction_location": "HUNTSVILLE ",
+      "state": "AL",
+      "port_savannah": 325,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 89,
+    "fields": {
+      "auction": 1,
+      "auction_location": "IAA CAT HOUSTON ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 220,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 90,
+    "fields": {
+      "auction": 1,
+      "auction_location": "INDIANAPOLIS ",
+      "state": "IN",
+      "port_savannah": 475,
+      "port_newark": 475,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 91,
+    "fields": {
+      "auction": 1,
+      "auction_location": "JACKSON ",
+      "state": "MS",
+      "port_savannah": 350,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 92,
+    "fields": {
+      "auction": 1,
+      "auction_location": "JACKSONVILLE ",
+      "state": "FL",
+      "port_savannah": 175,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 93,
+    "fields": {
+      "auction": 1,
+      "auction_location": "KANSAS CITY ",
+      "state": "KS",
+      "port_savannah": 475,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 94,
+    "fields": {
+      "auction": 1,
+      "auction_location": "KNOXVILLE ",
+      "state": "TN",
+      "port_savannah": 325,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 95,
+    "fields": {
+      "auction": 1,
+      "auction_location": "LAFAYETTE ",
+      "state": "LA",
+      "port_savannah": 375,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 96,
+    "fields": {
+      "auction": 1,
+      "auction_location": "LAS VEGAS ",
+      "state": "NV",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 300
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 97,
+    "fields": {
+      "auction": 1,
+      "auction_location": "LAUREL ",
+      "state": "MD",
+      "port_savannah": 0,
+      "port_newark": 275,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 98,
+    "fields": {
+      "auction": 1,
+      "auction_location": "LEXINGTON ",
+      "state": "SC",
+      "port_savannah": 175,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 99,
+    "fields": {
+      "auction": 1,
+      "auction_location": "LINCOLN ",
+      "state": "IL",
+      "port_savannah": 575,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 100,
+    "fields": {
+      "auction": 1,
+      "auction_location": "LITTLE ROCK ",
+      "state": "AR",
+      "port_savannah": 425,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 101,
+    "fields": {
+      "auction": 1,
+      "auction_location": "LONG ISLAND ",
+      "state": "NY",
+      "port_savannah": 0,
+      "port_newark": 230,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 102,
+    "fields": {
+      "auction": 1,
+      "auction_location": "LONGVIEW ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 225,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 103,
+    "fields": {
+      "auction": 1,
+      "auction_location": "LOS ANGELES ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 130
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 104,
+    "fields": {
+      "auction": 1,
+      "auction_location": "LOUISVILLE ",
+      "state": "KY",
+      "port_savannah": 425,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 105,
+    "fields": {
+      "auction": 1,
+      "auction_location": "LOUISVILLE NORTH ",
+      "state": "KY",
+      "port_savannah": 425,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 106,
+    "fields": {
+      "auction": 1,
+      "auction_location": "LUBBOC",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 400,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 107,
+    "fields": {
+      "auction": 1,
+      "auction_location": "MACON ",
+      "state": "GA",
+      "port_savannah": 200,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 108,
+    "fields": {
+      "auction": 1,
+      "auction_location": "MANCHESTER ",
+      "state": "NH",
+      "port_savannah": 0,
+      "port_newark": 325,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 109,
+    "fields": {
+      "auction": 1,
+      "auction_location": "MCALLEN ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 225,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 110,
+    "fields": {
+      "auction": 1,
+      "auction_location": "MEMPHI",
+      "state": "TN",
+      "port_savannah": 400,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 111,
+    "fields": {
+      "auction": 1,
+      "auction_location": "METRO ",
+      "state": "DC",
+      "port_savannah": 0,
+      "port_newark": 260,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 112,
+    "fields": {
+      "auction": 1,
+      "auction_location": "MIAMI ",
+      "state": "FL",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 113,
+    "fields": {
+      "auction": 1,
+      "auction_location": "MIAMI NORTH ",
+      "state": "FL",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 114,
+    "fields": {
+      "auction": 1,
+      "auction_location": "MILWAUKEE ",
+      "state": "WI",
+      "port_savannah": 575,
+      "port_newark": 450,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 115,
+    "fields": {
+      "auction": 1,
+      "auction_location": "MINNEAPOLIS/ST.PAUL ",
+      "state": "MN",
+      "port_savannah": 0,
+      "port_newark": 525,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 116,
+    "fields": {
+      "auction": 1,
+      "auction_location": "MISSOULA ",
+      "state": "MT",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 117,
+    "fields": {
+      "auction": 1,
+      "auction_location": "NASHVILLE - BLENDED SALES ",
+      "state": "TN",
+      "port_savannah": 350,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 118,
+    "fields": {
+      "auction": 1,
+      "auction_location": "NASHVILLE ",
+      "state": "TN",
+      "port_savannah": 325,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 119,
+    "fields": {
+      "auction": 1,
+      "auction_location": "NEW CASTLE ",
+      "state": "DE",
+      "port_savannah": 0,
+      "port_newark": 225,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 120,
+    "fields": {
+      "auction": 1,
+      "auction_location": "NEW ORLEANS ",
+      "state": "LA",
+      "port_savannah": 375,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 121,
+    "fields": {
+      "auction": 1,
+      "auction_location": "NEW ORLEANS AND LOUISIANA FLOOD ",
+      "state": "LA",
+      "port_savannah": 375,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 122,
+    "fields": {
+      "auction": 1,
+      "auction_location": "NEW ORLEANS EAST ",
+      "state": "LA",
+      "port_savannah": 375,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 123,
+    "fields": {
+      "auction": 1,
+      "auction_location": "NEWBURGH ",
+      "state": "NY",
+      "port_savannah": 0,
+      "port_newark": 225,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 124,
+    "fields": {
+      "auction": 1,
+      "auction_location": "NORH HOLLYWOOD ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 140
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 125,
+    "fields": {
+      "auction": 1,
+      "auction_location": "NOTHERN NEW JERSEY ",
+      "state": "NJ",
+      "port_savannah": 0,
+      "port_newark": 140,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 126,
+    "fields": {
+      "auction": 1,
+      "auction_location": "NOTHERN VIRGINIA ",
+      "state": "VA",
+      "port_savannah": 0,
+      "port_newark": 275,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 127,
+    "fields": {
+      "auction": 1,
+      "auction_location": "OKLAHOMA CITY ",
+      "state": "OK",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 350,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 128,
+    "fields": {
+      "auction": 1,
+      "auction_location": "OMAHA ",
+      "state": "NE",
+      "port_savannah": 0,
+      "port_newark": 575,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 129,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ORLANDO ",
+      "state": "FL",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 130,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ORLANDO NORTH ",
+      "state": "FL",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 131,
+    "fields": {
+      "auction": 1,
+      "auction_location": "PADUCAH ",
+      "state": "KY",
+      "port_savannah": 575,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 132,
+    "fields": {
+      "auction": 1,
+      "auction_location": "PENSACOLA ",
+      "state": "FL",
+      "port_savannah": 275,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 133,
+    "fields": {
+      "auction": 1,
+      "auction_location": "PERMIAN BASIN ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 375,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 134,
+    "fields": {
+      "auction": 1,
+      "auction_location": "PHILADELPHIA ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 190,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 135,
+    "fields": {
+      "auction": 1,
+      "auction_location": "PHOENIX ",
+      "state": "AZ",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 275
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 136,
+    "fields": {
+      "auction": 1,
+      "auction_location": "PITTSBURGH ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 375,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 137,
+    "fields": {
+      "auction": 1,
+      "auction_location": "PITTSBURGH NORTH ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 375,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 138,
+    "fields": {
+      "auction": 1,
+      "auction_location": "PORTAGE ",
+      "state": "WI",
+      "port_savannah": 575,
+      "port_newark": 500,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 139,
+    "fields": {
+      "auction": 1,
+      "auction_location": "PORTLAND ",
+      "state": "OR",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 140,
+    "fields": {
+      "auction": 1,
+      "auction_location": "PORTLAND GORHAM ",
+      "state": "ME",
+      "port_savannah": 0,
+      "port_newark": 400,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 141,
+    "fields": {
+      "auction": 1,
+      "auction_location": "PORTLAND NORTH ",
+      "state": "OR",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 142,
+    "fields": {
+      "auction": 1,
+      "auction_location": "PORTLAND WEST ",
+      "state": "OR",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 143,
+    "fields": {
+      "auction": 1,
+      "auction_location": "PROVIDENCE ",
+      "state": "RI",
+      "port_savannah": 0,
+      "port_newark": 275,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 144,
+    "fields": {
+      "auction": 1,
+      "auction_location": "PULASKI ",
+      "state": "VA",
+      "port_savannah": 375,
+      "port_newark": 375,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 145,
+    "fields": {
+      "auction": 1,
+      "auction_location": "RALEIGH ",
+      "state": "NC",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 146,
+    "fields": {
+      "auction": 1,
+      "auction_location": "RENO ",
+      "state": "NV",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 375
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 147,
+    "fields": {
+      "auction": 1,
+      "auction_location": "RICHMOND ",
+      "state": "VA",
+      "port_savannah": 0,
+      "port_newark": 350,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 148,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ROCHESTER ",
+      "state": "NY",
+      "port_savannah": 0,
+      "port_newark": 350,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 149,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ROCHESTER WEST ",
+      "state": "NY",
+      "port_savannah": 0,
+      "port_newark": 350,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 150,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ROSEDALE ",
+      "state": "MD",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 151,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SACRAMENTO ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 325
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 152,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SALT LAKE CITY ",
+      "state": "UT",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 425
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 153,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SAN ANTONIO ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 250,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 154,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SAN ANTONIO SOUTH ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 250,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 155,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SAN DIEGO ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 175
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 156,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SAVANNAH ",
+      "state": "GA",
+      "port_savannah": 125,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 157,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SCRANTON ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 225,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 158,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SEATLE ",
+      "state": "WA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 159,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SEATLE SOUTH ",
+      "state": "WA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 160,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SHADY SPRING ",
+      "state": "WV",
+      "port_savannah": 0,
+      "port_newark": 475,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 161,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SHREVEPORT ",
+      "state": "LA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 250,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 162,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SIOUX FALLS ",
+      "state": "SD",
+      "port_savannah": 0,
+      "port_newark": 800,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 163,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SOUTH BEND ",
+      "state": "IN",
+      "port_savannah": 0,
+      "port_newark": 525,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 164,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SOUTHERN NEW JERSEY ",
+      "state": "NJ",
+      "port_savannah": 0,
+      "port_newark": 175,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 165,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SPECIALTY DIVISION ",
+      "state": "IL",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 166,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SPOKANE ",
+      "state": "WA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 700
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 167,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SPRINGFIELD ",
+      "state": "MO",
+      "port_savannah": 475,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 168,
+    "fields": {
+      "auction": 1,
+      "auction_location": "ST. LOUIS ",
+      "state": "IL",
+      "port_savannah": 475,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 169,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SUFFOLK ",
+      "state": "VA",
+      "port_savannah": 0,
+      "port_newark": 350,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 170,
+    "fields": {
+      "auction": 1,
+      "auction_location": "SYRACUSE ",
+      "state": "NY",
+      "port_savannah": 0,
+      "port_newark": 300,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 171,
+    "fields": {
+      "auction": 1,
+      "auction_location": "TAMPA ",
+      "state": "FL",
+      "port_savannah": 275,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 172,
+    "fields": {
+      "auction": 1,
+      "auction_location": "TAMPA NORTH ",
+      "state": "FL",
+      "port_savannah": 275,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 173,
+    "fields": {
+      "auction": 1,
+      "auction_location": "TAUNTON ",
+      "state": "MA",
+      "port_savannah": 0,
+      "port_newark": 275,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 174,
+    "fields": {
+      "auction": 1,
+      "auction_location": "TEMPLETON ",
+      "state": "MA",
+      "port_savannah": 0,
+      "port_newark": 300,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 175,
+    "fields": {
+      "auction": 1,
+      "auction_location": "TIDEWATER ",
+      "state": "VA",
+      "port_savannah": 0,
+      "port_newark": 300,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 176,
+    "fields": {
+      "auction": 1,
+      "auction_location": "TIFTON ",
+      "state": "GA",
+      "port_savannah": 225,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 177,
+    "fields": {
+      "auction": 1,
+      "auction_location": "TUCSON ",
+      "state": "AZ",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 325
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 178,
+    "fields": {
+      "auction": 1,
+      "auction_location": "TULSA ",
+      "state": "OK",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 375,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 179,
+    "fields": {
+      "auction": 1,
+      "auction_location": "WESTERN COLORADO ",
+      "state": "CO",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 600
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 180,
+    "fields": {
+      "auction": 1,
+      "auction_location": "WICHITA ",
+      "state": "KS",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 425,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 181,
+    "fields": {
+      "auction": 1,
+      "auction_location": "WILMINGTON ",
+      "state": "NC",
+      "port_savannah": 275,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 182,
+    "fields": {
+      "auction": 1,
+      "auction_location": "YORK SPRINGS ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 250,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 183,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ABILENE ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 350,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 184,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ALBANY ",
+      "state": "NY",
+      "port_savannah": 0,
+      "port_newark": 250,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 185,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ALBUQUERQUE ",
+      "state": "NM",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 186,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ALTOONA ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 375,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 187,
+    "fields": {
+      "auction": 2,
+      "auction_location": "AMARILLO ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 400,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 188,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ANCHORAGE ",
+      "state": "AK",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 2000
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 189,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ANDREW",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 425,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 190,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ANTELOPE ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 300
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 191,
+    "fields": {
+      "auction": 2,
+      "auction_location": "APPLETON ",
+      "state": "WI",
+      "port_savannah": 575,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 192,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ATLANTA EAST ",
+      "state": "GA",
+      "port_savannah": 225,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 193,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ATLANTA NORTH ",
+      "state": "GA",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 194,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ATLANTA SOUTH ",
+      "state": "GA",
+      "port_savannah": 225,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 195,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ATLANTA WEST ",
+      "state": "GA",
+      "port_savannah": 225,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 196,
+    "fields": {
+      "auction": 2,
+      "auction_location": "AUSTIN ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 225,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 197,
+    "fields": {
+      "auction": 2,
+      "auction_location": "BAKERSFIELD ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 225
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 198,
+    "fields": {
+      "auction": 2,
+      "auction_location": "BALTIMORE ",
+      "state": "MD",
+      "port_savannah": 0,
+      "port_newark": 250,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 199,
+    "fields": {
+      "auction": 2,
+      "auction_location": "BATON ROUGE ",
+      "state": "LA",
+      "port_savannah": 375,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 200,
+    "fields": {
+      "auction": 2,
+      "auction_location": "BILLINGS ",
+      "state": "MT",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 201,
+    "fields": {
+      "auction": 2,
+      "auction_location": "BIRMINGHAM ",
+      "state": "AL",
+      "port_savannah": 300,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 202,
+    "fields": {
+      "auction": 2,
+      "auction_location": "BOISE ",
+      "state": "ID",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 550
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 203,
+    "fields": {
+      "auction": 2,
+      "auction_location": "BUFFALO ",
+      "state": "NY",
+      "port_savannah": 0,
+      "port_newark": 425,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 204,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CANDIA ",
+      "state": "NH",
+      "port_savannah": 0,
+      "port_newark": 375,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 205,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CARTERSVILLE ",
+      "state": "GA",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 206,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CASPER ",
+      "state": "WY",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 875
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 207,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CHAMBERSBURG ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 350,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 208,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CHARLESTON ",
+      "state": "SC",
+      "port_savannah": 200,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 209,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CHARLESTON ",
+      "state": "WV",
+      "port_savannah": 0,
+      "port_newark": 475,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 210,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CHICAGO NORTH ",
+      "state": "IL",
+      "port_savannah": 0,
+      "port_newark": 475,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 211,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CHICAGO SOUTH ",
+      "state": "IL",
+      "port_savannah": 0,
+      "port_newark": 475,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 212,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CHINA GROVE ",
+      "state": "NC",
+      "port_savannah": 225,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 213,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CLEVELAND EAST ",
+      "state": "OH",
+      "port_savannah": 0,
+      "port_newark": 400,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 214,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CLEVELAND WEST ",
+      "state": "OH",
+      "port_savannah": 0,
+      "port_newark": 400,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 215,
+    "fields": {
+      "auction": 2,
+      "auction_location": "COLORADO SPRINGS ",
+      "state": "CO",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 216,
+    "fields": {
+      "auction": 2,
+      "auction_location": "COLUMBIA ",
+      "state": "\u041c\u041e",
+      "port_savannah": 500,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 217,
+    "fields": {
+      "auction": 2,
+      "auction_location": "COLUMBIA ",
+      "state": "SC",
+      "port_savannah": 190,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 218,
+    "fields": {
+      "auction": 2,
+      "auction_location": "COLUMBU",
+      "state": "OH",
+      "port_savannah": 0,
+      "port_newark": 400,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 219,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CORPUS CHRISTI ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 250,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 220,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CRASHEDTOYS ATL",
+      "state": "TA",
+      "port_savannah": 225,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 221,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CRASHEDTOYS DALLAS ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 225,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 222,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CRASHEDTOYS EAST BETHEL ",
+      "state": "MN",
+      "port_savannah": 0,
+      "port_newark": 600,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 223,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CRASHEDTOYS ELDRIDGE ",
+      "state": "IA",
+      "port_savannah": 0,
+      "port_newark": 750,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 224,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CRASHEDTOYS MINNEAPOLI",
+      "state": "MN",
+      "port_savannah": 0,
+      "port_newark": 800,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 225,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CRASHEDTOYS SACRAMENTO ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 350
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 226,
+    "fields": {
+      "auction": 2,
+      "auction_location": "CULPEPER ",
+      "state": "VA",
+      "port_savannah": 0,
+      "port_newark": 350,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 227,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DALLAS ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 200,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 228,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DALLAS SOUTH ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 200,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 229,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DANVILLE ",
+      "state": "VA",
+      "port_savannah": 375,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 230,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DAVENPORT ",
+      "state": "IA",
+      "port_savannah": 0,
+      "port_newark": 550,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 231,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DAYTON ",
+      "state": "OH",
+      "port_savannah": 0,
+      "port_newark": 400,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 232,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DENVER ",
+      "state": "CO",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 233,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DENVER CENTRAL ",
+      "state": "CO",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 234,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DENVER SOUTH ",
+      "state": "CO",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 235,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DES MOINES ",
+      "state": "IA",
+      "port_savannah": 0,
+      "port_newark": 550,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 236,
+    "fields": {
+      "auction": 2,
+      "auction_location": "DETROIT ",
+      "state": "MI",
+      "port_savannah": 0,
+      "port_newark": 375,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 237,
+    "fields": {
+      "auction": 2,
+      "auction_location": "EL PASO ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 375,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 238,
+    "fields": {
+      "auction": 2,
+      "auction_location": "EUGENE ",
+      "state": "OR",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 239,
+    "fields": {
+      "auction": 2,
+      "auction_location": "EXETER ",
+      "state": "RI",
+      "port_savannah": 0,
+      "port_newark": 300,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 240,
+    "fields": {
+      "auction": 2,
+      "auction_location": "FAYETTEVILLE ",
+      "state": "AR",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 400,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 241,
+    "fields": {
+      "auction": 2,
+      "auction_location": "FLINT ",
+      "state": "MI",
+      "port_savannah": 0,
+      "port_newark": 475,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 242,
+    "fields": {
+      "auction": 2,
+      "auction_location": "FORT WAYNE ",
+      "state": "IN",
+      "port_savannah": 0,
+      "port_newark": 500,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 243,
+    "fields": {
+      "auction": 2,
+      "auction_location": "FREDERICKSBURG ",
+      "state": "VA",
+      "port_savannah": 0,
+      "port_newark": 275,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 244,
+    "fields": {
+      "auction": 2,
+      "auction_location": "FREMON",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 300
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 245,
+    "fields": {
+      "auction": 2,
+      "auction_location": "FRESNO ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 250
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 246,
+    "fields": {
+      "auction": 2,
+      "auction_location": "FT.PIERCE ",
+      "state": "FL",
+      "port_savannah": 300,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 247,
+    "fields": {
+      "auction": 2,
+      "auction_location": "FT.WORTH ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 225,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 248,
+    "fields": {
+      "auction": 2,
+      "auction_location": "GLASSBORO EAST ",
+      "state": "NJ",
+      "port_savannah": 0,
+      "port_newark": 200,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 249,
+    "fields": {
+      "auction": 2,
+      "auction_location": "GRAHAM ",
+      "state": "WA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 250,
+    "fields": {
+      "auction": 2,
+      "auction_location": "GREER ",
+      "state": "SC",
+      "port_savannah": 225,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 251,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HAMMOND ",
+      "state": "IN",
+      "port_savannah": 0,
+      "port_newark": 450,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 252,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HAMPTON ",
+      "state": "VA",
+      "port_savannah": 0,
+      "port_newark": 350,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 253,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HARRISBURG ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 275,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 254,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HARTFORD ",
+      "state": "CT",
+      "port_savannah": 0,
+      "port_newark": 225,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 255,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HARTFORD SPRINGFIEL",
+      "state": "CT",
+      "port_savannah": 0,
+      "port_newark": 225,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 256,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HAYWARD ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 325
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 257,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HELENA ",
+      "state": "MT",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 750
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 258,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HONOLULU ",
+      "state": "HI",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 1600
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 259,
+    "fields": {
+      "auction": 2,
+      "auction_location": "HOUSTON ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 200,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 260,
+    "fields": {
+      "auction": 2,
+      "auction_location": "INDIANAPOLIS ",
+      "state": "IN",
+      "port_savannah": 475,
+      "port_newark": 475,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 261,
+    "fields": {
+      "auction": 2,
+      "auction_location": "IONIA ",
+      "state": "MI",
+      "port_savannah": 0,
+      "port_newark": 500,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 262,
+    "fields": {
+      "auction": 2,
+      "auction_location": "JACKSON ",
+      "state": "MS",
+      "port_savannah": 350,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 263,
+    "fields": {
+      "auction": 2,
+      "auction_location": "JACKSONVILLE EAST ",
+      "state": "FL",
+      "port_savannah": 175,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 264,
+    "fields": {
+      "auction": 2,
+      "auction_location": "JACKSONVILLE WEST ",
+      "state": "FL",
+      "port_savannah": 175,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 265,
+    "fields": {
+      "auction": 2,
+      "auction_location": "KANSAS CITY ",
+      "state": "KS",
+      "port_savannah": 475,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 266,
+    "fields": {
+      "auction": 2,
+      "auction_location": "KINCHELOE ",
+      "state": "MI",
+      "port_savannah": 0,
+      "port_newark": 850,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 267,
+    "fields": {
+      "auction": 2,
+      "auction_location": "KNOXVILLE ",
+      "state": "TN",
+      "port_savannah": 325,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 268,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LANSING ",
+      "state": "MI",
+      "port_savannah": 0,
+      "port_newark": 500,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 269,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LAS VEGAS ",
+      "state": "NV",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 300
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 270,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LEXINGTON EAST ",
+      "state": "KY",
+      "port_savannah": 425,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 271,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LEXINGTON WEST ",
+      "state": "KY",
+      "port_savannah": 425,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 272,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LINCOLN ",
+      "state": "NE",
+      "port_savannah": 0,
+      "port_newark": 575,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 273,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LITTLE ROCK ",
+      "state": "AR",
+      "port_savannah": 425,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 274,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LONG BEACH ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 130
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 275,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LONG ISLAND ",
+      "state": "NY",
+      "port_savannah": 0,
+      "port_newark": 230,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 276,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LONGVIEW ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 225,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 277,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LOS ANGELES ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 130
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 278,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LOUISVILLE ",
+      "state": "KY",
+      "port_savannah": 425,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 279,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LUFKIN ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 200,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 280,
+    "fields": {
+      "auction": 2,
+      "auction_location": "LYMAN ",
+      "state": "ME",
+      "port_savannah": 0,
+      "port_newark": 400,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 281,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MACON ",
+      "state": "GA",
+      "port_savannah": 200,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 282,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MADISON ",
+      "state": "WI",
+      "port_savannah": 575,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 283,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MARTINEZ ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 325
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 284,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MCALLEN ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 225,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 285,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MEBANE ",
+      "state": "NC",
+      "port_savannah": 275,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 286,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MEMPHI",
+      "state": "TN",
+      "port_savannah": 400,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 287,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MIAMI CENTRAL ",
+      "state": "FL",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 288,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MIAMI NORTH ",
+      "state": "FL",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 289,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MIAMI SOUTH ",
+      "state": "FL",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 290,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MILWAUKEE ",
+      "state": "WI",
+      "port_savannah": 575,
+      "port_newark": 450,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 291,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MINNEAPOLIS ",
+      "state": "MN",
+      "port_savannah": 0,
+      "port_newark": 500,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 292,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MINNEAPOLIS NORTH ",
+      "state": "MN",
+      "port_savannah": 0,
+      "port_newark": 500,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 293,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MOBILE ",
+      "state": "AL",
+      "port_savannah": 325,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 294,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MOCKSVILLE ",
+      "state": "NC",
+      "port_savannah": 275,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 295,
+    "fields": {
+      "auction": 2,
+      "auction_location": "MONTGOMERY ",
+      "state": "AL",
+      "port_savannah": 300,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 296,
+    "fields": {
+      "auction": 2,
+      "auction_location": "NASHVILLE ",
+      "state": "TN",
+      "port_savannah": 325,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 297,
+    "fields": {
+      "auction": 2,
+      "auction_location": "NEW ORLEANS ",
+      "state": "LA",
+      "port_savannah": 375,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 298,
+    "fields": {
+      "auction": 2,
+      "auction_location": "NEWBURGH ",
+      "state": "NY",
+      "port_savannah": 0,
+      "port_newark": 225,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 299,
+    "fields": {
+      "auction": 2,
+      "auction_location": "NORTH BOSTON ",
+      "state": "MA",
+      "port_savannah": 0,
+      "port_newark": 275,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 300,
+    "fields": {
+      "auction": 2,
+      "auction_location": "NORTH CHARLESTON ",
+      "state": "SC",
+      "port_savannah": 200,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 301,
+    "fields": {
+      "auction": 2,
+      "auction_location": "NORTH SEATTLE ",
+      "state": "WA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 500
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 302,
+    "fields": {
+      "auction": 2,
+      "auction_location": "OCALA ",
+      "state": "FL",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 303,
+    "fields": {
+      "auction": 2,
+      "auction_location": "OGDEN",
+      "state": "UT",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 375
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 304,
+    "fields": {
+      "auction": 2,
+      "auction_location": "OKLAHOMA CITY ",
+      "state": "OK",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 350,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 305,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ORLANDO ",
+      "state": "FL",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 306,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ORLANDO NORTH ",
+      "state": "FL",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 307,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ORLANDO SOUTH ",
+      "state": "FL",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 308,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PASCO ",
+      "state": "WA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 725
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 309,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PEORIA ",
+      "state": "IL",
+      "port_savannah": 0,
+      "port_newark": 475,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 310,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PHILADELPHIA ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 190,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 311,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PHILADELPHIA EAST ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 190,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 312,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PHILADELPHIA EAST - SUBLOT ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 190,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 313,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PHOENIX ",
+      "state": "AZ",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 275
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 314,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PITTSBURG SOUTH ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 375,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 315,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PITTSBURGH EAST ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 375,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 316,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PITTSBURGH NORTH ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 375,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 317,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PORTLAND NORTH ",
+      "state": "OR",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 318,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PORTLAND SOUTH ",
+      "state": "OR",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 475
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 319,
+    "fields": {
+      "auction": 2,
+      "auction_location": "PUNTA GORDA ",
+      "state": "FL",
+      "port_savannah": 300,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 320,
+    "fields": {
+      "auction": 2,
+      "auction_location": "RALEIGH ",
+      "state": "NC",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 321,
+    "fields": {
+      "auction": 2,
+      "auction_location": "RANCHO CUCAMONGA ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 170
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 322,
+    "fields": {
+      "auction": 2,
+      "auction_location": "RENO ",
+      "state": "NV",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 375
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 323,
+    "fields": {
+      "auction": 2,
+      "auction_location": "RICHMOND ",
+      "state": "VA",
+      "port_savannah": 0,
+      "port_newark": 350,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 324,
+    "fields": {
+      "auction": 2,
+      "auction_location": "RICHMOND EAST ",
+      "state": "VA",
+      "port_savannah": 0,
+      "port_newark": 350,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 325,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ROCHESTER ",
+      "state": "NY",
+      "port_savannah": 0,
+      "port_newark": 350,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 326,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SACRAMENTO ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 325
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 327,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SALT LAKE CITY ",
+      "state": "UT",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 425
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 328,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SAN ANTONIO ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 250,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 329,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SAN BERNARDINO ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 160
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 330,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SAN DIEGO ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 175
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 331,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SAN JOSE ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 300
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 332,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SAVANNAH ",
+      "state": "GA",
+      "port_savannah": 125,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 333,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SCRANTON ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 225,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 334,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SEAFORD ",
+      "state": "DE",
+      "port_savannah": 0,
+      "port_newark": 250,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 335,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SHREVEPORT ",
+      "state": "LA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 250,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 336,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SIKESTON ",
+      "state": "MO",
+      "port_savannah": 475,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 337,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SO SACRAMENTO ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 325
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 338,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SOMERVILLE ",
+      "state": "NJ",
+      "port_savannah": 0,
+      "port_newark": 150,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 339,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SOUTH BOSTON ",
+      "state": "MA",
+      "port_savannah": 0,
+      "port_newark": 275,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 340,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SOUTHERN ILLINOIS ",
+      "state": "IL",
+      "port_savannah": 475,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 341,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SPARTANBURG ",
+      "state": "SC",
+      "port_savannah": 250,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 342,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SPOKANE ",
+      "state": "WA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 700
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 343,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SPRINGFIELD ",
+      "state": "MO",
+      "port_savannah": 475,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 344,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ST. CLOUD ",
+      "state": "MN",
+      "port_savannah": 0,
+      "port_newark": 550,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 345,
+    "fields": {
+      "auction": 2,
+      "auction_location": "ST. LOUIS ",
+      "state": "MO",
+      "port_savannah": 475,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 346,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SUN VALLEY ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 160
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 347,
+    "fields": {
+      "auction": 2,
+      "auction_location": "SYRACUSE ",
+      "state": "NY",
+      "port_savannah": 0,
+      "port_newark": 300,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 348,
+    "fields": {
+      "auction": 2,
+      "auction_location": "TALLAHASSEE ",
+      "state": "FL",
+      "port_savannah": 275,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 349,
+    "fields": {
+      "auction": 2,
+      "auction_location": "TAMPA SOUTH ",
+      "state": "FL",
+      "port_savannah": 275,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 350,
+    "fields": {
+      "auction": 2,
+      "auction_location": "TANNER ",
+      "state": "AL",
+      "port_savannah": 325,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 351,
+    "fields": {
+      "auction": 2,
+      "auction_location": "TIFTON ",
+      "state": "GA",
+      "port_savannah": 225,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 352,
+    "fields": {
+      "auction": 2,
+      "auction_location": "TORONTO CA",
+      "state": "DA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 353,
+    "fields": {
+      "auction": 2,
+      "auction_location": "TRENTON ",
+      "state": "NJ",
+      "port_savannah": 0,
+      "port_newark": 150,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 354,
+    "fields": {
+      "auction": 2,
+      "auction_location": "TUCSON ",
+      "state": "AZ",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 325
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 355,
+    "fields": {
+      "auction": 2,
+      "auction_location": "TULSA ",
+      "state": "OK",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 375,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 356,
+    "fields": {
+      "auction": 2,
+      "auction_location": "VALLEJO ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 325
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 357,
+    "fields": {
+      "auction": 2,
+      "auction_location": "VAN NUYS ",
+      "state": "CA",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 140
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 358,
+    "fields": {
+      "auction": 2,
+      "auction_location": "WACO ",
+      "state": "TX",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 250,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 359,
+    "fields": {
+      "auction": 2,
+      "auction_location": "WALTON ",
+      "state": "KY",
+      "port_savannah": 425,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 360,
+    "fields": {
+      "auction": 2,
+      "auction_location": "WASHINGTON DC ",
+      "state": "MD",
+      "port_savannah": 0,
+      "port_newark": 250,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 361,
+    "fields": {
+      "auction": 2,
+      "auction_location": "WEBSTER ",
+      "state": "NH",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 362,
+    "fields": {
+      "auction": 2,
+      "auction_location": "WEST PALM BEACH ",
+      "state": "FL",
+      "port_savannah": 275,
+      "port_newark": 0,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 363,
+    "fields": {
+      "auction": 2,
+      "auction_location": "WEST WARREN ",
+      "state": "MA",
+      "port_savannah": 0,
+      "port_newark": 275,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 364,
+    "fields": {
+      "auction": 2,
+      "auction_location": "WHEELING ",
+      "state": "IL",
+      "port_savannah": 0,
+      "port_newark": 400,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 365,
+    "fields": {
+      "auction": 2,
+      "auction_location": "WICHITA ",
+      "state": "KS",
+      "port_savannah": 0,
+      "port_newark": 0,
+      "port_houston": 425,
+      "port_los_angeles": 0
+    }
+  },
+  {
+    "model": "driveamericanapp.transportationprice",
+    "pk": 366,
+    "fields": {
+      "auction": 2,
+      "auction_location": "YORK HAVEN ",
+      "state": "PA",
+      "port_savannah": 0,
+      "port_newark": 250,
+      "port_houston": 0,
+      "port_los_angeles": 0
+    }
+  }
+]
