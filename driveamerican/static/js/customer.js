@@ -106,6 +106,9 @@ $("#auction_id").change(function () {
         data: $('#calculate_customs_form').serialize(),
         success: function (data) {
             $('#auction_location').empty();
+            $('#auction_location').append(
+                $('<option></option>').html("Площадка не указана")
+            );
             $.each(data['auction_locations'], function (val, text) {
                 $('#auction_location').append(
                     $('<option></option>').val(text.auction_location).html(text.state + ' - ' + text.auction_location)
@@ -128,6 +131,9 @@ $(document).ready(function () {
         dataType: "json",
         success: function (data) {
             $('#auction_location').empty();
+            $('#auction_location').append(
+                $('<option></option>').html("Площадка не указана")
+            );
             $.each(data['auction_locations'], function (val, text) {
                 $('#auction_location').append(
                     $('<option></option>').val(text.auction_location).html(text.state + ' - ' + text.auction_location)
