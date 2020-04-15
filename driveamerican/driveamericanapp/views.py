@@ -9,7 +9,7 @@ from driveamericanapp.models import BuyerFee, Auction, InternetBidFee, Transport
 from driveamericanapp.serializers import ContactSerializer
 from driveamericanapp.telegram_notification import send_message
 
-RATE_DOLLAR_EURO = 1.15
+RATE_DOLLAR_EURO = 1.1
 SHIPPING_PRICE_FOR_CALC_VAT = 400
 MY_EXTRA_75 = 75
 FUEL_TYPES = {'petrol': 'Бензин',
