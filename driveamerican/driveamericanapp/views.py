@@ -220,7 +220,7 @@ def get_excise(auto_engine_type, auto_engine, auto_age, e_power):
         excise = math.ceil(e_power * RATE_DOLLAR_EURO)
     if auto_engine_type == 'hybrid':
         excise = math.ceil(100 * RATE_DOLLAR_EURO)
-    if auto_engine_type == 'petrol':
+    if auto_engine_type == 'petrol' or auto_engine_type == 'Gasoline':
         if auto_engine <= 3:
             cof = 50
         else:
