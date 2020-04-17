@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+from scrapingapp.models import Lot
+
+admin.site.register(Lot)
