@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from django.db import models
 from django.urls import reverse
 from froala_editor.fields import FroalaField
+from froala_editor.widgets import FroalaEditor
 
 
 class Post(models.Model):

@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'core',
     'rest_framework',
     'crispy_forms',
-    'scrapingapp'
+    'scrapingapp',
+    'froala_editor'
 ]
 
 MIDDLEWARE = [
@@ -126,11 +127,11 @@ MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "mediafiles")
 # MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 
-FRAOLA_EDITOR_THIRD_PARTY = ('image_aviary', 'spell_checker')
-FROALA_EDITOR_PLUGINS = ('align', 'char_counter', 'code_beautifier' ,'code_view', 'colors', 'draggable', 'emoticons',
-        'entities', 'file', 'font_family', 'font_size', 'fullscreen', 'image_manager', 'image', 'inline_style',
-        'line_breaker', 'link', 'html','lists', 'paragraph_format', 'paragraph_style', 'quick_insert', 'quote', 'save', 'table',
-        'url', 'video')
+# FRAOLA_EDITOR_THIRD_PARTY = ('image_aviary', 'spell_checker')
+# FROALA_EDITOR_PLUGINS = ('align', 'char_counter', 'code_beautifier' ,'code_view', 'colors', 'draggable', 'emoticons',
+#         'entities', 'file', 'font_family', 'font_size', 'fullscreen', 'image_manager', 'image', 'inline_style',
+#         'line_breaker', 'link', 'html','lists', 'paragraph_format', 'paragraph_style', 'quick_insert', 'quote', 'save', 'table',
+#         'url', 'video')
 
 LOGGING = {
     'version': 1,
