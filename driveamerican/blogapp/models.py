@@ -11,7 +11,7 @@ class Post(models.Model):
     title = models.CharField(max_length=80)
     description = models.CharField(max_length=250, blank=False)
     keywords = models.CharField(max_length=250, blank=False)
-    body = FroalaField()
+    body = models.TextField(blank=False)
     slug = AutoSlugField(populate_from='title')
     image = models.FileField(upload_to='posts', blank=False)
     pub_date = models.DateTimeField('date published', auto_now_add=True)
