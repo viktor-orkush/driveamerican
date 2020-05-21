@@ -247,9 +247,9 @@ def get_auction_fee(auto_price):
     if auto_price < 7500.0:
         buyer_fee = BuyerFee.objects.filter(sale_price_min__lte=auto_price, sale_price_max__gte=auto_price,
                                             ).values('buyer_fee')[0]['buyer_fee']
-    elif 7500 < auto_price < 19999:
+    elif 7500 <= auto_price <= 19999:
         buyer_fee = 500 + auto_price * 0.01
-    elif auto_price > 20000:
+    elif auto_price >= 20000:
         buyer_fee = auto_price * 0.04
 
     internet_bid_fee = \
