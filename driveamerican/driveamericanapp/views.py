@@ -91,7 +91,7 @@ class CalculateAllPaymentsAPI(APIView):
             pension_tax = math.ceil((auto_price + auction_fee) * 0.04)
             certification = 300
             registration = 60
-            company_services = 600
+            company_services = int(request.POST.get('service'))
             total_cost = math.ceil(
                 auto_price + auction_fee + swift_bank_commission + customs_clearance + transportation_in_usa + \
                 + shipping_price + broker_forwarder + parking_port + transportation_in_ukraine + \

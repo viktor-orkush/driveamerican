@@ -1,8 +1,9 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block title %}Калькулятор растаможки авто из америки  2020 по закону 8487 | DriveAmerican{% endblock %}
-{% block description %}Калькулятор растаможки авто 2020 Украина. Тарифы на растаможку авто из США (Закон 8487\8488),
+{% block title %}Калькулятор просчета стоимости пригона авто из США | DriveAmerican{% endblock %}
+{% block description %}Калькулятор пригона, подсчитать стоимость пригон, стоимость авто в Украине, стоимость пригона без
+    ремонта,
     какие документы нужны для регистрации авто из сша{% endblock %}
 {% block keywords %}рассчитать стоимость авто из сша, калькулятор растаможки авто в Украине,все платежи по пригону авто
     из сша,
@@ -77,6 +78,12 @@
                                     <label for="auction_city">Площадка аукциона:</label>
                                     <select name="auction_location" id="auction_location"
                                             class="form-control" data-dependent="port">
+                                    </select>
+
+                                    <label for="auction_city">Услуги компании:</label>
+                                    <select class="form-control" name="service" id="service_id">
+                                        <option value="600">Пакет стандартний - 600$</option>
+                                        <option value="1000">Пакет максимальный - 1000$</option>
                                     </select>
 
                                     <div class="calc_block_btn">
@@ -156,8 +163,7 @@
                             <div class="value"><span id="registration"></span>$</div>
                         </div>
                         <div class="calc_block-row">
-                            <div class="">Услуги компании <a href="{% url 'home' %}#services_section">"Пакет
-                                стандартний"</a></div>
+                            <div class=""><a href="{% url 'home' %}#services_section">Услуги компании</a></div>
                             <div class="value"><span id="company_services"></span>$</div>
                         </div>
                         <div class="calc_block-row total mt-3 font-weight-bold">
@@ -167,14 +173,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-12 text-center">
-                <h3 class="section-heading text-uppercase">Узнать год производства автомобиля </h3>
-            </div>
-            <input class="form-control" type="" name="auto_vin" value="" required min="1">
-            <button type="button" class="btn btn-lg btn-light-blue btn-rounded btn-block"
-                    id="calculate_all_payments_btn">
-                Рассчитать
-            </button>
         </div>
     </section>
 

@@ -6,7 +6,7 @@ class Auction(models.Model):
 
 
 class BuyerFee(models.Model):
-    auction = models.ForeignKey('Auction', on_delete=models.CASCADE,)
+    auction = models.ForeignKey('Auction', on_delete=models.CASCADE, )
     sale_price_min = models.IntegerField()
     sale_price_max = models.IntegerField()
     buyer_fee = models.IntegerField()
@@ -16,7 +16,7 @@ class BuyerFee(models.Model):
 
 
 class InternetBidFee(models.Model):
-    auction = models.ForeignKey('Auction', on_delete=models.CASCADE,)
+    auction = models.ForeignKey('Auction', on_delete=models.CASCADE, )
     sale_price_min = models.IntegerField()
     sale_price_max = models.IntegerField()
     internet_bid_fee = models.IntegerField()
@@ -36,13 +36,16 @@ class Contact(models.Model):
 
 
 class TransportationPrice(models.Model):
-    auction = models.ForeignKey('Auction', on_delete=models.CASCADE,)
+    auction = models.ForeignKey('Auction', on_delete=models.CASCADE, )
     auction_location = models.CharField(max_length=512, blank=True)
     state = models.CharField(max_length=32, blank=True)
     port_savannah = models.IntegerField(default=0, blank=True, null=True)
     port_newark = models.IntegerField(default=0, blank=True, null=True)
     port_houston = models.IntegerField(default=0, blank=True, null=True)
-    port_los_angeles = models.IntegerField(default=0, blank=True, null=True)
 
-    def __str__(self):
-        return '"{auction_location}"'.format(auction_location=self.auction_location)
+
+port_los_angeles = models.IntegerField(default=0, blank=True, null=True)
+
+
+def __str__(self):
+    return '"{auction_location}"'.format(auction_location=self.auction_location)
