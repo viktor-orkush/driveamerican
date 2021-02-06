@@ -42,6 +42,7 @@ class TransportationPrice(models.Model):
     port_savannah = models.IntegerField(default=0, blank=True, null=True)
     port_newark = models.IntegerField(default=0, blank=True, null=True)
     port_houston = models.IntegerField(default=0, blank=True, null=True)
+    port_los_angeles = models.IntegerField(default=0, blank=True, null=True)
 
 
 def __str__(self):

@@ -72,8 +72,8 @@ class CalculateAllPaymentsAPI(APIView):
             customs_clearance = excise + duty + vat
 
             # calculate transportation for different location
-            auction_location = request.POST.get('auction_location')
             try:
+                auction_location = request.POST.get('auction_location')
                 transportation_prices = get_transportation_prices(auction, auction_location)
                 shipping_port = min(transportation_prices, key=transportation_prices.get)
 
