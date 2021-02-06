@@ -18,9 +18,9 @@ FUEL_TYPES = {'petrol': 'Бензин',
               'hybrid': 'Гибрид'}
 
 port_shipping_price = {
-    'port_savannah': 890,
-    'port_newark': 890,
-    'port_houston': 990,
+    'port_savannah': 850,
+    'port_newark': 850,
+    'port_houston': 920,
     'port_los_angeles': 1090,
 }
 
@@ -85,16 +85,15 @@ class CalculateAllPaymentsAPI(APIView):
                 shipping_price = 899
                 shipping_port_name = 'N/A'
 
-            broker_forwarder = 850
+            broker_forwarder = 750
             parking_port = 30
-            transportation_in_ukraine = 100
             pension_tax = math.ceil((auto_price + auction_fee) * 0.04)
-            certification = 300
+            certification = 250
             registration = 60
             company_services = int(request.POST.get('service'))
             total_cost = math.ceil(
                 auto_price + auction_fee + swift_bank_commission + customs_clearance + transportation_in_usa + \
-                + shipping_price + broker_forwarder + parking_port + transportation_in_ukraine + \
+                + shipping_price + broker_forwarder + parking_port + \
                 + pension_tax + certification + registration + company_services)
             return JsonResponse({'auto_price': auto_price,
                                  'auction_fee': auction_fee,
@@ -109,7 +108,6 @@ class CalculateAllPaymentsAPI(APIView):
                                  'shipping_port': shipping_port_name,
                                  'broker_forwarder': broker_forwarder,
                                  'parking_port': parking_port,
-                                 'transportation_in_ukraine': transportation_in_ukraine,
                                  'pension_tax': pension_tax,
                                  'certification': certification,
                                  'registration': registration,

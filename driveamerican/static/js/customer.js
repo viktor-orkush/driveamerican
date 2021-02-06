@@ -75,7 +75,6 @@ $("#calculate_all_payments_btn").on('click', function () {
                 $('#shipping_port').text(data['shipping_port'])
                 $('#broker_forwarder').text(data['broker_forwarder'])
                 $('#parking_port').text(data['parking_port'])
-                $('#transportation_in_ukraine').text(data['transportation_in_ukraine'])
                 $('#pension_tax').text(data['pension_tax'])
                 $('#certification').text(data['certification'])
                 $('#registration').text(data['registration'])

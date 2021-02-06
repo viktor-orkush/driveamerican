@@ -126,7 +126,7 @@ class Lot():
         pension_tax = math.ceil((auto_price + auction_fee) * 0.03)
         certification = 300
         registration = 60
-        company_services = 600
+        company_services = 500
         return auto_price + auction_fee + swift_bank_commission + insurance_car + excise + duty + \
                + vat + transportation_in_usa + shipping_price + broker_forwarder + parking_port + \
                + pension_tax + registration + certification + company_services + document_ship
